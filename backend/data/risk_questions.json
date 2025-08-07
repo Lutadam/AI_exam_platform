@@ -1,0 +1,397 @@
+[
+    {
+        "Question ID": "risk_001",
+        "Question": "Which of the following is NOT considered a property or liability risk?\na. Theft of a car\nb. Personal injury on your property\nc. Stock market losses\nd. Fire damage to a home",
+        "Model Answer": "c. Stock market losses"
+    },
+    {
+        "Question ID": "risk_002",
+        "Question": "A 'hazard' can best be described as:\na. The cause of a peril\nb. Anything that increases the likelihood of a loss occurring\nc. The event causing a loss\nd. A type of insurance policy",
+        "Model Answer": "b. Anything that increases the likelihood of a loss occurring"
+    },
+    {
+        "Question ID": "risk_003",
+        "Question": "Indirect loss could include:\na. The cost to repair a damaged vehicle\nb. Loss of income due to business interruption\nc. Medical expenses after an accident\nd. A legal settlement for damage",
+        "Model Answer": "b. Loss of income due to business interruption"
+    },
+    {
+        "Question ID": "risk_004",
+        "Question": "The 'Law of Large Numbers' helps insurers:\na. Increase their profits\nb. Predict loss occurrences more accurately over a large group\nc. Reduce the number of policies they need to sell\nd. Avoid paying out large claims",
+        "Model Answer": "b. Predict loss occurrences more accurately over a large group"
+    },
+    {
+        "Question ID": "risk_005",
+        "Question": "In the risk management process, the first step is:\na. Identification of exposures and hazards\nb. Assessment of alternatives\nc. Use of forecasting and modeling\nd. Spread of risk",
+        "Model Answer": "a. Identification of exposures and hazards"
+    },
+    {
+        "Question ID": "risk_006",
+        "Question": "The purpose of studying Risk Management in ICT includes all of the following EXCEPT:\na. Preventing unauthorized access to data\nb. Enhancing operational efficiency\nc. Predicting stock market trends\nd. Ensuring compliance with legal standards",
+        "Model Answer": "c. Predicting stock market trends"
+    },
+    {
+        "Question ID": "risk_007",
+        "Question": "Which is NOT a type of ICT Management Framework?\na. COBIT\nb. ITIL\nc. MS ISO 31000\nd. Six Sigma",
+        "Model Answer": "d. Six Sigma"
+    },
+    {
+        "Question ID": "risk_008",
+        "Question": "Making risk-aware business decisions requires:\na. Ignoring risks that are deemed low priority\nb. Understanding and considering the potential impact of risks\nc. Focusing solely on high-impact risks\nd. Outsourcing risk management functions",
+        "Model Answer": "b. Understanding and considering the potential impact of risks"
+    },
+    {
+        "Question ID": "risk_009",
+        "Question": "Which of the following is NOT a reason for conducting System Security Testing?\na. To identify vulnerabilities in the system\nb. To fulfill regulatory compliance requirements\nc. To determine the effectiveness of installed security measures\nd. To increase the system's vulnerability to external threats",
+        "Model Answer": "d. To increase the system's vulnerability to external threats"
+    },
+    {
+        "Question ID": "risk_010",
+        "Question": "Which of the following best describes the role of 'Enterprise Risk Management'?\na. Focusing solely on financial risks\nb. Managing risks associated with IT projects only\nc. Addressing all types of risks across an organization in a holistic manner\nd. Eliminating all risks",
+        "Model Answer": "c. Addressing all types of risks across an organization in a holistic manner"
+    },
+    {
+        "Question ID": "risk_011",
+        "Question": "How does risk diversification contribute to the risk management process?\na. By concentrating all risks into one area for easier management\nb. By spreading risks across different assets or activities to reduce overall exposure\nc. By increasing the likelihood of catastrophic losses\nd. By ignoring potential risks altogether",
+        "Model Answer": "b. By spreading risks across different assets or activities to reduce overall exposure"
+    },
+    {
+        "Question ID": "risk_012",
+        "Question": "What is the primary goal of risk management in the context of information and communication technology (ICT)?\na. To eliminate all potential risks\nb. To ensure 100% security of ICT systems\nc. To identify, assess, and mitigate potential risks to ICT assets\nd. To transfer all risks to external stakeholders",
+        "Model Answer": "c. To identify, assess, and mitigate potential risks to ICT assets"
+    },
+    {
+        "Question ID": "risk_013",
+        "Question": "What are examples of ICT assets that require risk management?\na. Physical infrastructure only\nb. Software applications only\nc. Hardware, software, data, and networks\nd. Personnel resources only",
+        "Model Answer": "c. Hardware, software, data, and networks"
+    },
+    {
+        "Question ID": "risk_014",
+        "Question": "What are the types of ICT management frameworks commonly used in organizations?\na. Human resource framework and financial framework\nb. Risk management framework and governance framework\nc. Marketing framework and sales framework\nd. Production framework and logistics framework",
+        "Model Answer": "b. Risk management framework and governance framework"
+    },
+    {
+        "Question ID": "risk_015",
+        "Question": "What does MS ISO 31000 aim to provide organizations with?\na. A standardized approach to software testing\nb. Guidelines for creating marketing campaigns\nc. Principles and guidelines for effective risk management processes\nd. Techniques for managing supply chain logistics",
+        "Model Answer": "c. Principles and guidelines for effective risk management processes"
+    },
+    {
+        "Question ID": "risk_016",
+        "Question": "Explain direct loss and indirect loss.",
+        "Model Answer": "Direct loss refers to physical damage or destruction to property (e.g., a building burned down). Indirect loss refers to the financial consequences of that damage (e.g., loss of rental income due to the damaged building)."
+    },
+    {
+        "Question ID": "risk_017",
+        "Question": "Describe the risk management process.",
+        "Model Answer": "The risk management process involves identifying risks, analyzing them, evaluating or ranking the risks, treating or mitigating them, and monitoring and reviewing the risk environment continuously."
+    },
+    {
+        "Question ID": "risk_018",
+        "Question": "What are the components of the cost of risk on the client side?",
+        "Model Answer": "Components include retained losses (deductibles or uninsured losses), insurance premiums, risk control costs (e.g., safety training), and administrative costs related to managing risk."
+    },
+    {
+        "Question ID": "risk_019",
+        "Question": "i) What are the five major methods in managing Risk?",
+        "Model Answer": "1. Risk Avoidance\n2. Risk Reduction\n3. Risk Retention\n4. Risk Sharing\n5. Risk Transfer"
+    },
+    {
+        "Question ID": "risk_020",
+        "Question": "ii) Differentiate between Peril and Hazards in the context of risk management and illustrate with examples to highlight their significance.",
+        "Model Answer": "A peril is the cause of a loss (e.g., fire, theft). A hazard is a condition that increases the likelihood or severity of a loss (e.g., oily rags near a heater increase the fire risk). Hazards are classified as physical, moral, or morale."
+    },
+    {
+        "Question ID": "risk_021",
+        "Question": "Explain the 5 steps in risk management.",
+        "Model Answer": "1. Identify the risks\n2. Analyze the risks\n3. Evaluate or rank the risks\n4. Treat the risks (risk response)\n5. Monitor and review the risks continuously"
+    },
+    {
+        "Question ID": "risk_022",
+        "Question": "Explain the Seven Principles of Risk Management.",
+        "Model Answer": "1. Risk management creates and protects value\n2. Risk management is an integral part of all organizational processes\n3. Risk management is part of decision-making\n4. Risk management explicitly addresses uncertainty\n5. Risk management is systematic, structured and timely\n6. Risk management is based on the best available information\n7. Risk management is dynamic, iterative and responsive to change"
+    },
+    {
+        "Question ID": "risk_023",
+        "Question": "What do you understand by the term RISK ANALYSIS?",
+        "Model Answer": "Risk analysis is the process of identifying and evaluating potential risks that could negatively impact key business initiatives or projects. It involves assessing the likelihood and consequences of risks."
+    },
+    {
+        "Question ID": "risk_024",
+        "Question": "What are the components of the cost of risk in the context of ICT for the firm?",
+        "Model Answer": "They include direct costs such as data breach impacts, system downtime, legal fees, regulatory fines, and indirect costs like reputational damage and customer trust loss."
+    },
+    {
+        "Question ID": "risk_025",
+        "Question": "How does the firm identify and assess ICT risks as part of their risk management process?",
+        "Model Answer": "The firm uses risk assessments, audits, penetration testing, threat modeling, and vulnerability scans aligned with MS ISO 31000. Risks are categorized and analyzed based on likelihood and impact."
+    },
+    {
+        "Question ID": "risk_026",
+        "Question": "How does the firm react to and manage identified ICT risks?",
+        "Model Answer": "The firm implements mitigation strategies such as firewalls, encryption, employee training, incident response plans, and cyber insurance. Continuous monitoring and updates are also part of the management approach."
+    },
+    
+  {
+    "Question ID": "risk_management_001",
+    "Question": "Which of the following is NOT a risk visualization tool?\na. Charts\nb. Tables\nc. Diagrams\nd. Risk identification techniques",
+    "Model Answer": "d. Risk identification techniques"
+  },
+  {
+    "Question ID": "risk_management_002",
+    "Question": "What is the purpose of implementing risk responses in the Risk Management process?\na. To execute the planned risk response strategies and actions\nb. To identify and document potential risks\nc. To develop and select risk response strategies\nd. To analyze and assess identified risks",
+    "Model Answer": "a. To execute the planned risk response strategies and actions"
+  },
+  {
+    "Question ID": "risk_management_003",
+    "Question": "Which of the following is NOT an action for monitoring and controlling risks?\na. Track and evaluate risk management performance\nb. Identify and analyze new or changing risks\nc. Develop risk management plan\nd. Identify and implement corrective actions",
+    "Model Answer": "c. Develop risk management plan"
+  },
+  {
+    "Question ID": "risk_management_004",
+    "Question": "ABC Company is planning to launch a new product and needs to identify potential risks. Which of the following techniques should be used for risk identification?\na. Decision analysis – expected monetary value\nb. Monte Carlo simulation\nc. Brainstorming sessions\nd. Network analysis",
+    "Model Answer": "c. Brainstorming sessions"
+  },
+  {
+    "Question ID": "risk_management_005",
+    "Question": "During the risk analysis phase, XYZ Project needs to assess the potential impact of a cyber attack on their web application. Which of the following methods would be most suitable for this assessment?\na. Probability-impact matrix\nb. Fault tree analysis\nc. Delphi technique\nd. Estimating relationships",
+    "Model Answer": "a. Probability-impact matrix"
+  },
+  {
+    "Question ID": "risk_management_006",
+    "Question": "After identifying and analyzing risks, the project team needs to develop risk response strategies. Which of the following is NOT a valid risk response strategy?\na. Avoid\nb. Transfer\nc. Mitigate\nd. Ignore",
+    "Model Answer": "d. Ignore"
+  },
+  {
+    "Question ID": "risk_management_007",
+    "Question": "The project manager needs to communicate risk-related information to stakeholders. Which of the following stakeholders should be included in the risk communication process?\na. Project team members\nb. Senior management\nc. External partners and vendors\nd. All of the above",
+    "Model Answer": "d. All of the above"
+  },
+  {
+    "Question ID": "risk_management_008",
+    "Question": "Which of the following is the first step in the ICT Risk Assessment process?\na. Threat Identification\nb. Vulnerability Identification\nc. System Characterization\nd. Control Analysis",
+    "Model Answer": "c. System Characterization"
+  },
+  {
+    "Question ID": "risk_management_009",
+    "Question": "Which of the following techniques can be used for System Characterization?\na. Interviews\nb. Document reviews\nc. Observations\nd. All of the above",
+    "Model Answer": "d. All of the above"
+  },
+  {
+    "Question ID": "risk_management_010",
+    "Question": "What is the purpose of Threat Identification in the ICT Risk Assessment process?\na. To determine the sources and actions that can adversely affect the system\nb. To analyze the likelihood and impact of identified threats\nc. To develop strategies for mitigating identified threats\nd. To monitor and review identified threats",
+    "Model Answer": "a. To determine the sources and actions that can adversely affect the system"
+  },
+  {
+    "Question ID": "risk_management_011",
+    "Question": "Outline a plan to establish and maintain a common risk view across the organization using the MS ISO 31000 framework.",
+    "Model Answer": "Establish a risk policy, define roles/responsibilities, standardize risk terminology, integrate risk management into strategic and operational processes, use centralized tools and regular communication for consistency."
+  },
+  {
+    "Question ID": "risk_management_012",
+    "Question": "How would you ensure all stakeholders have a shared understanding of the risks?",
+    "Model Answer": "By holding stakeholder workshops, ensuring clear documentation, engaging in regular communication, and using dashboards and reports to visualize risks and mitigation plans."
+  },
+  {
+    "Question ID": "risk_management_013",
+    "Question": "How should a team articulate risks related to cross-border transactions, data privacy regulations, and currency fluctuations to senior management?",
+    "Model Answer": "Use risk registers with probability and impact ratings; present strategic implications and mitigation plans in executive summaries or dashboards."
+  },
+  {
+    "Question ID": "risk_management_014",
+    "Question": "What steps should the team take to manage the risks from cross-border operations?",
+    "Model Answer": "Implement compliance monitoring tools, use currency hedging, train staff on local laws, and maintain secure data storage solutions compliant with international standards."
+  },
+  {
+    "Question ID": "risk_management_015",
+    "Question": "Elaborate on the distinction between direct and indirect losses.",
+    "Model Answer": "Direct losses result directly from an event (e.g., data loss, server crash), while indirect losses are secondary effects (e.g., lost customers, regulatory penalties)."
+  },
+  {
+    "Question ID": "risk_management_016",
+    "Question": "Provide two examples each of direct and indirect losses.",
+    "Model Answer": "Direct: Server damage, data breach. Indirect: Reputation damage, loss of market share."
+  },
+  {
+    "Question ID": "risk_management_017",
+    "Question": "What do you understand by Internal Cost of Risk and External Cost of Risk?",
+    "Model Answer": "Internal: Costs borne within the organization (e.g., self-insurance, internal controls). External: Costs paid to third parties (e.g., insurance premiums, legal fees)."
+  },
+  {
+    "Question ID": "risk_management_018",
+    "Question": "Give 2 examples each of Internal and External Cost of Risk.",
+    "Model Answer": "Internal: Salaries for risk staff, incident response costs. External: Third-party audits, insurance premiums."
+  },
+  {
+    "Question ID": "risk_management_019",
+    "Question": "Explain the difference between peril and hazard.",
+    "Model Answer": "Peril is the cause of loss (e.g., fire), while hazard increases the likelihood of loss (e.g., faulty wiring)."
+  },
+  {
+    "Question ID": "risk_management_020",
+    "Question": "Give 2 examples each of peril and hazard.",
+    "Model Answer": "Peril: Hacking, flood. Hazard: Weak passwords, poor physical security."
+  },
+  {
+    "Question ID": "risk_management_021",
+    "Question": "Identify property and liability risks in launching a cloud data analytics service.",
+    "Model Answer": "Property: Server failure, hardware damage. Liability: Data breach lawsuit, non-compliance penalties."
+  },
+  {
+    "Question ID": "risk_management_022",
+    "Question": "Explain how each identified risk fits its category.",
+    "Model Answer": "Property risks affect owned assets. Liability risks arise from third-party claims due to failure to secure data or comply with laws."
+  },
+  {
+    "Question ID": "risk_management_023",
+    "Question": "What are the main risks of adopting blockchain in financial services?",
+    "Model Answer": "Lack of regulation, smart contract vulnerabilities, scalability issues, and operational complexity."
+  },
+  {
+    "Question ID": "risk_management_024",
+    "Question": "How can the Risk IT Framework help mitigate blockchain risks?",
+    "Model Answer": "By aligning IT risks with business goals, identifying and assessing blockchain-specific risks, and implementing governance, controls, and continuous monitoring."
+  },
+  {
+    "Question ID": "risk_management_025",
+    "Question": "How would you conduct a vulnerability assessment using Vulnerability Identification and Control Analysis in a manufacturing IoT system?",
+    "Model Answer": "Identify assets, threats, and vulnerabilities through interviews, scans, and document reviews. Assess likelihood and impact. Match with existing controls and rate residual risk."
+  },
+  {
+    "Question ID": "risk_management_026",
+    "Question": "How can the company implement controls to mitigate vulnerabilities and protect IoT systems?",
+    "Model Answer": "Install firewalls, update firmware, enforce authentication, conduct regular audits, and use encryption and network segmentation."
+  },
+    {
+        "Question ID": "risk_100",
+        "Question": "What is the primary purpose of risk management in an organization?\nA. To eliminate all risks\nB. To identify, assess, and manage risks to acceptable levels\nC. To transfer all risks to third-party vendors\nD. To create comprehensive documentation for auditors",
+        "Model Answer": "B. To identify, assess, and manage risks to acceptable levels"
+    },
+    {
+        "Question ID": "risk_101",
+        "Question": "Which of the following is an example of an internal cost of risk?\nA. Loss of customer trust and reputation\nB. Regulatory fines and penalties\nC. Cost of implementing a new cybersecurity solution\nD. Decreased market share due to a data breach",
+        "Model Answer": "C. Cost of implementing a new cybersecurity solution"
+    },
+    {
+        "Question ID": "risk_102",
+        "Question": "Which of the following is NOT a key component of the risk governance aspect of the MS ISO 31000 framework?\nA. Establishing risk management policies\nB. Defining risk management responsibilities\nC. Conducting risk audits\nD. Developing risk management reporting",
+        "Model Answer": "C. Conducting risk audits"
+    },
+    {
+        "Question ID": "risk_103",
+        "Question": "Which of the following best describes the relationship between peril and hazard?\nA. Peril is the cause of a loss, while hazard increases the likelihood of a loss occurring\nB. Peril is a type of risk, while hazard is a type of control\nC. Peril affects only physical assets, while hazard affects only digital assets\nD. Peril and hazard are different terms for the same concept",
+        "Model Answer": "A. Peril is the cause of a loss, while hazard increases the likelihood of a loss occurring"
+    },
+    {
+        "Question ID": "risk_104",
+        "Question": "What is the difference between direct and indirect losses in risk management?\nA. Direct losses are immediate financial impacts, while indirect losses are secondary consequences\nB. Direct losses affect hardware, while indirect losses affect software\nC. Direct losses are covered by insurance, while indirect losses are not\nD. Direct losses occur within the organization, while indirect losses affect external stakeholders",
+        "Model Answer": "A. Direct losses are immediate financial impacts, while indirect losses are secondary consequences"
+    },
+    {
+        "Question ID": "risk_105",
+        "Question": "What is the primary goal of ICT risk management?\nA. To eliminate all risks associated with ICT systems\nB. To identify, assess, and manage risks to acceptable levels\nC. To transfer all risks to third-party vendors\nD. To create comprehensive documentation for auditors",
+        "Model Answer": "B. To identify, assess, and manage risks to acceptable levels"
+    },
+    {
+        "Question ID": "risk_106",
+        "Question": "Which of the following is an example of a risk visualization tool?\nA. Probability-impact matrix\nB. Risk management plan\nC. System specification document\nD. Budget allocation spreadsheet",
+        "Model Answer": "A. Probability-impact matrix"
+    },
+    {
+        "Question ID": "risk_107",
+        "Question": "What is the first step in the risk management process?\nA. Risk treatment\nB. Risk assessment\nC. Risk identification\nD. Establishing the context",
+        "Model Answer": "D. Establishing the context"
+    },
+    {
+        "Question ID": "risk_108",
+        "Question": "Which of the following is NOT a key step in the risk management process?\nA. Risk identification\nB. Risk analysis\nC. Risk treatment\nD. Risk monetization",
+        "Model Answer": "D. Risk monetization"
+    },
+    {
+        "Question ID": "risk_109",
+        "Question": "The process of continuously tracking the status of identified risks and the effectiveness of implemented controls is known as:\nA. Risk analysis\nB. Risk treatment\nC. Risk monitoring\nD. Risk communication",
+        "Model Answer": "C. Risk monitoring"
+    },
+    {
+        "Question ID": "risk_110",
+        "Question": "The likelihood and potential impact of a risk event are typically assessed during the:\nA. Risk identification stage\nB. Risk analysis stage\nC. Risk treatment stage\nD. Risk monitoring stage",
+        "Model Answer": "B. Risk analysis stage"
+    },
+    {
+        "Question ID": "risk_201",
+        "Question": "What is ICT risk management?\nA. The process of identifying, analyzing, and responding to risks that affect ICT systems and services.\nB. The process of identifying, analyzing, and responding to risks that affect physical infrastructure.\nC. The process of identifying, analyzing, and responding to risks that affect financial systems.\nD. The process of identifying, analyzing, and responding to risks that affect human resources.",
+        "Model Answer": "A. The process of identifying, analyzing, and responding to risks that affect ICT systems and services."
+    },
+    {
+        "Question ID": "risk_202",
+        "Question": "Why is ICT risk management important?\nA. It helps optimize the organization's resources and efficiency.\nB. It protects the organization's assets and reputation.\nC. It ensures the security and availability of ICT systems and services.\nD. All of the above",
+        "Model Answer": "D. All of the above"
+    },
+    {
+        "Question ID": "risk_203",
+        "Question": "Which of the following is not a source of ICT risks?\nA. Natural disasters.\nB. Human errors.\nC. Malicious attacks.\nD. Employee satisfaction.",
+        "Model Answer": "D. Employee satisfaction."
+    },
+    {
+        "Question ID": "risk_204",
+        "Question": "What is the purpose of the risk IT framework?\nA. To manage risks associated with information technology.\nB. To manage risks associated with financial investments.\nC. To manage risks associated with marketing strategies.\nD. To manage risks associated with human resources.",
+        "Model Answer": "A. To manage risks associated with information technology."
+    },
+    {
+        "Question ID": "risk_205",
+        "Question": "What is the difference between project management and program management?\nA. Project management is for small-scale projects, while program management is for large-scale projects.\nB. Project management focuses on individual projects, while program management focuses on related projects.\nC. Project management involves more planning, while program management involves more execution.\nD. Project management is a temporary endeavor, while program management is an ongoing process.",
+        "Model Answer": "B. Project management focuses on individual projects, while program management focuses on related projects."
+    },
+    {
+        "Question ID": "risk_206",
+        "Question": "Which ISO standard is related to risk management?\nA. ISO 9001\nB. ISO 27001\nC. ISO 31000\nD. ISO 14001",
+        "Model Answer": "C. ISO 31000"
+    },
+    {
+        "Question ID": "risk_207",
+        "Question": "What is the first step in ICT risk management?\nA. Establishing the context.\nB. Identifying risks.\nC. Analyzing risks.\nD. Evaluating risks.",
+        "Model Answer": "A. Establishing the context."
+    },
+    {
+        "Question ID": "risk_208",
+        "Question": "How should risks be prioritized and ranked?\nA. Based on their probability or likelihood and impact.\nB. Based on their ease of mitigation.\nC. Based on the seniority of the individuals involved.\nD. Based on the cost of mitigation.",
+        "Model Answer": "A. Based on their probability or likelihood and impact."
+    },
+    {
+        "Question ID": "risk_209",
+        "Question": "Which of the following is not a key driver for risk management in ICT?\nA. Complexity and interdependence of ICT systems and services.\nB. Expectations and demands of customers and stakeholders.\nC. Regulatory and compliance landscape.\nD. Political climate.",
+        "Model Answer": "D. Political climate."
+    },
+    {
+        "Question ID": "risk_210",
+        "Question": "What are the steps involved in establishing and maintaining a common risk view?\nA. Define the risk management context, establish a risk management policy, develop a risk management plan.\nB. Identify and analyze risks, evaluate and prioritize risks, select and implement risk responses.\nC. Plan risk management, identify risks, analyze risks.\nD. Prioritize and rank risks, develop risk statements, use risk visualization tools.",
+        "Model Answer": "A. Define the risk management context, establish a risk management policy, develop a risk management plan."
+    },
+    {
+        "Question ID": "risk_211",
+        "Question": "What is the purpose of the risk statement?\nA. To prioritize and rank risks.\nB. To develop risk responses.\nC. To communicate key information about each risk.\nD. To evaluate and monitor risks.",
+        "Model Answer": "C. To communicate key information about each risk."
+    },
+    {
+        "Question ID": "risk_212",
+        "Question": "Which of the following is an example of an ICT risk management framework?\nA. ISO 9001.\nB. COSO ERM.\nC. NIST SP 800.\nD. Project Management Body of Knowledge (PMBOK).",
+        "Model Answer": "C. NIST SP 800."
+    },
+    {
+        "Question ID": "risk_213",
+        "Question": "What is the difference between ICT risk management and enterprise risk management?\nA. ICT risk management focuses on risks specific to information and communication technology, while enterprise risk management considers risks across the entire organization.\nB. ICT risk management is for small-scale projects, while enterprise risk management is for large-scale projects.\nC. ICT risk management involves more planning, while enterprise risk management involves more execution.\nD. ICT risk management is a temporary endeavor, while enterprise risk management is an ongoing process.",
+        "Model Answer": "A. ICT risk management focuses on risks specific to information and communication technology, while enterprise risk management considers risks across the entire organization."
+    },
+    {
+        "Question ID": "risk_214",
+        "Question": "How can ICT risk management processes be automated and streamlined?\nA. By using risk visualization tools.\nB. By taking courses or certifications.\nC. By developing a risk management plan.\nD. By using software or tools.",
+        "Model Answer": "D. By using software or tools."
+    },
+    {
+        "Question ID": "risk_215",
+        "Question": "Which of the following are examples of enterprise risk management frameworks to provide guidance and best practices in different contexts and industries?\nA. ISO 31000:2018\nB. COSO ERM Framework\nC. NIST SP 800-30.\nD. All the above",
+        "Model Answer": "D. All the above"
+    }
+]
+
+
+
+

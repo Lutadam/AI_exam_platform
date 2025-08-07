@@ -1,0 +1,1002 @@
+[
+    {
+        "Question ID":"python_001",
+        "Question":"What is the difference between a list and a tuple in Python?",
+        "Model Answer":"Lists are mutable, whereas tuples are immutable. Lists use square brackets [], while tuples use parentheses ()."
+    },
+    {
+        "Question ID":"python_002",
+        "Question":"Write a Python program to calculate the factorial of a number using recursion.",
+        "Model Answer":"def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)"
+    },
+    {
+        "Question ID":"python_003",
+        "Question":"Explain the concept of list comprehension with an example.",
+        "Model Answer":"List comprehension is a concise way to create lists.\nExample: squares = [x**2 for x in range(5)]"
+    },
+    {
+        "Question ID":"python_004",
+        "Question":"Write a Python program to check if a given string is a palindrome.",
+        "Model Answer":"def is_palindrome(s):\n    return s == s[::-1]"
+    },
+    {
+        "Question ID":"python_005",
+        "Question":"What is the difference between a list and a tuple in Python?",
+        "Model Answer":"Lists are mutable, whereas tuples are immutable. Lists use square brackets [], while tuples use parentheses ()."
+    },
+    {
+        "Question ID":"python_006",
+        "Question":"Write a Python program to calculate the factorial of a number using recursion.",
+        "Model Answer":"def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)"
+    },
+    {
+        "Question ID":"python_007",
+        "Question":"Explain the concept of list comprehension with an example.",
+        "Model Answer":"List comprehension is a concise way to create lists.\nExample: squares = [x**2 for x in range(5)]"
+    },
+    {
+        "Question ID":"python_008",
+        "Question":"Write a Python program to check if a given string is a palindrome.",
+        "Model Answer":"def is_palindrome(s):\n    return s == s[::-1]"
+    },
+    {
+        "Question ID":"python_009",
+        "Question":"What is the difference between a list and a tuple in Python?",
+        "Model Answer":"Lists are mutable, whereas tuples are immutable. Lists use square brackets [], while tuples use parentheses ()."
+    },
+    {
+        "Question ID":"python_010",
+        "Question":"Write a Python program to calculate the factorial of a number using recursion.",
+        "Model Answer":"def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)"
+    },
+    {
+        "Question ID":"python_011",
+        "Question":"Explain the concept of list comprehension with an example.",
+        "Model Answer":"List comprehension is a concise way to create lists.\nExample: squares = [x**2 for x in range(5)]"
+    },
+    {
+        "Question ID":"python_012",
+        "Question":"Write a Python program to check if a given string is a palindrome.",
+        "Model Answer":"def is_palindrome(s):\n    return s == s[::-1]"
+    },
+    {
+        "Question ID":"python_013",
+        "Question":"What is the difference between a list and a tuple in Python?",
+        "Model Answer":"Lists are mutable, whereas tuples are immutable. Lists use square brackets [], while tuples use parentheses ()."
+    },
+    {
+        "Question ID":"python_014",
+        "Question":"Write a Python program to calculate the factorial of a number using recursion.",
+        "Model Answer":"def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)"
+    },
+    {
+        "Question ID":"python_015",
+        "Question":"Explain the concept of list comprehension with an example.",
+        "Model Answer":"List comprehension is a concise way to create lists.\nExample: squares = [x**2 for x in range(5)]"
+    },
+    {
+        "Question ID":"python_016",
+        "Question":"Write a Python program to check if a given string is a palindrome.",
+        "Model Answer":"def is_palindrome(s):\n    return s == s[::-1]"
+    },
+    {
+        "Question ID":"python_017",
+        "Question":"What is the difference between a list and a tuple in Python?",
+        "Model Answer":"Lists are mutable, whereas tuples are immutable. Lists use square brackets [], while tuples use parentheses ()."
+    },
+    {
+        "Question ID":"python_018",
+        "Question":"Write a Python program to calculate the factorial of a number using recursion.",
+        "Model Answer":"def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)"
+    },
+    {
+        "Question ID":"python_019",
+        "Question":"Explain the concept of list comprehension with an example.",
+        "Model Answer":"List comprehension is a concise way to create lists.\nExample: squares = [x**2 for x in range(5)]"
+    },
+    {
+        "Question ID":"python_020",
+        "Question":"Write a Python program to check if a given string is a palindrome.",
+        "Model Answer":"def is_palindrome(s):\n    return s == s[::-1]"
+    },
+    {
+        "Question ID":"python_021",
+        "Question":"What is the difference between a list and a tuple in Python?",
+        "Model Answer":"Lists are mutable, whereas tuples are immutable. Lists use square brackets [], while tuples use parentheses ()."
+    },
+    {
+        "Question ID":"python_022",
+        "Question":"Write a Python program to calculate the factorial of a number using recursion.",
+        "Model Answer":"def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)"
+    },
+    {
+        "Question ID":"python_023",
+        "Question":"Explain the concept of list comprehension with an example.",
+        "Model Answer":"List comprehension is a concise way to create lists.\nExample: squares = [x**2 for x in range(5)]"
+    },
+    {
+        "Question ID":"python_024",
+        "Question":"Write a Python program to check if a given string is a palindrome.",
+        "Model Answer":"def is_palindrome(s):\n    return s == s[::-1]"
+    },
+    {
+        "Question ID":"python_025",
+        "Question":"What is the difference between a list and a tuple in Python?",
+        "Model Answer":"Lists are mutable, whereas tuples are immutable. Lists use square brackets [], while tuples use parentheses ()."
+    },
+    {
+        "Question ID":"python_026",
+        "Question":"Write a Python program to calculate the factorial of a number using recursion.",
+        "Model Answer":"def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)"
+    },
+    {
+        "Question ID":"python_027",
+        "Question":"Explain the concept of list comprehension with an example.",
+        "Model Answer":"List comprehension is a concise way to create lists.\nExample: squares = [x**2 for x in range(5)]"
+    },
+    {
+        "Question ID":"python_028",
+        "Question":"Write a Python program to check if a given string is a palindrome.",
+        "Model Answer":"def is_palindrome(s):\n    return s == s[::-1]"
+    },
+    {
+        "Question ID":"python_029",
+        "Question":"What is the difference between a list and a tuple in Python?",
+        "Model Answer":"Lists are mutable, whereas tuples are immutable. Lists use square brackets [], while tuples use parentheses ()."
+    },
+    {
+        "Question ID":"python_030",
+        "Question":"Write a Python program to calculate the factorial of a number using recursion.",
+        "Model Answer":"def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)"
+    },
+    {
+        "Question ID":"python_031",
+        "Question":"Explain the concept of list comprehension with an example.",
+        "Model Answer":"List comprehension is a concise way to create lists.\nExample: squares = [x**2 for x in range(5)]"
+    },
+    {
+        "Question ID":"python_032",
+        "Question":"Write a Python program to check if a given string is a palindrome.",
+        "Model Answer":"def is_palindrome(s):\n    return s == s[::-1]"
+    },
+    {
+        "Question ID":"python_033",
+        "Question":"What is the difference between a list and a tuple in Python?",
+        "Model Answer":"Lists are mutable, whereas tuples are immutable. Lists use square brackets [], while tuples use parentheses ()."
+    },
+    {
+        "Question ID":"python_034",
+        "Question":"Write a Python program to calculate the factorial of a number using recursion.",
+        "Model Answer":"def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)"
+    },
+    {
+        "Question ID":"python_035",
+        "Question":"Explain the concept of list comprehension with an example.",
+        "Model Answer":"List comprehension is a concise way to create lists.\nExample: squares = [x**2 for x in range(5)]"
+    },
+    {
+        "Question ID":"python_036",
+        "Question":"Write a Python program to check if a given string is a palindrome.",
+        "Model Answer":"def is_palindrome(s):\n    return s == s[::-1]"
+    },
+    {
+        "Question ID":"python_037",
+        "Question":"What is the difference between a list and a tuple in Python?",
+        "Model Answer":"Lists are mutable, whereas tuples are immutable. Lists use square brackets [], while tuples use parentheses ()."
+    },
+    {
+        "Question ID":"python_038",
+        "Question":"Write a Python program to calculate the factorial of a number using recursion.",
+        "Model Answer":"def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)"
+    },
+    {
+        "Question ID":"python_039",
+        "Question":"Explain the concept of list comprehension with an example.",
+        "Model Answer":"List comprehension is a concise way to create lists.\nExample: squares = [x**2 for x in range(5)]"
+    },
+    {
+        "Question ID":"python_040",
+        "Question":"Write a Python program to check if a given string is a palindrome.",
+        "Model Answer":"def is_palindrome(s):\n    return s == s[::-1]"
+    },
+    {
+        "Question ID":"python_041",
+        "Question":"What is the difference between a list and a tuple in Python?",
+        "Model Answer":"Lists are mutable, whereas tuples are immutable. Lists use square brackets [], while tuples use parentheses ()."
+    },
+    {
+        "Question ID":"python_042",
+        "Question":"Write a Python program to calculate the factorial of a number using recursion.",
+        "Model Answer":"def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)"
+    },
+    {
+        "Question ID":"python_043",
+        "Question":"Explain the concept of list comprehension with an example.",
+        "Model Answer":"List comprehension is a concise way to create lists.\nExample: squares = [x**2 for x in range(5)]"
+    },
+    {
+        "Question ID":"python_044",
+        "Question":"Write a Python program to check if a given string is a palindrome.",
+        "Model Answer":"def is_palindrome(s):\n    return s == s[::-1]"
+    },
+    {
+        "Question ID":"python_045",
+        "Question":"What is the difference between a list and a tuple in Python?",
+        "Model Answer":"Lists are mutable, whereas tuples are immutable. Lists use square brackets [], while tuples use parentheses ()."
+    },
+    {
+        "Question ID":"python_046",
+        "Question":"Write a Python program to calculate the factorial of a number using recursion.",
+        "Model Answer":"def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)"
+    },
+    {
+        "Question ID":"python_047",
+        "Question":"Explain the concept of list comprehension with an example.",
+        "Model Answer":"List comprehension is a concise way to create lists.\nExample: squares = [x**2 for x in range(5)]"
+    },
+    {
+        "Question ID":"python_048",
+        "Question":"Write a Python program to check if a given string is a palindrome.",
+        "Model Answer":"def is_palindrome(s):\n    return s == s[::-1]"
+    },
+    {
+        "Question ID":"python_049",
+        "Question":"What is the difference between a list and a tuple in Python?",
+        "Model Answer":"Lists are mutable, whereas tuples are immutable. Lists use square brackets [], while tuples use parentheses ()."
+    },
+    {
+        "Question ID":"python_050",
+        "Question":"Write a Python program to calculate the factorial of a number using recursion.",
+        "Model Answer":"def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)"
+    },
+    {
+        "Question ID":"python_051",
+        "Question":"Explain the concept of list comprehension with an example.",
+        "Model Answer":"List comprehension is a concise way to create lists.\nExample: squares = [x**2 for x in range(5)]"
+    },
+    {
+        "Question ID":"python_052",
+        "Question":"Write a Python program to check if a given string is a palindrome.",
+        "Model Answer":"def is_palindrome(s):\n    return s == s[::-1]"
+    },
+    {
+        "Question ID":"python_053",
+        "Question":"What is the difference between a list and a tuple in Python?",
+        "Model Answer":"Lists are mutable, whereas tuples are immutable. Lists use square brackets [], while tuples use parentheses ()."
+    },
+    {
+        "Question ID":"python_054",
+        "Question":"Write a Python program to calculate the factorial of a number using recursion.",
+        "Model Answer":"def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)"
+    },
+    {
+        "Question ID":"python_055",
+        "Question":"Explain the concept of list comprehension with an example.",
+        "Model Answer":"List comprehension is a concise way to create lists.\nExample: squares = [x**2 for x in range(5)]"
+    },
+    {
+        "Question ID":"python_056",
+        "Question":"Write a Python program to check if a given string is a palindrome.",
+        "Model Answer":"def is_palindrome(s):\n    return s == s[::-1]"
+    },
+    {
+        "Question ID":"python_057",
+        "Question":"What is the difference between a list and a tuple in Python?",
+        "Model Answer":"Lists are mutable, whereas tuples are immutable. Lists use square brackets [], while tuples use parentheses ()."
+    },
+    {
+        "Question ID":"python_058",
+        "Question":"Write a Python program to calculate the factorial of a number using recursion.",
+        "Model Answer":"def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)"
+    },
+    {
+        "Question ID":"python_059",
+        "Question":"Explain the concept of list comprehension with an example.",
+        "Model Answer":"List comprehension is a concise way to create lists.\nExample: squares = [x**2 for x in range(5)]"
+    },
+    {
+        "Question ID":"python_060",
+        "Question":"Write a Python program to check if a given string is a palindrome.",
+        "Model Answer":"def is_palindrome(s):\n    return s == s[::-1]"
+    },
+    {
+        "Question ID":"python_061",
+        "Question":"What is the difference between a list and a tuple in Python?",
+        "Model Answer":"Lists are mutable, whereas tuples are immutable. Lists use square brackets [], while tuples use parentheses ()."
+    },
+    {
+        "Question ID":"python_062",
+        "Question":"Write a Python program to calculate the factorial of a number using recursion.",
+        "Model Answer":"def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)"
+    },
+    {
+        "Question ID":"python_063",
+        "Question":"Explain the concept of list comprehension with an example.",
+        "Model Answer":"List comprehension is a concise way to create lists.\nExample: squares = [x**2 for x in range(5)]"
+    },
+    {
+        "Question ID":"python_064",
+        "Question":"Write a Python program to check if a given string is a palindrome.",
+        "Model Answer":"def is_palindrome(s):\n    return s == s[::-1]"
+    },
+    {
+        "Question ID":"python_065",
+        "Question":"What is the difference between a list and a tuple in Python?",
+        "Model Answer":"Lists are mutable, whereas tuples are immutable. Lists use square brackets [], while tuples use parentheses ()."
+    },
+    {
+        "Question ID":"python_066",
+        "Question":"Write a Python program to calculate the factorial of a number using recursion.",
+        "Model Answer":"def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)"
+    },
+    {
+        "Question ID":"python_067",
+        "Question":"Explain the concept of list comprehension with an example.",
+        "Model Answer":"List comprehension is a concise way to create lists.\nExample: squares = [x**2 for x in range(5)]"
+    },
+    {
+        "Question ID":"python_068",
+        "Question":"Write a Python program to check if a given string is a palindrome.",
+        "Model Answer":"def is_palindrome(s):\n    return s == s[::-1]"
+    },
+    {
+        "Question ID":"python_069",
+        "Question":"What is the difference between a list and a tuple in Python?",
+        "Model Answer":"Lists are mutable, whereas tuples are immutable. Lists use square brackets [], while tuples use parentheses ()."
+    },
+    {
+        "Question ID":"python_070",
+        "Question":"Write a Python program to calculate the factorial of a number using recursion.",
+        "Model Answer":"def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)"
+    },
+    {
+        "Question ID":"python_071",
+        "Question":"Explain the concept of list comprehension with an example.",
+        "Model Answer":"List comprehension is a concise way to create lists.\nExample: squares = [x**2 for x in range(5)]"
+    },
+    {
+        "Question ID":"python_072",
+        "Question":"Write a Python program to check if a given string is a palindrome.",
+        "Model Answer":"def is_palindrome(s):\n    return s == s[::-1]"
+    },
+    {
+        "Question ID":"python_073",
+        "Question":"What is the difference between a list and a tuple in Python?",
+        "Model Answer":"Lists are mutable, whereas tuples are immutable. Lists use square brackets [], while tuples use parentheses ()."
+    },
+    {
+        "Question ID":"python_074",
+        "Question":"Write a Python program to calculate the factorial of a number using recursion.",
+        "Model Answer":"def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)"
+    },
+    {
+        "Question ID":"python_075",
+        "Question":"Explain the concept of list comprehension with an example.",
+        "Model Answer":"List comprehension is a concise way to create lists.\nExample: squares = [x**2 for x in range(5)]"
+    },
+    {
+        "Question ID":"python_076",
+        "Question":"Write a Python program to check if a given string is a palindrome.",
+        "Model Answer":"def is_palindrome(s):\n    return s == s[::-1]"
+    },
+    {
+        "Question ID":"python_077",
+        "Question":"What is the difference between a list and a tuple in Python?",
+        "Model Answer":"Lists are mutable, whereas tuples are immutable. Lists use square brackets [], while tuples use parentheses ()."
+    },
+    {
+        "Question ID":"python_078",
+        "Question":"Write a Python program to calculate the factorial of a number using recursion.",
+        "Model Answer":"def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)"
+    },
+    {
+        "Question ID":"python_079",
+        "Question":"Explain the concept of list comprehension with an example.",
+        "Model Answer":"List comprehension is a concise way to create lists.\nExample: squares = [x**2 for x in range(5)]"
+    },
+    {
+        "Question ID":"python_080",
+        "Question":"Write a Python program to check if a given string is a palindrome.",
+        "Model Answer":"def is_palindrome(s):\n    return s == s[::-1]"
+    },
+    {
+        "Question ID":"python_081",
+        "Question":"What is the difference between a list and a tuple in Python?",
+        "Model Answer":"Lists are mutable, whereas tuples are immutable. Lists use square brackets [], while tuples use parentheses ()."
+    },
+    {
+        "Question ID":"python_082",
+        "Question":"Write a Python program to calculate the factorial of a number using recursion.",
+        "Model Answer":"def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)"
+    },
+    {
+        "Question ID":"python_083",
+        "Question":"Explain the concept of list comprehension with an example.",
+        "Model Answer":"List comprehension is a concise way to create lists.\nExample: squares = [x**2 for x in range(5)]"
+    },
+    {
+        "Question ID":"python_084",
+        "Question":"Write a Python program to check if a given string is a palindrome.",
+        "Model Answer":"def is_palindrome(s):\n    return s == s[::-1]"
+    },
+    {
+        "Question ID":"python_085",
+        "Question":"What is the difference between a list and a tuple in Python?",
+        "Model Answer":"Lists are mutable, whereas tuples are immutable. Lists use square brackets [], while tuples use parentheses ()."
+    },
+    {
+        "Question ID":"python_086",
+        "Question":"Write a Python program to calculate the factorial of a number using recursion.",
+        "Model Answer":"def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)"
+    },
+    {
+        "Question ID":"python_087",
+        "Question":"Explain the concept of list comprehension with an example.",
+        "Model Answer":"List comprehension is a concise way to create lists.\nExample: squares = [x**2 for x in range(5)]"
+    },
+    {
+        "Question ID":"python_088",
+        "Question":"Write a Python program to check if a given string is a palindrome.",
+        "Model Answer":"def is_palindrome(s):\n    return s == s[::-1]"
+    },
+    {
+        "Question ID":"python_089",
+        "Question":"What is the difference between a list and a tuple in Python?",
+        "Model Answer":"Lists are mutable, whereas tuples are immutable. Lists use square brackets [], while tuples use parentheses ()."
+    },
+    {
+        "Question ID":"python_090",
+        "Question":"Write a Python program to calculate the factorial of a number using recursion.",
+        "Model Answer":"def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)"
+    },
+    {
+        "Question ID":"python_091",
+        "Question":"Explain the concept of list comprehension with an example.",
+        "Model Answer":"List comprehension is a concise way to create lists.\nExample: squares = [x**2 for x in range(5)]"
+    },
+    {
+        "Question ID":"python_092",
+        "Question":"Write a Python program to check if a given string is a palindrome.",
+        "Model Answer":"def is_palindrome(s):\n    return s == s[::-1]"
+    },
+    {
+        "Question ID":"python_093",
+        "Question":"What is the difference between a list and a tuple in Python?",
+        "Model Answer":"Lists are mutable, whereas tuples are immutable. Lists use square brackets [], while tuples use parentheses ()."
+    },
+    {
+        "Question ID":"python_094",
+        "Question":"Write a Python program to calculate the factorial of a number using recursion.",
+        "Model Answer":"def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)"
+    },
+    {
+        "Question ID":"python_095",
+        "Question":"Explain the concept of list comprehension with an example.",
+        "Model Answer":"List comprehension is a concise way to create lists.\nExample: squares = [x**2 for x in range(5)]"
+    },
+    {
+        "Question ID":"python_096",
+        "Question":"Write a Python program to check if a given string is a palindrome.",
+        "Model Answer":"def is_palindrome(s):\n    return s == s[::-1]"
+    },
+    {
+        "Question ID":"python_097",
+        "Question":"What is the difference between a list and a tuple in Python?",
+        "Model Answer":"Lists are mutable, whereas tuples are immutable. Lists use square brackets [], while tuples use parentheses ()."
+    },
+    {
+        "Question ID":"python_098",
+        "Question":"Write a Python program to calculate the factorial of a number using recursion.",
+        "Model Answer":"def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)"
+    },
+    {
+        "Question ID":"python_099",
+        "Question":"Explain the concept of list comprehension with an example.",
+        "Model Answer":"List comprehension is a concise way to create lists.\nExample: squares = [x**2 for x in range(5)]"
+    },
+    {
+        "Question ID":"python_100",
+        "Question":"Write a Python program to check if a given string is a palindrome.",
+        "Model Answer":"def is_palindrome(s):\n    return s == s[::-1]"
+    },
+    {
+        "Question ID":"python_101",
+        "Question":"What is the difference between a list and a tuple in Python?",
+        "Model Answer":"Lists are mutable, whereas tuples are immutable. Lists use square brackets [], while tuples use parentheses ()."
+    },
+    {
+        "Question ID":"python_102",
+        "Question":"Write a Python program to calculate the factorial of a number using recursion.",
+        "Model Answer":"def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)"
+    },
+    {
+        "Question ID":"python_103",
+        "Question":"Explain the concept of list comprehension with an example.",
+        "Model Answer":"List comprehension is a concise way to create lists.\nExample: squares = [x**2 for x in range(5)]"
+    },
+    {
+        "Question ID":"python_104",
+        "Question":"Write a Python program to check if a given string is a palindrome.",
+        "Model Answer":"def is_palindrome(s):\n    return s == s[::-1]"
+    },
+    {
+        "Question ID":"python_105",
+        "Question":"What is the difference between a list and a tuple in Python?",
+        "Model Answer":"Lists are mutable, whereas tuples are immutable. Lists use square brackets [], while tuples use parentheses ()."
+    },
+    {
+        "Question ID":"python_106",
+        "Question":"Write a Python program to calculate the factorial of a number using recursion.",
+        "Model Answer":"def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)"
+    },
+    {
+        "Question ID":"python_107",
+        "Question":"Explain the concept of list comprehension with an example.",
+        "Model Answer":"List comprehension is a concise way to create lists.\nExample: squares = [x**2 for x in range(5)]"
+    },
+    {
+        "Question ID":"python_108",
+        "Question":"Write a Python program to check if a given string is a palindrome.",
+        "Model Answer":"def is_palindrome(s):\n    return s == s[::-1]"
+    },
+    {
+        "Question ID":"python_109",
+        "Question":"What is the difference between a list and a tuple in Python?",
+        "Model Answer":"Lists are mutable, whereas tuples are immutable. Lists use square brackets [], while tuples use parentheses ()."
+    },
+    {
+        "Question ID":"python_110",
+        "Question":"Write a Python program to calculate the factorial of a number using recursion.",
+        "Model Answer":"def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)"
+    },
+    {
+        "Question ID":"python_111",
+        "Question":"Explain the concept of list comprehension with an example.",
+        "Model Answer":"List comprehension is a concise way to create lists.\nExample: squares = [x**2 for x in range(5)]"
+    },
+    {
+        "Question ID":"python_112",
+        "Question":"Write a Python program to check if a given string is a palindrome.",
+        "Model Answer":"def is_palindrome(s):\n    return s == s[::-1]"
+    },
+    {
+        "Question ID":"python_113",
+        "Question":"What is the difference between a list and a tuple in Python?",
+        "Model Answer":"Lists are mutable, whereas tuples are immutable. Lists use square brackets [], while tuples use parentheses ()."
+    },
+    {
+        "Question ID":"python_114",
+        "Question":"Write a Python program to calculate the factorial of a number using recursion.",
+        "Model Answer":"def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)"
+    },
+    {
+        "Question ID":"python_115",
+        "Question":"Explain the concept of list comprehension with an example.",
+        "Model Answer":"List comprehension is a concise way to create lists.\nExample: squares = [x**2 for x in range(5)]"
+    },
+    {
+        "Question ID":"python_116",
+        "Question":"Write a Python program to check if a given string is a palindrome.",
+        "Model Answer":"def is_palindrome(s):\n    return s == s[::-1]"
+    },
+    {
+        "Question ID":"python_117",
+        "Question":"What is the difference between a list and a tuple in Python?",
+        "Model Answer":"Lists are mutable, whereas tuples are immutable. Lists use square brackets [], while tuples use parentheses ()."
+    },
+    {
+        "Question ID":"python_118",
+        "Question":"Write a Python program to calculate the factorial of a number using recursion.",
+        "Model Answer":"def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)"
+    },
+    {
+        "Question ID":"python_119",
+        "Question":"Explain the concept of list comprehension with an example.",
+        "Model Answer":"List comprehension is a concise way to create lists.\nExample: squares = [x**2 for x in range(5)]"
+    },
+    {
+        "Question ID":"python_120",
+        "Question":"Write a Python program to check if a given string is a palindrome.",
+        "Model Answer":"def is_palindrome(s):\n    return s == s[::-1]"
+    },
+    {
+        "Question ID":"python_121",
+        "Question":"What is the difference between a list and a tuple in Python?",
+        "Model Answer":"Lists are mutable, whereas tuples are immutable. Lists use square brackets [], while tuples use parentheses ()."
+    },
+    {
+        "Question ID":"python_122",
+        "Question":"Write a Python program to calculate the factorial of a number using recursion.",
+        "Model Answer":"def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)"
+    },
+    {
+        "Question ID":"python_123",
+        "Question":"Explain the concept of list comprehension with an example.",
+        "Model Answer":"List comprehension is a concise way to create lists.\nExample: squares = [x**2 for x in range(5)]"
+    },
+    {
+        "Question ID":"python_124",
+        "Question":"Write a Python program to check if a given string is a palindrome.",
+        "Model Answer":"def is_palindrome(s):\n    return s == s[::-1]"
+    },
+    {
+        "Question ID":"python_125",
+        "Question":"What is the difference between a list and a tuple in Python?",
+        "Model Answer":"Lists are mutable, whereas tuples are immutable. Lists use square brackets [], while tuples use parentheses ()."
+    },
+    {
+        "Question ID":"python_126",
+        "Question":"Write a Python program to calculate the factorial of a number using recursion.",
+        "Model Answer":"def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)"
+    },
+    {
+        "Question ID":"python_127",
+        "Question":"Explain the concept of list comprehension with an example.",
+        "Model Answer":"List comprehension is a concise way to create lists.\nExample: squares = [x**2 for x in range(5)]"
+    },
+    {
+        "Question ID":"python_128",
+        "Question":"Write a Python program to check if a given string is a palindrome.",
+        "Model Answer":"def is_palindrome(s):\n    return s == s[::-1]"
+    },
+    {
+        "Question ID":"python_129",
+        "Question":"What is the difference between a list and a tuple in Python?",
+        "Model Answer":"Lists are mutable, whereas tuples are immutable. Lists use square brackets [], while tuples use parentheses ()."
+    },
+    {
+        "Question ID":"python_130",
+        "Question":"Write a Python program to calculate the factorial of a number using recursion.",
+        "Model Answer":"def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)"
+    },
+    {
+        "Question ID":"python_131",
+        "Question":"Explain the concept of list comprehension with an example.",
+        "Model Answer":"List comprehension is a concise way to create lists.\nExample: squares = [x**2 for x in range(5)]"
+    },
+    {
+        "Question ID":"python_132",
+        "Question":"Write a Python program to check if a given string is a palindrome.",
+        "Model Answer":"def is_palindrome(s):\n    return s == s[::-1]"
+    },
+    {
+        "Question ID":"python_133",
+        "Question":"What is the difference between a list and a tuple in Python?",
+        "Model Answer":"Lists are mutable, whereas tuples are immutable. Lists use square brackets [], while tuples use parentheses ()."
+    },
+    {
+        "Question ID":"python_134",
+        "Question":"Write a Python program to calculate the factorial of a number using recursion.",
+        "Model Answer":"def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)"
+    },
+    {
+        "Question ID":"python_135",
+        "Question":"Explain the concept of list comprehension with an example.",
+        "Model Answer":"List comprehension is a concise way to create lists.\nExample: squares = [x**2 for x in range(5)]"
+    },
+    {
+        "Question ID":"python_136",
+        "Question":"Write a Python program to check if a given string is a palindrome.",
+        "Model Answer":"def is_palindrome(s):\n    return s == s[::-1]"
+    },
+    {
+        "Question ID":"python_137",
+        "Question":"What is the difference between a list and a tuple in Python?",
+        "Model Answer":"Lists are mutable, whereas tuples are immutable. Lists use square brackets [], while tuples use parentheses ()."
+    },
+    {
+        "Question ID":"python_138",
+        "Question":"Write a Python program to calculate the factorial of a number using recursion.",
+        "Model Answer":"def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)"
+    },
+    {
+        "Question ID":"python_139",
+        "Question":"Explain the concept of list comprehension with an example.",
+        "Model Answer":"List comprehension is a concise way to create lists.\nExample: squares = [x**2 for x in range(5)]"
+    },
+    {
+        "Question ID":"python_140",
+        "Question":"Write a Python program to check if a given string is a palindrome.",
+        "Model Answer":"def is_palindrome(s):\n    return s == s[::-1]"
+    },
+    {
+        "Question ID":"python_141",
+        "Question":"What is the difference between a list and a tuple in Python?",
+        "Model Answer":"Lists are mutable, whereas tuples are immutable. Lists use square brackets [], while tuples use parentheses ()."
+    },
+    {
+        "Question ID":"python_142",
+        "Question":"Write a Python program to calculate the factorial of a number using recursion.",
+        "Model Answer":"def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)"
+    },
+    {
+        "Question ID":"python_143",
+        "Question":"Explain the concept of list comprehension with an example.",
+        "Model Answer":"List comprehension is a concise way to create lists.\nExample: squares = [x**2 for x in range(5)]"
+    },
+    {
+        "Question ID":"python_144",
+        "Question":"Write a Python program to check if a given string is a palindrome.",
+        "Model Answer":"def is_palindrome(s):\n    return s == s[::-1]"
+    },
+    {
+        "Question ID":"python_145",
+        "Question":"What is the difference between a list and a tuple in Python?",
+        "Model Answer":"Lists are mutable, whereas tuples are immutable. Lists use square brackets [], while tuples use parentheses ()."
+    },
+    {
+        "Question ID":"python_146",
+        "Question":"Write a Python program to calculate the factorial of a number using recursion.",
+        "Model Answer":"def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)"
+    },
+    {
+        "Question ID":"python_147",
+        "Question":"Explain the concept of list comprehension with an example.",
+        "Model Answer":"List comprehension is a concise way to create lists.\nExample: squares = [x**2 for x in range(5)]"
+    },
+    {
+        "Question ID":"python_148",
+        "Question":"Write a Python program to check if a given string is a palindrome.",
+        "Model Answer":"def is_palindrome(s):\n    return s == s[::-1]"
+    },
+    {
+        "Question ID":"python_149",
+        "Question":"What is the difference between a list and a tuple in Python?",
+        "Model Answer":"Lists are mutable, whereas tuples are immutable. Lists use square brackets [], while tuples use parentheses ()."
+    },
+    {
+        "Question ID":"python_150",
+        "Question":"Write a Python program to calculate the factorial of a number using recursion.",
+        "Model Answer":"def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)"
+    },
+    {
+        "Question ID":"python_151",
+        "Question":"Explain the concept of list comprehension with an example.",
+        "Model Answer":"List comprehension is a concise way to create lists.\nExample: squares = [x**2 for x in range(5)]"
+    },
+    {
+        "Question ID":"python_152",
+        "Question":"Write a Python program to check if a given string is a palindrome.",
+        "Model Answer":"def is_palindrome(s):\n    return s == s[::-1]"
+    },
+    {
+        "Question ID":"python_153",
+        "Question":"What is the difference between a list and a tuple in Python?",
+        "Model Answer":"Lists are mutable, whereas tuples are immutable. Lists use square brackets [], while tuples use parentheses ()."
+    },
+    {
+        "Question ID":"python_154",
+        "Question":"Write a Python program to calculate the factorial of a number using recursion.",
+        "Model Answer":"def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)"
+    },
+    {
+        "Question ID":"python_155",
+        "Question":"Explain the concept of list comprehension with an example.",
+        "Model Answer":"List comprehension is a concise way to create lists.\nExample: squares = [x**2 for x in range(5)]"
+    },
+    {
+        "Question ID":"python_156",
+        "Question":"Write a Python program to check if a given string is a palindrome.",
+        "Model Answer":"def is_palindrome(s):\n    return s == s[::-1]"
+    },
+    {
+        "Question ID":"python_157",
+        "Question":"What is the difference between a list and a tuple in Python?",
+        "Model Answer":"Lists are mutable, whereas tuples are immutable. Lists use square brackets [], while tuples use parentheses ()."
+    },
+    {
+        "Question ID":"python_158",
+        "Question":"Write a Python program to calculate the factorial of a number using recursion.",
+        "Model Answer":"def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)"
+    },
+    {
+        "Question ID":"python_159",
+        "Question":"Explain the concept of list comprehension with an example.",
+        "Model Answer":"List comprehension is a concise way to create lists.\nExample: squares = [x**2 for x in range(5)]"
+    },
+    {
+        "Question ID":"python_160",
+        "Question":"Write a Python program to check if a given string is a palindrome.",
+        "Model Answer":"def is_palindrome(s):\n    return s == s[::-1]"
+    },
+    {
+        "Question ID":"python_161",
+        "Question":"What is the difference between a list and a tuple in Python?",
+        "Model Answer":"Lists are mutable, whereas tuples are immutable. Lists use square brackets [], while tuples use parentheses ()."
+    },
+    {
+        "Question ID":"python_162",
+        "Question":"Write a Python program to calculate the factorial of a number using recursion.",
+        "Model Answer":"def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)"
+    },
+    {
+        "Question ID":"python_163",
+        "Question":"Explain the concept of list comprehension with an example.",
+        "Model Answer":"List comprehension is a concise way to create lists.\nExample: squares = [x**2 for x in range(5)]"
+    },
+    {
+        "Question ID":"python_164",
+        "Question":"Write a Python program to check if a given string is a palindrome.",
+        "Model Answer":"def is_palindrome(s):\n    return s == s[::-1]"
+    },
+    {
+        "Question ID":"python_165",
+        "Question":"What is the difference between a list and a tuple in Python?",
+        "Model Answer":"Lists are mutable, whereas tuples are immutable. Lists use square brackets [], while tuples use parentheses ()."
+    },
+    {
+        "Question ID":"python_166",
+        "Question":"Write a Python program to calculate the factorial of a number using recursion.",
+        "Model Answer":"def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)"
+    },
+    {
+        "Question ID":"python_167",
+        "Question":"Explain the concept of list comprehension with an example.",
+        "Model Answer":"List comprehension is a concise way to create lists.\nExample: squares = [x**2 for x in range(5)]"
+    },
+    {
+        "Question ID":"python_168",
+        "Question":"Write a Python program to check if a given string is a palindrome.",
+        "Model Answer":"def is_palindrome(s):\n    return s == s[::-1]"
+    },
+    {
+        "Question ID":"python_169",
+        "Question":"What is the difference between a list and a tuple in Python?",
+        "Model Answer":"Lists are mutable, whereas tuples are immutable. Lists use square brackets [], while tuples use parentheses ()."
+    },
+    {
+        "Question ID":"python_170",
+        "Question":"Write a Python program to calculate the factorial of a number using recursion.",
+        "Model Answer":"def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)"
+    },
+    {
+        "Question ID":"python_171",
+        "Question":"Explain the concept of list comprehension with an example.",
+        "Model Answer":"List comprehension is a concise way to create lists.\nExample: squares = [x**2 for x in range(5)]"
+    },
+    {
+        "Question ID":"python_172",
+        "Question":"Write a Python program to check if a given string is a palindrome.",
+        "Model Answer":"def is_palindrome(s):\n    return s == s[::-1]"
+    },
+    {
+        "Question ID":"python_173",
+        "Question":"What is the difference between a list and a tuple in Python?",
+        "Model Answer":"Lists are mutable, whereas tuples are immutable. Lists use square brackets [], while tuples use parentheses ()."
+    },
+    {
+        "Question ID":"python_174",
+        "Question":"Write a Python program to calculate the factorial of a number using recursion.",
+        "Model Answer":"def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)"
+    },
+    {
+        "Question ID":"python_175",
+        "Question":"Explain the concept of list comprehension with an example.",
+        "Model Answer":"List comprehension is a concise way to create lists.\nExample: squares = [x**2 for x in range(5)]"
+    },
+    {
+        "Question ID":"python_176",
+        "Question":"Write a Python program to check if a given string is a palindrome.",
+        "Model Answer":"def is_palindrome(s):\n    return s == s[::-1]"
+    },
+    {
+        "Question ID":"python_177",
+        "Question":"What is the difference between a list and a tuple in Python?",
+        "Model Answer":"Lists are mutable, whereas tuples are immutable. Lists use square brackets [], while tuples use parentheses ()."
+    },
+    {
+        "Question ID":"python_178",
+        "Question":"Write a Python program to calculate the factorial of a number using recursion.",
+        "Model Answer":"def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)"
+    },
+    {
+        "Question ID":"python_179",
+        "Question":"Explain the concept of list comprehension with an example.",
+        "Model Answer":"List comprehension is a concise way to create lists.\nExample: squares = [x**2 for x in range(5)]"
+    },
+    {
+        "Question ID":"python_180",
+        "Question":"Write a Python program to check if a given string is a palindrome.",
+        "Model Answer":"def is_palindrome(s):\n    return s == s[::-1]"
+    },
+    {
+        "Question ID":"python_181",
+        "Question":"What is the difference between a list and a tuple in Python?",
+        "Model Answer":"Lists are mutable, whereas tuples are immutable. Lists use square brackets [], while tuples use parentheses ()."
+    },
+    {
+        "Question ID":"python_182",
+        "Question":"Write a Python program to calculate the factorial of a number using recursion.",
+        "Model Answer":"def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)"
+    },
+    {
+        "Question ID":"python_183",
+        "Question":"Explain the concept of list comprehension with an example.",
+        "Model Answer":"List comprehension is a concise way to create lists.\nExample: squares = [x**2 for x in range(5)]"
+    },
+    {
+        "Question ID":"python_184",
+        "Question":"Write a Python program to check if a given string is a palindrome.",
+        "Model Answer":"def is_palindrome(s):\n    return s == s[::-1]"
+    },
+    {
+        "Question ID":"python_185",
+        "Question":"What is the difference between a list and a tuple in Python?",
+        "Model Answer":"Lists are mutable, whereas tuples are immutable. Lists use square brackets [], while tuples use parentheses ()."
+    },
+    {
+        "Question ID":"python_186",
+        "Question":"Write a Python program to calculate the factorial of a number using recursion.",
+        "Model Answer":"def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)"
+    },
+    {
+        "Question ID":"python_187",
+        "Question":"Explain the concept of list comprehension with an example.",
+        "Model Answer":"List comprehension is a concise way to create lists.\nExample: squares = [x**2 for x in range(5)]"
+    },
+    {
+        "Question ID":"python_188",
+        "Question":"Write a Python program to check if a given string is a palindrome.",
+        "Model Answer":"def is_palindrome(s):\n    return s == s[::-1]"
+    },
+    {
+        "Question ID":"python_189",
+        "Question":"What is the difference between a list and a tuple in Python?",
+        "Model Answer":"Lists are mutable, whereas tuples are immutable. Lists use square brackets [], while tuples use parentheses ()."
+    },
+    {
+        "Question ID":"python_190",
+        "Question":"Write a Python program to calculate the factorial of a number using recursion.",
+        "Model Answer":"def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)"
+    },
+    {
+        "Question ID":"python_191",
+        "Question":"Explain the concept of list comprehension with an example.",
+        "Model Answer":"List comprehension is a concise way to create lists.\nExample: squares = [x**2 for x in range(5)]"
+    },
+    {
+        "Question ID":"python_192",
+        "Question":"Write a Python program to check if a given string is a palindrome.",
+        "Model Answer":"def is_palindrome(s):\n    return s == s[::-1]"
+    },
+    {
+        "Question ID":"python_193",
+        "Question":"What is the difference between a list and a tuple in Python?",
+        "Model Answer":"Lists are mutable, whereas tuples are immutable. Lists use square brackets [], while tuples use parentheses ()."
+    },
+    {
+        "Question ID":"python_194",
+        "Question":"Write a Python program to calculate the factorial of a number using recursion.",
+        "Model Answer":"def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)"
+    },
+    {
+        "Question ID":"python_195",
+        "Question":"Explain the concept of list comprehension with an example.",
+        "Model Answer":"List comprehension is a concise way to create lists.\nExample: squares = [x**2 for x in range(5)]"
+    },
+    {
+        "Question ID":"python_196",
+        "Question":"Write a Python program to check if a given string is a palindrome.",
+        "Model Answer":"def is_palindrome(s):\n    return s == s[::-1]"
+    },
+    {
+        "Question ID":"python_197",
+        "Question":"What is the difference between a list and a tuple in Python?",
+        "Model Answer":"Lists are mutable, whereas tuples are immutable. Lists use square brackets [], while tuples use parentheses ()."
+    },
+    {
+        "Question ID":"python_198",
+        "Question":"Write a Python program to calculate the factorial of a number using recursion.",
+        "Model Answer":"def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)"
+    },
+    {
+        "Question ID":"python_199",
+        "Question":"Explain the concept of list comprehension with an example.",
+        "Model Answer":"List comprehension is a concise way to create lists.\nExample: squares = [x**2 for x in range(5)]"
+    },
+    {
+        "Question ID":"python_200",
+        "Question":"Write a Python program to check if a given string is a palindrome.",
+        "Model Answer":"def is_palindrome(s):\n    return s == s[::-1]"
+    }
+]

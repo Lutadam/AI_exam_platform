@@ -1,0 +1,762 @@
+[
+    {
+        "Question ID": "dbms_001",
+        "Question": "Which SQL keyword is used to specify that a new record should be added to a database table?\na. INTO\nb. INSERT\nc. VALUES\nd. ADD",
+        "Model Answer": "b. INSERT"
+    },
+    {
+        "Question ID": "dbms_002",
+        "Question": "When creating a table in a relational database, which keyword defines the primary key of the table?\na. PRIMARY\nb. INDEX\nc. KEY\nd. ID",
+        "Model Answer": "a. PRIMARY"
+    },
+    {
+        "Question ID": "dbms_003",
+        "Question": "Which SQL statement is used to remove a table from a database?\na. DROP TABLE\nb. DELETE TABLE\nc. REMOVE TABLE\nd. ERASE TABLE",
+        "Model Answer": "a. DROP TABLE"
+    },
+    {
+        "Question ID": "dbms_004",
+        "Question": "Which of the following SQL statements is used to change existing data in a table?\na. UPDATE\nb. INSERT\nc. MODIFY\nd. ALTER",
+        "Model Answer": "a. UPDATE"
+    },
+    {
+        "Question ID": "dbms_005",
+        "Question": "What is abc in the following SQL statement? DELETE FROM xyz WHERE abc = 5;\na. column name\nb. table name\nc. row name\nd. database name",
+        "Model Answer": "a. column name"
+    },
+    {
+        "Question ID": "dbms_006",
+        "Question": "The physical level, logical level and view level is demonstrated in:\na. Entity relationship diagram\nb. Data Abstraction\nc. Business Rule\nd. None of the above",
+        "Model Answer": "b. Data Abstraction"
+    },
+    {
+        "Question ID": "dbms_007",
+        "Question": "What is the order that is followed in the five stages of database life cycle?\na. Requirement analysis, Physical Design, Logical Design, Implementation, Monitoring and Modification\nb. Requirement analysis, Implementation, Physical Design, Logical Design, Monitoring and Modification\nc. Requirement analysis, Logical Design, Physical Design, Implementation, Monitoring and Modification\nd. Monitoring and Modification, Requirement analysis, Logical Design, Physical Design, Implementation",
+        "Model Answer": "c. Requirement analysis, Logical Design, Physical Design, Implementation, Monitoring and Modification"
+    },
+    {
+        "Question ID": "dbms_008",
+        "Question": "What is the role of \u201cCONSTRAINTS\u201d in defining a table in SQL?\na. Declaring primary key\nb. Declaring Foreign Key\nc. Restrictions on columns\nd. All of the mentioned",
+        "Model Answer": "d. All of the mentioned"
+    },
+    {
+        "Question ID": "dbms_009",
+        "Question": "The primary key is selected from the\na. Determinants\nb. Candidate keys\nc. Composite keys\nd. Foreign keys",
+        "Model Answer": "b. Candidate keys"
+    },
+    {
+        "Question ID": "dbms_010",
+        "Question": "What does SQL stand for?\na. Structured Query List\nb. Structured Query Language\nc. Simple Query Language\nd. None of these",
+        "Model Answer": "b. Structured Query Language\n\n\nSection: Section B \u2013 Short Answer Questions"
+    },
+    {
+        "Question ID": "dbms_011",
+        "Question": "What does DDL, DML, DCL mean and provide example for each.",
+        "Model Answer": "DDL (Data Definition Language) - e.g. CREATE TABLE\nDML (Data Manipulation Language) - e.g. INSERT INTO\nDCL (Data Control Language) - e.g. GRANT"
+    },
+    {
+        "Question ID": "dbms_012",
+        "Question": "Differentiate between entity integrity and referential integrity with the aid of an example.",
+        "Model Answer": "Entity Integrity ensures that each row has a unique, non-null primary key.\nReferential Integrity ensures that a foreign key value must match a primary key value in another table.\nExample: In a Student-Course system, StudentID in Courses table must match a valid ID in the Students table."
+    },
+    {
+        "Question ID": "dbms_013",
+        "Question": "Explain Foreign key (FK) and give one (1) based on your understanding.",
+        "Model Answer": "A foreign key is an attribute in one table that links to the primary key in another table.\nExample: In the Orders table, CustomerID can be a foreign key referencing CustomerID in the Customers table."
+    },
+    {
+        "Question ID": "dbms_014",
+        "Question": "Draw an Entity Relational (ER) diagram to show the differences between Composite Attribute, Multivalued Attribute and Derived Attribute in a Crow foot form.",
+        "Model Answer": "[Sketch-based; describe as: Composite Attribute can be Name (First, Last), Multivalued is like PhoneNumbers, Derived like Age from DOB]"
+    },
+    {
+        "Question ID": "dbms_015",
+        "Question": "Design the Database structure for the given E-Banking System information and normalize to at least 3NF.",
+        "Model Answer": "[Student should list entities like Customer, Account, Transaction with attributes, show relationships, and apply 1NF -> 2NF -> 3NF]"
+    },
+    {
+        "Question ID": "dbms_016",
+        "Question": "Draw the entity relationship diagram of the E-Banking scenario.",
+        "Model Answer": "[Sketch of ERD expected with relationships such as Customer\u2014has\u2014Account, Account\u2014has\u2014Transaction]\n\n\nSection: Section C \u2013 Case Study"
+    },
+    {
+        "Question ID": "dbms_017",
+        "Question": "i. Display the salary and benefits for each employee.",
+        "Model Answer": "SELECT Salary, Benefits FROM EmployeeDetails;"
+    },
+    {
+        "Question ID": "dbms_018",
+        "Question": "ii. Display the Employee ID of those having salary greater or equal to Rs50,000.",
+        "Model Answer": "SELECT EmployeeID FROM EmployeeDetails WHERE Salary >= 50000;"
+    },
+    {
+        "Question ID": "dbms_019",
+        "Question": "iii. Display the Employee ID, salary and benefits for all managers having salary less than Rs70,000.",
+        "Model Answer": "SELECT EmployeeID, Salary, Benefits FROM EmployeeDetails WHERE Position = 'Manager' AND Salary < 70000;"
+    },
+    {
+        "Question ID": "dbms_020",
+        "Question": "iv. Display Employee ID, salary, benefits and position for all employees with position starting with \u2018S\u2019.",
+        "Model Answer": "SELECT EmployeeID, Salary, Benefits, Position FROM EmployeeDetails WHERE Position LIKE 'S%';"
+    },
+    {
+        "Question ID": "dbms_021",
+        "Question": "v. Update the record of employee with ID 300 to Manager with salary 50000.",
+        "Model Answer": "UPDATE EmployeeDetails SET Position = 'Manager', Salary = 50000 WHERE EmployeeID = 300;"
+    },
+    {
+        "Question ID": "dbms_022",
+        "Question": "vi. Display first name, last name, salary and benefits for all managers.",
+        "Model Answer": "SELECT e.FirstName, e.LastName, d.Salary, d.Benefits\nFROM Employee e JOIN EmployeeDetails d ON e.EmployeeID = d.EmployeeID\nWHERE d.Position = 'Manager';"
+    },
+    {
+        "Question ID": "dbms_023",
+        "Question": "vii. Insert a new record in EmployeeDetails for ID 333, Salary: 10000, Benefits: 1000, Position: Clerical",
+        "Model Answer": "INSERT INTO EmployeeDetails VALUES (333, 10000, 1000, 'Clerical');"
+    },
+    {
+        "Question ID": "dbms_024",
+        "Question": "viii. Display the average salary for each position.",
+        "Model Answer": "SELECT Position, AVG(Salary) FROM EmployeeDetails GROUP BY Position;"
+    },
+    {
+        "Question ID": "dbms_025",
+        "Question": "ix. Update salary to Rs 30,000 and benefits to Rs 5,000 for all Entry-Level employees.",
+        "Model Answer": "UPDATE EmployeeDetails SET Salary = 30000, Benefits = 5000 WHERE Position = 'Entry-Level';\n\n\n\n======================\nSECTION A \u2013 MCQ (15 Marks)\n======================"
+    },
+    {
+        "Question ID": "dbms_026",
+        "Question": "What is a Unique Key in DBMS?",
+        "Model Answer": "A. The unique key is similar to the primary key, but allows NULL values in the column\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_027",
+        "Question": "Which one of the following refers to the copies of the same data (or information) occupying the memory space at multiple places.",
+        "Model Answer": "D. Data Redundancy\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_028",
+        "Question": "In general, a file is basically a collection of all related_____.",
+        "Model Answer": "D. Records\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_029",
+        "Question": "The term \"Data\" refers to:",
+        "Model Answer": "D. Both A and C\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_030",
+        "Question": "By normalizing relations or sets of relations, one minimizes ___.",
+        "Model Answer": "C. Redundancy\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_031",
+        "Question": "Which of the following is the correct syntax to add a field in a table?",
+        "Model Answer": "A. ALTER TABLE table_name ADD field_name data type;\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_032",
+        "Question": "Which of the following is not a stage of the Database Life Cycle?",
+        "Model Answer": "D. Maintenance\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_033",
+        "Question": "What is the purpose of Physical Design stage?",
+        "Model Answer": "A. To translate logical schema to physical schema\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_034",
+        "Question": "Which SDLC model has highest risk due to lack of requirements definition?",
+        "Model Answer": "C. Big Bang model\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_035",
+        "Question": "What is an ER diagram used for?",
+        "Model Answer": "A. To represent entities, attributes and relationships\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_036",
+        "Question": "What is the purpose of Conceptual Design stage?",
+        "Model Answer": "A. To build a conceptual model\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_037",
+        "Question": "What is an Entity in an ER diagram?",
+        "Model Answer": "B. A real world object\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_038",
+        "Question": "Which stage of the SDLC involves assessing existing systems and determining new system requirements through feedback from stakeholders?",
+        "Model Answer": "C. Requirement analysis stage\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_039",
+        "Question": "Which of the following is not an SDLC model?",
+        "Model Answer": "C. Business model\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_040",
+        "Question": "Which type of database constraints ensure attribute values are not blank?",
+        "Model Answer": "A. Not null constraints\n\n----------------------------------------\n\n==============================\nSECTION B \u2013 Short Answer (45 Marks)\n=============================="
+    },
+    {
+        "Question ID": "dbms_041",
+        "Question": "What is a relational database and give 1 example of a relational database?",
+        "Model Answer": "A relational database stores data in structured tables made up of rows and columns. Example: MySQL\n\n----------------------------------------\n\n==============================\nSECTION B \u2013 Short Answer (45 Marks)\n=============================="
+    },
+    {
+        "Question ID": "dbms_042",
+        "Question": "What is DBLC and list the different phases of the DBLC.",
+        "Model Answer": "Database Life Cycle (DBLC) includes: 1) Requirement Analysis, 2) Logical Design, 3) Physical Design, 4) Implementation, 5) Monitoring and Maintenance\n\n----------------------------------------\n\n==============================\nSECTION B \u2013 Short Answer (45 Marks)\n=============================="
+    },
+    {
+        "Question ID": "dbms_043",
+        "Question": "Create the tables for appointment and patient. You have Patient ID as foreign key in appointment table, rules of not null applies to price field. PatientID and AppointmentID are primary keys in their respective table.",
+        "Model Answer": "CREATE TABLE Patient_tbl (\n  PatientID INT PRIMARY KEY,\n  PatientName VARCHAR(100),\n  DateOfBirth DATE,\n  Gender VARCHAR(10),\n  Address VARCHAR(100)\n);\n\nCREATE TABLE Appointment_tbl (\n  AppointmentID INT PRIMARY KEY,\n  PatientID INT,\n  AppointmentDate DATE,\n  DoctorName VARCHAR(100),\n  Purpose VARCHAR(50),\n  Price DECIMAL(10,2) NOT NULL,\n  FOREIGN KEY (PatientID) REFERENCES Patient_tbl(PatientID)\n);\n\n----------------------------------------\n\n==============================\nSECTION B \u2013 Short Answer (45 Marks)\n=============================="
+    },
+    {
+        "Question ID": "dbms_044",
+        "Question": "Write the insert statements for the first 3 records of the patient table.",
+        "Model Answer": "INSERT INTO Patient_tbl VALUES\n(1, 'Alice Smith', '1970-05-01', 'Female', '123 Port Louis'),\n(2, 'Bob Johnson', '1982-11-12', 'Male', '456 RoseHill'),\n(3, 'Charlie Davis', '1995-07-23', 'Male', '789 Curepipe');\n\n----------------------------------------\n\n==============================\nSECTION B \u2013 Short Answer (45 Marks)\n=============================="
+    },
+    {
+        "Question ID": "dbms_045",
+        "Question": "Write a query to retrieve all records from the Patients table.",
+        "Model Answer": "SELECT * FROM Patient_tbl;\n\n----------------------------------------\n\n==============================\nSECTION B \u2013 Short Answer (45 Marks)\n=============================="
+    },
+    {
+        "Question ID": "dbms_046",
+        "Question": "How would you select all appointments that have a Price greater than 150?",
+        "Model Answer": "SELECT * FROM Appointment_tbl WHERE Price > 150;\n\n----------------------------------------\n\n==============================\nSECTION B \u2013 Short Answer (45 Marks)\n=============================="
+    },
+    {
+        "Question ID": "dbms_047",
+        "Question": "Can you find the details of patients who live in either \u2018123 Port Louis\u2019 or \u201854 Elm Street, Vacoas\u2019?",
+        "Model Answer": "SELECT * FROM Patient_tbl WHERE Address IN ('123 Port Louis', '54 Elm Street, Vacoas');\n\n----------------------------------------\n\n==============================\nSECTION B \u2013 Short Answer (45 Marks)\n=============================="
+    },
+    {
+        "Question ID": "dbms_048",
+        "Question": "How do you list all female patients born after \u20181980-01-01\u2019?",
+        "Model Answer": "SELECT * FROM Patient_tbl WHERE Gender = 'Female' AND DateOfBirth > '1980-01-01';\n\n----------------------------------------\n\n==============================\nSECTION B \u2013 Short Answer (45 Marks)\n=============================="
+    },
+    {
+        "Question ID": "dbms_049",
+        "Question": "Write a query to find all appointments that are either \u2018Check-up\u2019 or \u2018Emergency\u2019.",
+        "Model Answer": "SELECT * FROM Appointment_tbl WHERE Purpose IN ('Check-up', 'Emergency');\n\n----------------------------------------\n\n==============================\nSECTION B \u2013 Short Answer (45 Marks)\n=============================="
+    },
+    {
+        "Question ID": "dbms_050",
+        "Question": "Write a query to list all patients in alphabetical order by name.",
+        "Model Answer": "SELECT * FROM Patient_tbl ORDER BY PatientName ASC;\n\n----------------------------------------\n\n==============================\nSECTION B \u2013 Short Answer (45 Marks)\n=============================="
+    },
+    {
+        "Question ID": "dbms_051",
+        "Question": "How can you get the first 3 appointments ordered by AppointmentDate?",
+        "Model Answer": "SELECT * FROM Appointment_tbl ORDER BY AppointmentDate ASC LIMIT 3;\n\n----------------------------------------\n\n==============================\nSECTION B \u2013 Short Answer (45 Marks)\n=============================="
+    },
+    {
+        "Question ID": "dbms_052",
+        "Question": "What is the maximum price charged for any appointment?",
+        "Model Answer": "SELECT MAX(Price) AS MaxPrice FROM Appointment_tbl;\n\n----------------------------------------\n\n==============================\nSECTION B \u2013 Short Answer (45 Marks)\n=============================="
+    },
+    {
+        "Question ID": "dbms_053",
+        "Question": "Can you calculate the total number of appointments for each Purpose?",
+        "Model Answer": "SELECT Purpose, COUNT(*) AS Total FROM Appointment_tbl GROUP BY Purpose;\n\n----------------------------------------\n\n==============================\nSECTION C \u2013 Case Study (40 Marks)\n=============================="
+    },
+    {
+        "Question ID": "dbms_054",
+        "Question": "List the different activities involved before designing the database.",
+        "Model Answer": "Identify entities, gather user requirements, define scope, document data requirements.\n\n----------------------------------------\n\n==============================\nSECTION C \u2013 Case Study (40 Marks)\n=============================="
+    },
+    {
+        "Question ID": "dbms_055",
+        "Question": "What tool will you use to build the blueprint of the database and why.",
+        "Model Answer": "Entity-Relationship Diagram (ERD), to visually represent entities, relationships and constraints.\n\n----------------------------------------\n\n==============================\nSECTION C \u2013 Case Study (40 Marks)\n=============================="
+    },
+    {
+        "Question ID": "dbms_056",
+        "Question": "Identify 10 different entities and at least 3 attributes per entity including any primary and foreign keys. Show this information in a tabular form.",
+        "Model Answer": "Entities may include: Customer (CustomerID, Name, Gender), Order (OrderID, Date, Quantity), Product, Supplier, etc. Each should list attributes and mark PK and FK where applicable.\n\n----------------------------------------\n\n==============================\nSECTION C \u2013 Case Study (40 Marks)\n=============================="
+    },
+    {
+        "Question ID": "dbms_057",
+        "Question": "Design a conceptual ERD to show the movement of raw materials and finished products.",
+        "Model Answer": "Create an ER diagram showing entities like Supplier, RawMaterial, Production, Product, Client, and relationships among them.\n\n----------------------------------------\n\n==============================\nSECTION C \u2013 Case Study (40 Marks)\n=============================="
+    },
+    {
+        "Question ID": "dbms_058",
+        "Question": "Is the Students table in 1NF? Justify.",
+        "Model Answer": "No, because 'CourseID' contains multiple values per row. 1NF requires atomic values.\n\n----------------------------------------\n\n==============================\nSECTION C \u2013 Case Study (40 Marks)\n=============================="
+    },
+    {
+        "Question ID": "dbms_059",
+        "Question": "Redesign the Students table such that all the information currently in the students table is normalized.",
+        "Model Answer": "Student_tbl:\nStudentID | StudentName\n\nCourseEnrollment_tbl:\nStudentID | CourseID | CourseHours\n\n----------------------------------------\n\n\nSECTION A \u2013 MCQ (10 Marks)\n======================"
+    },
+    {
+        "Question ID": "dbms_060",
+        "Question": "Which of the following normal forms is considered the most basic?",
+        "Model Answer": "A. First Normal Form (1NF)\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_061",
+        "Question": "In a relational database, a tuple is a:",
+        "Model Answer": "C. Row\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_062",
+        "Question": "Which of the following operations is not a part of SQL DML (Data Manipulation Language)?",
+        "Model Answer": "D. CREATE\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_063",
+        "Question": "What is the purpose of the foreign key in a relational database?",
+        "Model Answer": "B. To link two tables together\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_064",
+        "Question": "What does ACID stand for in the context of DBMS transactions?",
+        "Model Answer": "B. Atomicity, Consistency, Isolation, Durability\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_065",
+        "Question": "Which type of join returns all records when there is a match in either table?",
+        "Model Answer": "D. FULL OUTER JOIN\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_066",
+        "Question": "Which of the following is NOT a database model?",
+        "Model Answer": "D. Sequential\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_067",
+        "Question": "What is a primary key?",
+        "Model Answer": "A. A field that uniquely identifies a record in a table.\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_068",
+        "Question": "Which SQL query would correctly display the product names and prices of all products where the price is greater than 100?",
+        "Model Answer": "D. SELECT ProductName, Price FROM Products WHERE Price > 100;\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_069",
+        "Question": "Which SQL query would correctly count the number of customers from the city \"New York\"?",
+        "Model Answer": "B. SELECT COUNT(CustomerID) FROM Customers WHERE City = 'New York';\n\n----------------------------------------\n\nSECTION B \u2013 Short Answer (70 Marks)\n=============================="
+    },
+    {
+        "Question ID": "dbms_070",
+        "Question": "a) Which database property determines that the Student_Enrollment_1NF table is already in 1NF?  \nb) Normalise the table above to 2NF (Second Normal Form).",
+        "Model Answer": "a) Atomicity \u2013 each field contains only atomic (indivisible) values.\n\nb) 2NF Tables:\n\nStudent(StudentID, StudentName)  \nCourse(CourseID, CourseName, InstructorID)  \nInstructor(InstructorID, InstructorName, InstructorPhone)  \nEnrollment(StudentID, CourseID)\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_071",
+        "Question": "a) Differentiate between Database and DBMS.  \nb) List 3 Characteristics of Databases.",
+        "Model Answer": "a) A database is an organized collection of data; DBMS is software used to manage and manipulate databases.\n\nb) Characteristics:\n1. Data Integrity\n2. Minimal Data Redundancy\n3. Concurrent Access\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_072",
+        "Question": "a) Explain the importance of Data Definition Language (DDL).  \nb) Identity three commonly used DDL commands and explain each.",
+        "Model Answer": "a) DDL defines the structure of a database including tables, schemas, and constraints.\n\nb) Commands:\n- CREATE: to create new tables or databases.\n- ALTER: to modify existing database structures.\n- DROP: to delete tables or databases.\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_073",
+        "Question": "Design a database schema for a library system and draw an ER Diagram.",
+        "Model Answer": "Entities and Keys:\n- Book(BookID [PK], Title, Author, ISBN, PublicationYear, AvailableCopies)\n- Member(MemberID [PK], Name, Address, PhoneNumber, MembershipType)\n- Borrowing(BorrowingID [PK], BookID [FK], MemberID [FK], BorrowDate, DueDate, ReturnDate)\n\n[ER Diagram Placeholder]\n\nRelationships:\n- One Member borrows many Books.\n- One Book can be borrowed many times.\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_074",
+        "Question": "SQL Queries based on the schema:\nCustomers, Orders, Products, OrderDetails",
+        "Model Answer": "a) SELECT CustomerID, COUNT(OrderID) FROM Orders GROUP BY CustomerID;\n\nb) SELECT CustomerID, SUM(OrderTotal) AS TotalSpent FROM Orders GROUP BY CustomerID ORDER BY TotalSpent DESC LIMIT 5;\n\nc) SELECT ProductName FROM Products WHERE ProductID NOT IN (SELECT ProductID FROM OrderDetails);\n\nd) SELECT CategoryID, AVG(UnitPrice) FROM Products GROUP BY CategoryID;\n\ne) SELECT DISTINCT c.CustomerName FROM Customers c JOIN Orders o ON c.CustomerID = o.CustomerID WHERE YEAR(o.OrderDate) = 2023;\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_075",
+        "Question": "Explain how data is transformed into information. Compare databases vs traditional file-based systems.",
+        "Model Answer": "Raw data becomes information when it's processed into a meaningful form. Example: Sales data analyzed to determine best-selling products.\n\nDatabase systems provide better data integrity, efficiency, and scalability than file-based systems. E.g., banks rely on DBMS for real-time access and updates.\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_076",
+        "Question": "a) Explain isolation property with example.  \nb) Describe ANSI-SPARC 3-tier architecture.",
+        "Model Answer": "a) Isolation ensures concurrent transactions don\u2019t interfere. Example: Two users booking the last seat \u2013 DBMS ensures only one succeeds.\n\nb) 3 Levels:\n- External: user views.\n- Conceptual: logical structure.\n- Internal: physical storage.\n\n----------------------------------------\n\nSECTION C \u2013 Case Study (20 Marks)\n=============================="
+    },
+    {
+        "Question ID": "dbms_077",
+        "Question": "a) Design a database schema for an online book store with constraints.  \nb) Insert provided data into tables.  \nc) Determine optimal data population order.",
+        "Model Answer": "a) Tables and Constraints:\n- Books(ISBN [PK], Title, Author, Publisher, PublicationYear INT, Price DECIMAL, QuantityInStock INT CHECK >= 0 NOT NULL)\n- Customers(CustomerID [PK], FirstName, LastName, Address, City, State, Zip, Email NOT NULL)\n- Orders(OrderID [PK], OrderDate DATE, CustomerID [FK], ShippingAddress, ShippingCity, ShippingState, ShippingZip)\n- OrderDetails(OrderID [FK], ISBN [FK], Quantity INT CHECK >= 1, Price DECIMAL)\n\nb) Sample Inserts:\n\nINSERT INTO Books VALUES  \n('L978013590', 'Database Systems Concepts', 'Abraham Silberschatz', 'McGraw-Hill', 2011, 1200, 50),  \n('L978149200', 'Introduction to Algorithms', 'Cormen, Leiserson', 'MIT Press', 2009, 1500, 30);\n\nINSERT INTO Orders VALUES  \n('O001', '2023-11-15', 'C001', '123 Main St', 'New York', 'NY', '10001'),  \n('O002', '2023-11-18', 'C002', '456 Elm St', 'Los Angeles', 'CA', '90001');\n\nc) Insert Order:\n1. Books and Customers (no dependencies)\n2. Orders (depends on Customers)\n3. OrderDetails (depends on Orders and Books)\n\nReasoning: Respect foreign key constraints.\n\n----------------------------------------\n\n\nSECTION A \u2013 MCQ (10 Marks)\n======================"
+    },
+    {
+        "Question ID": "dbms_078",
+        "Question": "What is metadata in the context of a database management system?",
+        "Model Answer": "D. Data that describes the database, such as column names and user names\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_079",
+        "Question": "What is the purpose of the Physical Design stage in the Database Life Cycle?",
+        "Model Answer": "A. To translate logical schema to physical schema\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_080",
+        "Question": "What is the purpose of normalization in the Database Design stage?",
+        "Model Answer": "B. To address data redundancy issues\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_081",
+        "Question": "A table is said to be in First Normal Form (1NF) if:",
+        "Model Answer": "C. It has only atomic (indivisible) values in each column\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_082",
+        "Question": "What is the main purpose of a database management system (DBMS)?",
+        "Model Answer": "C. To store and manage data in a database\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_083",
+        "Question": "What does SQL stand for?",
+        "Model Answer": "A. Structured Query Language\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_084",
+        "Question": "Which of the following is a characteristic of a primary key?",
+        "Model Answer": "C. It uniquely identifies each record in a table\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_085",
+        "Question": "What is a foreign key?",
+        "Model Answer": "B. A key used to link two tables together\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_086",
+        "Question": "Which of the following is a valid SQL statement to delete a table?",
+        "Model Answer": "B. DROP TABLE tablename;\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_087",
+        "Question": "What is the purpose of the GROUP BY clause in SQL?",
+        "Model Answer": "A. To group rows that have the same values in specified columns\n\n========================================\nSECTION B \u2013 Short Answer (70 Marks)\n========================================"
+    },
+    {
+        "Question ID": "dbms_088",
+        "Question": "Write the SQL statement to insert the first customer record into the Customer table.",
+        "Model Answer": "INSERT INTO Customer (customerid, firstname, lastname, contact_number, city)\nVALUES (201, 'john', 'doe', '9876543210', 'new york');\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_089",
+        "Question": "Write the SQL statement to insert the second customer record into the Customer table.",
+        "Model Answer": "INSERT INTO Customer (customerid, firstname, lastname, contact_number, city)\nVALUES (305, 'emma', 'watson', '8765432109', 'los angeles');\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_090",
+        "Question": "Write the SQL statement to insert the third customer record into the Customer table.",
+        "Model Answer": "INSERT INTO Customer (customerid, firstname, lastname, contact_number, city)\nVALUES (410, 'liam', 'smith', '7654321098', 'chicago');\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_091",
+        "Question": "Create an ERD to model a Library Management System.",
+        "Model Answer": "Entities: Book, Branch, Member, Borrowing  \nRelationships:  \n- Book is stored in Branch (1:M)  \n- Member borrows Book (M:N through Borrowing)  \nAttributes: BookID (PK), Title, Author, Genre, Year, Status  \nBranchID (PK), Name, Address, Contact  \nMemberID (PK), Name, Contact, Type  \nBorrowingID (PK), BookID (FK), MemberID (FK), DateBorrowed, DueDate\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_092",
+        "Question": "Explain the Software Development Life Cycle (SDLC).",
+        "Model Answer": "Phases of SDLC:  \n1. Requirement Gathering \u2013 collect needs  \n2. Design \u2013 plan system architecture  \n3. Implementation \u2013 code development  \n4. Testing \u2013 ensure correctness  \n5. Deployment \u2013 release to users  \n6. Maintenance \u2013 fix issues after release\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_093",
+        "Question": "Compare Agile and Waterfall software development models.",
+        "Model Answer": "Agile: iterative, flexible, customer feedback; suitable for dynamic projects.  \nWaterfall: linear, structured, fixed phases; suitable for stable projects.\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_094",
+        "Question": "Define Primary Key (PK).",
+        "Model Answer": "A Primary Key uniquely identifies each record in a table.\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_095",
+        "Question": "Define Foreign Key (FK).",
+        "Model Answer": "A Foreign Key is a field that creates a relationship between two tables.\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_096",
+        "Question": "Define Composite Key (CK).",
+        "Model Answer": "A Composite Key is made up of two or more columns to uniquely identify a record.\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_097",
+        "Question": "Define Multi-Valued Attributes.",
+        "Model Answer": "Attributes that can hold multiple values for a single entity.\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_098",
+        "Question": "Define Partial Dependency.",
+        "Model Answer": "When a non-prime attribute is dependent on part of a composite primary key.\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_099",
+        "Question": "List and explain two differences between FMS and DBMS.",
+        "Model Answer": "1. FMS stores data in flat files; DBMS uses structured databases.  \n2. FMS lacks data integrity; DBMS enforces constraints and relationships.\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_100",
+        "Question": "List three properties of a Database.",
+        "Model Answer": "1. Data Integrity  \n2. Concurrency  \n3. Non-Redundancy\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_101",
+        "Question": "Define Relational Database (RDB).",
+        "Model Answer": "A Relational Database stores data in tables with rows and columns, using keys.\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_102",
+        "Question": "What is the purpose of an Entity Relationship Diagram (ERD)?",
+        "Model Answer": "ERD visually represents entities and their relationships in a database.\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_103",
+        "Question": "Draw an ERD symbol for Attribute.",
+        "Model Answer": "Answer: Oval shape\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_104",
+        "Question": "Draw an ERD symbol for Entity.",
+        "Model Answer": "Answer: Rectangle\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_105",
+        "Question": "Draw an ERD symbol for Relationship.",
+        "Model Answer": "Answer: Diamond shape\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_106",
+        "Question": "Draw cardinality for One-to-One.",
+        "Model Answer": "Answer: 1 \u2014 1\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_107",
+        "Question": "Draw cardinality for One-to-Many.",
+        "Model Answer": "Answer: 1 \u2014 \u221e\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_108",
+        "Question": "Draw cardinality for Many-to-Many.",
+        "Model Answer": "Answer: \u221e \u2014 \u221e\n\n========================================\nSECTION C \u2013 Case Study (20 Marks)\n========================================"
+    },
+    {
+        "Question ID": "dbms_109",
+        "Question": "Display the table StudentRecords.",
+        "Model Answer": "SELECT * FROM StudentRecords;\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_110",
+        "Question": "Retrieve the tuition fees and scholarship amounts for all students.",
+        "Model Answer": "SELECT TuitionFees, Scholarship FROM StudentRecords;\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_111",
+        "Question": "Display the student IDs of those whose tuition fees are Rs 50,000 or higher.",
+        "Model Answer": "SELECT StudentID FROM StudentRecords WHERE TuitionFees >= 50000;\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_112",
+        "Question": "List student ID, tuition fees, and scholarship for all Engineering students whose tuition fees are below Rs 70,000.",
+        "Model Answer": "SELECT StudentID, TuitionFees, Scholarship FROM StudentRecords WHERE Program = 'Engineering' AND TuitionFees < 70000;\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_113",
+        "Question": "Display all students who enrolled in a program that starts with the letter 'B'.",
+        "Model Answer": "SELECT * FROM StudentRecords WHERE Program LIKE 'B%';\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_114",
+        "Question": "Update program for student ID 404 to 'Engineering'.",
+        "Model Answer": "UPDATE StudentRecords SET Program = 'Engineering' WHERE StudentID = 404;\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_115",
+        "Question": "Retrieve the student ID, tuition fees, and scholarship for students whose tuition fees are between Rs 30,000 and Rs 60,000.",
+        "Model Answer": "SELECT StudentID, TuitionFees, Scholarship FROM StudentRecords WHERE TuitionFees BETWEEN 30000 AND 60000;\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_116",
+        "Question": "Retrieve the student ID, first name, last name, and city of students who live in either Springfield or Greenville.",
+        "Model Answer": "SELECT StudentID, FirstName, LastName, City FROM PersonalInfo WHERE City IN ('Springfield', 'Greenville');\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_117",
+        "Question": "Display records of table PersonalInfo, sorted in descending order by last name.",
+        "Model Answer": "SELECT * FROM PersonalInfo ORDER BY LastName DESC;\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_118",
+        "Question": "Retrieve the minimum tuition fee among all students.",
+        "Model Answer": "SELECT MIN(TuitionFees) FROM StudentRecords;\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_119",
+        "Question": "Retrieve the total number of students.",
+        "Model Answer": "SELECT COUNT(*) FROM StudentRecords;\n\nSECTION A \u2013 MCQ (15 Marks)\n======================"
+    },
+    {
+        "Question ID": "dbms_120",
+        "Question": "Which of the following is the SDLC phase that starts after the software is released into use?",
+        "Model Answer": "C. maintenance\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_121",
+        "Question": "The top-down database design approach starts at the",
+        "Model Answer": "B. development of data models that contains high-level abstractions\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_122",
+        "Question": "Which database design method transforms DBMS-independent conceptual model into a DBMS-dependent model?",
+        "Model Answer": "B. logical\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_123",
+        "Question": "Foreign key can be derived from the ____________ key of another table.",
+        "Model Answer": "B. primary\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_124",
+        "Question": "What is a relationship in a database?",
+        "Model Answer": "A. A connection between two or more tables\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_125",
+        "Question": "What is a data dictionary?",
+        "Model Answer": "B. A repository of metadata about the database\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_126",
+        "Question": "What is the purpose of normalization in the Database Design stage?",
+        "Model Answer": "B. To address data redundancy issues\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_127",
+        "Question": "Which of the following is a characteristic of a well-designed database?",
+        "Model Answer": "C. It enhances the organization's ability to expand its data management system\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_128",
+        "Question": "What is the main purpose of a database management system (DBMS)?",
+        "Model Answer": "C. To store and manage data in a database\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_129",
+        "Question": "Which of the following types of databases uses a two-dimensional table consisting of rows and columns?",
+        "Model Answer": "B. Relational Databases\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_130",
+        "Question": "What is the purpose of the Physical Design stage in the Database Life Cycle?",
+        "Model Answer": "A. To translate logical schema to physical schema\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_131",
+        "Question": "Which of the following stages involves executing SQL statements to create the database?",
+        "Model Answer": "D. Implementation\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_132",
+        "Question": "Which of the following types of relationships allows for one-to-many mapping in a relational database management system?",
+        "Model Answer": "C. One-to-many relationship\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_133",
+        "Question": "What is metadata in the context of a database management system?",
+        "Model Answer": "D. Data that describes the database, such as column names and user names\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_134",
+        "Question": "What is the purpose of the Monitoring, Modification, and Maintenance stage in the Database Life Cycle?",
+        "Model Answer": "D. To ensure that the database is functioning properly and is secure from unauthorized access\n\n----------------------------------------\n\n==============================\nSECTION B \u2013 Short Answer (45 Marks)\n=============================="
+    },
+    {
+        "Question ID": "dbms_135",
+        "Question": "Consider the following Student table:\n\nStudentID\tStudentName\tCourses\n001\tJohn\tCS101, IS200, MA301\n002\tAlice\tIS202, CS305, EC401\n003\tBob\tCS101, MA301, EC401\n\na) Identify the issues with the Student table in terms of 1NF. Justify your answer.\nb) Explain how 1NF can be achieved for the tables above and redesign the tables so that they adhere to 1NF principle.",
+        "Model Answer": "a) The table violates 1NF because 'Courses' contains multiple values in a single field, which is not atomic.\nb) To achieve 1NF, split multi-valued attributes into separate rows:\nStudent_Course Table:\nStudentID | Course\n001 | CS101\n001 | IS200\n001 | MA301\n...\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_136",
+        "Question": "MauSoftware Ltd is a software development company. You are requested to design a database to record information on projects and employees working on these projects...\nDraw the ERD Diagram for the above database.",
+        "Model Answer": "Entities: Employee (EmpID, Name, Role), Project (ProjectCode, Name, BillingAccNo), Customer (CustomerID, Name, Address, Contact), Company (BRN, Name)\nRelationships: WorksOn (Employee \u2194 Project), BelongsTo (Project \u2192 Customer)\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_137",
+        "Question": "Name and explain the three types of relationships in a relational database.\nWhat is a relational database management system? List 3 popular examples of RDBMS",
+        "Model Answer": "1) One-to-One: Each record in Table A corresponds to one in Table B\n2) One-to-Many: One record in Table A maps to multiple in Table B\n3) Many-to-Many: Records in A map to many in B and vice versa\nRDBMS: A software for managing relational databases. Examples: MySQL, PostgreSQL, Oracle\n\n----------------------------------------\n\n==============================\nSECTION C \u2013 Case Study (40 Marks)\n=============================="
+    },
+    {
+        "Question ID": "dbms_138",
+        "Question": "Please write the SQL Statements for the following queries based on the given database schema.\n(a) Create the tables for enrollment and student...",
+        "Model Answer": "CREATE TABLE Student (\n  StudentID INT PRIMARY KEY,\n  StudentName VARCHAR(100),\n  DateOfBirth DATE,\n  Gender VARCHAR(10),\n  Address VARCHAR(255)\n);\n\nCREATE TABLE Enrollment_tbl (\n  EnrollmentID INT PRIMARY KEY,\n  StudentID INT,\n  EnrollmentDate DATE,\n  CourseName VARCHAR(100),\n  Grade VARCHAR(5),\n  Fees INT NOT NULL,\n  FOREIGN KEY (StudentID) REFERENCES Student(StudentID)\n);\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_139",
+        "Question": "(b) Write the insert statements for the first 3 records of the student table.",
+        "Model Answer": "INSERT INTO Student VALUES (1, 'Alice Smith', '1970-05-01', 'Female', '123 Port Louis');\nINSERT INTO Student VALUES (2, 'Bob Johnson', '1982-11-12', 'Male', '456 RoseHill');\nINSERT INTO Student VALUES (3, 'Charlie Davis', '1995-07-23', 'Male', '789 Curepipe');\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_140",
+        "Question": "(c) Write a query to retrieve all records from the students table.",
+        "Model Answer": "SELECT * FROM Student;\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_141",
+        "Question": "(d) How would you select all enrollments that have a Fees greater than 150?",
+        "Model Answer": "SELECT * FROM Enrollment_tbl WHERE Fees > 150;\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_142",
+        "Question": "(e) Can you find the details of students who live in either '123 Port Louis' or '54 Elm Street, Vacoas'?",
+        "Model Answer": "SELECT * FROM Student WHERE Address IN ('123 Port Louis', '54 Elm Street, Vacoas');\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_143",
+        "Question": "(f) How do you list all female students born after '1980-01-01'?",
+        "Model Answer": "SELECT * FROM Student WHERE Gender = 'Female' AND DateOfBirth > '1980-01-01';\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_144",
+        "Question": "(h) Write a query to list all students in alphabetical order by name.",
+        "Model Answer": "SELECT * FROM Student ORDER BY StudentName ASC;\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_145",
+        "Question": "(i) How can you get the first 3 enrollments ordered by Enrollment Date?",
+        "Model Answer": "SELECT * FROM Enrollment_tbl ORDER BY EnrollmentDate ASC LIMIT 3;\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_146",
+        "Question": "(j) What is the maximum fees charged for any enrollment?",
+        "Model Answer": "SELECT MAX(Fees) FROM Enrollment_tbl;\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_147",
+        "Question": "(k) Can you calculate the total number of enrollments for each Course?",
+        "Model Answer": "SELECT CourseName, COUNT(*) AS TotalEnrollments FROM Enrollment_tbl GROUP BY CourseName;\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_148",
+        "Question": "(l) How would you find the number of enrollments each student has had?",
+        "Model Answer": "SELECT StudentID, COUNT(*) AS NumEnrollments FROM Enrollment_tbl GROUP BY StudentID;\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_149",
+        "Question": "(m) Write a query to list the courses that have more than 1 enrollment.",
+        "Model Answer": "SELECT CourseName FROM Enrollment_tbl GROUP BY CourseName HAVING COUNT(*) > 1;\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_150",
+        "Question": "(n) Can you display the names of students along with their enrollment details?",
+        "Model Answer": "SELECT s.StudentName, e.* FROM Student s JOIN Enrollment_tbl e ON s.StudentID = e.StudentID;\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_151",
+        "Question": "(p) Retrieve the records from student table that has student name start with the letter \"D\" and end with the letter \"s\".",
+        "Model Answer": "SELECT * FROM Student WHERE StudentName LIKE 'D%s';\n\n----------------------------------------"
+    },
+    {
+        "Question ID": "dbms_152",
+        "Question": "(q) Write the statement to change StudentName \"Charlie Davis\" to \"Bobby Kane\"",
+        "Model Answer": "UPDATE Student SET StudentName = 'Bobby Kane' WHERE StudentName = 'Charlie Davis';\n\n----------------------------------------"
+    }
+]

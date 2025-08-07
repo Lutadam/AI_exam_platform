@@ -1,0 +1,583 @@
+[
+  {
+    "Question ID": "cprog_001",
+    "Question": "What is a correct syntax to output \"Hello World\" in C?\nA. printf(\"Hello World\");\nB. System.out.printline(\"Hello World\");\nC. Console.WriteLine(\"Hello World\");\nD. cout<<\"Hello World\";",
+    "Model Answer": "A. printf(\"Hello World\");"
+  },
+  {
+    "Question ID": "cprog_002",
+    "Question": "How do you insert COMMENTS in C code?\nA. &&This is a comment\nB. *This is a comment\nC. #This is a comment\nD. //This is a comment",
+    "Model Answer": "D. //This is a comment"
+  },
+  {
+    "Question ID": "cprog_003",
+    "Question": "How can you create a variable with the numeric value 10?\nA. int num = 10;\nB. num = 10;\nC. val num = 10;\nD. int num ==10;",
+    "Model Answer": "A. int num = 10;"
+  },
+  {
+    "Question ID": "cprog_004",
+    "Question": "Which operator is used to multiply two values together?\nA. x\nB. &&\nC. *\nD. AND",
+    "Model Answer": "C. *"
+  },
+  {
+    "Question ID": "cprog_005",
+    "Question": "Which format specifier is often used to print integers?\nA. %c\nB. %d\nC. %f\nD. %s",
+    "Model Answer": "B. %d"
+  },
+  {
+    "Question ID": "cprog_006",
+    "Question": "Which keyword can be used to make a variable unchangeable/read-only?\nA. const\nB. constant\nC. final\nD. readonly",
+    "Model Answer": "A. const"
+  },
+  {
+    "Question ID": "cprog_007",
+    "Question": "What do we call the following? int myNumbers[] = {25, 50, 75, 100};\nA. Array\nB. Class\nC. Function\nD. Pointer",
+    "Model Answer": "A. Array"
+  },
+  {
+    "Question ID": "cprog_008",
+    "Question": "How do you call a function in C?\nA. myFunction();\nB. myFunction[];\nC. myFunction;\nD. myFunction{};",
+    "Model Answer": "A. myFunction();"
+  },
+  {
+    "Question ID": "cprog_009",
+    "Question": "How to write an if statement in C?\nA. if x > y\nB. if (x > y)\nC. if x > y then\nD. if x > if y",
+    "Model Answer": "B. if (x > y)"
+  },
+  {
+    "Question ID": "cprog_010",
+    "Question": "Which statement is used to stop a loop?\nA. break\nB. exit\nC. stop\nD. quit",
+    "Model Answer": "A. break"
+  },
+  {
+    "Question ID": "cprog_011",
+    "Question": "Which of the following is the correct way to pass an array to a function using a pointer?\nA. void myFunction(int *arr, int size);\nB. void myFunction(int arr[], int size);\nC. Both a) and b) are correct.\nD. None of the above.",
+    "Model Answer": "C. Both a) and b) are correct."
+  },
+  {
+    "Question ID": "cprog_012",
+    "Question": "What is the purpose of the sizeof() operator when used with a pointer variable?\nA. It returns the size of the pointer variable itself.\nB. It returns the size of the data type the pointer points to.\nC. It returns the size of the memory block the pointer points to.\nD. It is not valid to use sizeof() with a pointer variable.",
+    "Model Answer": "A. It returns the size of the pointer variable itself."
+  },
+  {
+    "Question ID": "cprog_013",
+    "Question": "Which of the following file operations is used to create a new file or open an existing file for writing?\nA. fopen(\"file.txt\", \"r\");\nB. fopen(\"file.txt\", \"w\");\nC. fopen(\"file.txt\", \"a\");\nD. fopen(\"file.txt\", \"rb\");",
+    "Model Answer": "B. fopen(\"file.txt\", \"w\");"
+  },
+  {
+    "Question ID": "cprog_014",
+    "Question": "Which of the following file operations is used to read data from a file?\nA. fprintf(file, \"Hello, world!\");\nB. fscanf(file, \"%s\", buffer);\nC. fwrite(buffer, sizeof(buffer), 1, file);\nD. fread(buffer, sizeof(buffer), 1, file);",
+    "Model Answer": "D. fread(buffer, sizeof(buffer), 1, file);"
+  },
+  {
+    "Question ID": "cprog_015",
+    "Question": "What is the purpose of the fflush() function in file operations?\nA. It clears the contents of a file.\nB. It closes the file.\nC. It forces the writing of all buffered data for the stream.\nD. It moves the file position indicator to the beginning of the file.",
+    "Model Answer": "C. It forces the writing of all buffered data for the stream."
+  },
+  {
+    "Question ID": "cprog_016",
+    "Question": "Which of the following is the correct way to close a file in C?\nA. file.close();\nB. fflush(file);\nC. fclose(file);\nD. delete file;",
+    "Model Answer": "C. fclose(file);"
+  },
+  {
+    "Question ID": "cprog_017",
+    "Question": "What is the difference between sequential access and random access files in C?\nA. Sequential access files can only be read, while random access files can only be written.\nB. Sequential access files can only be written, while random access files can only be read.\nC. Sequential access files can be read and written in a linear fashion, while random access files can be accessed at any position.\nD. There is no difference between sequential access and random access files in C.",
+    "Model Answer": "C. Sequential access files can be read and written in a linear fashion, while random access files can be accessed at any position."
+  },
+  {
+    "Question ID": "cprog_018",
+    "Question": "What is the output of the following code?\nint x = 10;\nint *ptr = &x;\nprintf(\"%d\", *ptr);\nA. 10\nB. &x\nC. Compile error\nD. Undefined behavior",
+    "Model Answer": "A. 10"
+  },
+  {
+    "Question ID": "cprog_019",
+    "Question": "What is the purpose of the fgets() function in C?\nchar buffer[100];\nFILE *file = fopen(\"file.txt\", \"r\");\nfgets(buffer, 100, file);\nA. It reads a line of text from the file and stores it in the buffer.\nB. It writes a string to the file.\nC. It moves the file position indicator to the beginning of the file.\nD. It closes the file.",
+    "Model Answer": "A. It reads a line of text from the file and stores it in the buffer."
+  },
+  {
+    "Question ID": "cprog_020",
+    "Question": "Consider the following code snippet:\nFILE *file = fopen(\"data.txt\", \"r\");\nif (file == NULL) {\nprintf(\"Error opening file.\\n\");\nreturn 1;\n}\nchar line[100];\nwhile (fgets(line, sizeof(line), file) != NULL) {\nprintf(\"%s\", line);\n}\nfclose(file);\nAssuming the file \"data.txt\" contains the following:\nHello, world!\nThis is a sample text file.\nWhat will be the output of this code?\nA. Hello, world! This is a sample text file.\nB. Hello, world! This is a sample text file.\nC. Compile error\nD. Runtime error",
+    "Model Answer": "A. Hello, world! This is a sample text file."
+  },
+  {
+    "Question ID": "cprog_021",
+    "Question": "Write a C program to check whether a given number is even or odd.\nTest Data : 15\nExpected Output : 15 is an odd integer",
+    "Model Answer": "#include <stdio.h>\n\nint main() {\n    int num = 15;\n    if(num % 2 == 0) {\n        printf(\"%d is an even integer\\n\", num);\n    } else {\n        printf(\"%d is an odd integer\\n\", num);\n    }\n    return 0;\n}"
+  },
+  {
+    "Question ID": "cprog_022",
+    "Question": "Compare selection statements if-else and switch case in C with examples.",
+    "Model Answer": "If-else is used for conditional branching with boolean expressions.\nExample:\nif (x > 0) {\n  printf(\"Positive\");\n} else {\n  printf(\"Non-positive\");\n}\n\nSwitch-case is used for multiple discrete values of a variable.\nExample:\nswitch(day) {\n  case 1: printf(\"Monday\"); break;\n  case 2: printf(\"Tuesday\"); break;\n  default: printf(\"Other day\");\n}"
+  },
+  {
+    "Question ID": "cprog_023",
+    "Question": "Explain the following looping statements in C with suitable examples:\na) while loop\nb) do-while loop\nc) for loop\nDiscuss the similarities and differences between these loops. Also provide one practical application where each type of loop can be used.",
+    "Model Answer": "a) while loop:\nExecutes code repeatedly as long as the condition is true.\nExample:\nint i = 0;\nwhile(i < 5) {\n  printf(\"%d\\n\", i);\n  i++;\n}\n\nb) do-while loop:\nExecutes code once before checking the condition, then repeats if condition true.\nExample:\nint i = 0;\ndo {\n  printf(\"%d\\n\", i);\n  i++;\n} while(i < 5);\n\nc) for loop:\nRuns a block with initialization, condition, and increment.\nExample:\nfor(int i=0; i<5; i++) {\n  printf(\"%d\\n\", i);\n}\n\nSimilarities: All are loops for repeating code.\nDifferences: do-while always runs once; while checks before first run.\n\nApplications:\nwhile: reading data until EOF.\ndo-while: menu-driven program that shows menu once.\nfor: iterating known number of times."
+  },
+  {
+    "Question ID": "cprog_024",
+    "Question": "Write a C program that calculates the area of a rectangle.\na. i. Prompt the user to enter the length and width of the rectangle.\nii. Calculate the area using the formula: area = length * width.\niii. Display the calculated area.\nb. Write a C program that uses a for loop to print the first 15 multiples of 7.",
+    "Model Answer": "a.\n#include <stdio.h>\n\nint main() {\n    float length, width, area;\n    printf(\"Enter length: \");\n    scanf(\"%f\", &length);\n    printf(\"Enter width: \");\n    scanf(\"%f\", &width);\n    area = length * width;\n    printf(\"Area of rectangle: %.2f\\n\", area);\n    return 0;\n}\n\nb.\n#include <stdio.h>\n\nint main() {\n    for(int i=1; i<=15; i++) {\n        printf(\"%d\\n\", 7 * i);\n    }\n    return 0;\n}"
+  },
+  {
+    "Question ID": "cprog_025",
+    "Question": "For questions (a) – (b), draw a correct flowchart for each of them\n(a) Algorithm 1\nStep 1: Start\nStep 2: Declare one string variable name as Full_Name\nStep 3: Take one input and store it in Full_Name\nStep 4: Display the phrase Good luck and Full_Name.\nStep 5: End.\n(b) Algorithm 2\nStep 1: Start\nStep 2: Declare one float variable name as X and assign 15.5.\nStep 3: Take one float value input (a) from the user\nStep 4: If a is greater than X then go to Step 5 otherwise go to Step 6\nStep 5: Print a is greater than X\nStep 6: Stop",
+    "Model Answer": "a) Flowchart Algorithm 1:\n- Start\n- Input Full_Name\n- Print \"Good luck \" + Full_Name\n- End\n\nb) Flowchart Algorithm 2:\n- Start\n- X = 15.5\n- Input a\n- If a > X then\n   - Print \"a is greater than X\"\n- End"
+  },
+  {
+    "Question ID": "cprog_026",
+    "Question": "Write a fully functional C program to display the sentence “I love programming and I love Polytechnics Mauritius” using a while loop. The loop starts at 1 and the update statement increases by 1 and does not exceed 100 times.",
+    "Model Answer": "#include <stdio.h>\n\nint main() {\n    int i = 1;\n    while(i <= 100) {\n        printf(\"I love programming and I love Polytechnics Mauritius\\n\");\n        i++;\n    }\n    return 0;\n}"
+  },
+  {
+    "Question ID": "cprog_027",
+    "Question": "Write a C program that reads 5 numbers, counts the number of positive numbers, and prints out the average of all positive values.\nTest Data:\nInput the first number: 15\nInput the second number: 18\nInput the third number: 20\nInput the fourth number: -15\nInput the fifth number: 7\nExpected Output:\nNumber of positive numbers: 4\nAverage value of the said positive numbers: 15.00",
+    "Model Answer": "#include <stdio.h>\n\nint main() {\n    int numbers[5], count = 0;\n    float sum = 0.0, avg;\n\n    for(int i=0; i<5; i++) {\n        printf(\"Input number %d: \", i+1);\n        scanf(\"%d\", &numbers[i]);\n        if(numbers[i] > 0) {\n            sum += numbers[i];\n            count++;\n        }\n    }\n\n    if(count > 0) {\n        avg = sum / count;\n        printf(\"Number of positive numbers: %d\\n\", count);\n        printf(\"Average value of the said positive numbers: %.2f\\n\", avg);\n    } else {\n        printf(\"No positive numbers entered.\\n\");\n    }\n\n    return 0;\n}"
+  },
+  {
+    "Question ID": "cprog_028",
+    "Question": "What is the correct way to declare a pointer in C?\nA. int *ptr;\nB. int ptr;\nC. int &ptr;\nD. int ptr*;",
+    "Model Answer": "A. int *ptr;"
+  },
+  {
+    "Question ID": "cprog_029",
+    "Question": "Which of the following is not a valid arithmetic operator in C?\nA. +\nB. -\nC. *\nD. @",
+    "Model Answer": "D. @"
+  },
+  {
+    "Question ID": "cprog_030",
+    "Question": "What is the output of the following C code?\nint main() {\nint i;\nfor (i = 0; i < 5; i++) {\nprintf(\"%d \", i);\n}\nreturn 0;\n}\nA. 0 1 2 3 4\nB. 1 2 3 4 5\nC. 0 1 2 3 4 5\nD. Compile error",
+    "Model Answer": "A. 0 1 2 3 4"
+  },
+  {
+    "Question ID": "cprog_031",
+    "Question": "What is the output of the following C code?\nint add(int a, int b) {\nreturn a + b;\n}\nint main() {\nint x = 5, y = 10;\nprintf(\"%d\", add(x, y));\nreturn 0;\n}\nA. 5\nB. 10\nC. 15\nD. Compile error",
+    "Model Answer": "C. 15"
+  },
+  {
+    "Question ID": "cprog_032",
+    "Question": "What is the correct way to check if a value is not equal to 10 in an if statement?\nA. if (x != 10)\nB. if (x ! 10)\nC. if (x <> 10)\nD. if (x not 10)",
+    "Model Answer": "A. if (x != 10)"
+  },
+  {
+    "Question ID": "cprog_033",
+    "Question": "What is a correct syntax to output \"TEST\" in C?\nA. printf(\"TEST\");\nB. System.out.printline(\"TEST\");\nC. Console.WriteLine(\"TEST\");\nD. cout<<\"TEST\";",
+    "Model Answer": "A. printf(\"TEST\");"
+  },
+  {
+    "Question ID": "cprog_034",
+    "Question": "Which function is used to write in a file in C?\nA. fopen()\nB. fclose()\nC. fdelete()\nD. fprintf()",
+    "Model Answer": "D. fprintf()"
+  },
+  {
+    "Question ID": "cprog_035",
+    "Question": "How can you create a variable with the numeric value 55?\nA. int num = 55;\nB. num = 55;\nC. val num = 55;\nD. int num ==55;",
+    "Model Answer": "A. int num = 55;"
+  },
+  {
+    "Question ID": "cprog_036",
+    "Question": "What is the purpose of the fseek() function in file operations?\nA. It reads data from a file.\nB. It writes data to a file.\nC. It changes the current position indicator of the file.\nD. It closes the file.",
+    "Model Answer": "C. It changes the current position indicator of the file."
+  },
+  {
+    "Question ID": "cprog_037",
+    "Question": "Which keyword can be used to make a variable unchangeable/read-only?\nA. const\nB. constant\nC. final\nD. readonly",
+    "Model Answer": "A. const"
+  },
+  {
+    "Question ID": "cprog_038",
+    "Question": "Write a C program that allows the user to input the radius of a circle, and it calculates and displays the area. The program should only accept non-zero positive values for the radius and display an error message if the user tries to input a zero or negative value.",
+    "Model Answer": "#include <stdio.h>\n#define PI 3.14159\n\nint main() {\n    float radius, area;\n    printf(\"Enter radius of the circle: \");\n    scanf(\"%f\", &radius);\n\n    if (radius <= 0) {\n        printf(\"Error: Radius must be positive and non-zero.\\n\");\n        return 1;\n    }\n\n    area = PI * radius * radius;\n    printf(\"Area of the circle: %.2f\\n\", area);\n\n    return 0;\n}"
+  },
+  {
+    "Question ID": "cprog_039",
+    "Question": "Write a C program that allows the input of two numbers and tells the user which of the two numbers is larger. Note: Assume that the two numbers entered are not equal.",
+    "Model Answer": "#include <stdio.h>\n\nint main() {\n    int num1, num2;\n    printf(\"Enter first number: \");\n    scanf(\"%d\", &num1);\n    printf(\"Enter second number: \");\n    scanf(\"%d\", &num2);\n\n    if (num1 > num2) {\n        printf(\"%d is larger.\\n\", num1);\n    } else {\n        printf(\"%d is larger.\\n\", num2);\n    }\n\n    return 0;\n}"
+  },
+  {
+    "Question ID": "cprog_040",
+    "Question": "Write a C program using for loop to display the below:\n*****\nIf the user declares a variable X=2, it displays:\n*****\n*****\nIf the user declares a variable X=3, it displays:\n*****\n*****\n*****",
+    "Model Answer": "#include <stdio.h>\n\nint main() {\n    int X = 3; // Change this to 2 or 3\n    for (int i = 0; i < X; i++) {\n        printf(\"*****\\n\");\n    }\n    return 0;\n}"
+  },
+  {
+    "Question ID": "cprog_041",
+    "Question": "Given a 1D array of integers with a hardcoded size of n = 7 and the following hardcoded elements: [3, 15, 9, 22, 7, 11, 5], write a C program that calculates the sum value of the array.",
+    "Model Answer": "#include <stdio.h>\n\nint main() {\n    int arr[7] = {3, 15, 9, 22, 7, 11, 5};\n    int sum = 0;\n    for (int i = 0; i < 7; i++) {\n        sum += arr[i];\n    }\n    printf(\"Sum of array elements: %d\\n\", sum);\n    return 0;\n}"
+  },
+  {
+    "Question ID": "cprog_042",
+    "Question": "Explain the following terms and provide examples of how each are used in a C Program.\na) Functions\nb) Parameters\nc) Return type",
+    "Model Answer": "a) Functions: Blocks of code performing specific tasks.\nExample:\nint add(int a, int b) { return a + b; }\n\nb) Parameters: Variables passed into functions to provide input.\nExample:\nint add(int a, int b) {...} where 'a' and 'b' are parameters.\n\nc) Return type: The data type of the value a function returns.\nExample:\nint add(...) returns an int."
+  },
+  {
+    "Question ID": "cprog_043",
+    "Question": "Write a C program to check whether a given number is even or odd.\nTest Data: 15\nExpected Output: 15 is an odd integer",
+    "Model Answer": "#include <stdio.h>\n\nint main() {\n    int num = 15;\n    if (num % 2 == 0) {\n        printf(\"%d is an even integer\\n\", num);\n    } else {\n        printf(\"%d is an odd integer\\n\", num);\n    }\n    return 0;\n}"
+  },
+  {
+    "Question ID": "cprog_044",
+    "Question": "Consider the following C program:\n\n#include <stdio.h>\n\nint main() {\n    int num, factorial = 1;\n    printf(\"Enter a positive integer: \");\n    scanf(\"%d\", &num);\n    if (num < 0) {\n        printf(\"Error: Factorial is not defined for negative numbers.\\n\");\n    } else {\n        for (int i = 1; i <= num; ++i) {\n            factorial *= i;\n        }\n        printf(\"Factorial of %d is %d\\n\", num, factorial);\n    }\n    return 0;\n}\n\ni. Identify the purpose of this program.\nii. Explain the role of each variable used in the program.\niii. Determine the output of the program for the following inputs:\n1. Input: 5\n2. Input: -3",
+    "Model Answer": "i. Purpose: To calculate and print the factorial of a given positive integer. It also handles invalid negative input by displaying an error.\n\nii. Variables:\n- num: stores user input integer.\n- factorial: accumulator for factorial calculation, initialized to 1.\n- i: loop counter in for loop.\n\niii. Outputs:\n1. Input 5: \"Factorial of 5 is 120\"\n2. Input -3: \"Error: Factorial is not defined for negative numbers.\""
+  },
+  {
+    "Question ID": "cprog_045",
+    "Question": "Write a C program to write the below text in a text file:\nThis is an exam\nI am writing in a text file\nThis is the end",
+    "Model Answer": "#include <stdio.h>\n\nint main() {\n    FILE *file = fopen(\"output.txt\", \"w\");\n    if (file == NULL) {\n        printf(\"Error opening file.\\n\");\n        return 1;\n    }\n    fprintf(file, \"This is an exam\\n\");\n    fprintf(file, \"I am writing in a text file\\n\");\n    fprintf(file, \"This is the end\\n\");\n    fclose(file);\n    printf(\"Text successfully written to output.txt\\n\");\n    return 0;\n}"
+  },
+  {
+    "Question ID": "cprog_046",
+    "Question": "Which of the following is used to represent input & output in flowchart?\nA. \u25A0\nB. \u25B2\nC. \u25CF\nD. \u25C7",
+    "Model Answer": "A. (Parallelogram shape is used for Input/Output in flowcharts)"
+  },
+  {
+    "Question ID": "cprog_047",
+    "Question": "Identify the function that is used to display on screen in C program?\nA. printf()\nB. scanf()\nC. puts()\nD. putchar()",
+    "Model Answer": "A. printf()"
+  },
+  {
+    "Question ID": "cprog_048",
+    "Question": "What statement is used in C to finish a statement?\nA. ,\nB. .\nC. ;\nD. /",
+    "Model Answer": "C. ;"
+  },
+  {
+    "Question ID": "cprog_049",
+    "Question": "What is the syntax used to initialise a variable in C?\nA. int a = 2;\nB. int a == 2;\nC. int a / 2;\nD. int a , 2;",
+    "Model Answer": "A. int a = 2;"
+  },
+  {
+    "Question ID": "cprog_050",
+    "Question": "What is required in each C program?\nA. The program must have at least one function.\nB. The program does not require any function.\nC. Input data\nD. Output data",
+    "Model Answer": "A. The program must have at least one function."
+  },
+  {
+    "Question ID": "cprog_051",
+    "Question": "scanf() is a predefined function in______header file.\nA. stdlib.h\nB. ctype.h\nC. stdio.h\nD. stdarg.h",
+    "Model Answer": "C. stdio.h"
+  },
+  {
+    "Question ID": "cprog_052",
+    "Question": "Which of the following is not a valid C variable name?\nA. int number;\nB. float rate;\nC. int variable_count;\nD. int $main;",
+    "Model Answer": "D. int $main;"
+  },
+  {
+    "Question ID": "cprog_053",
+    "Question": "Which one of the following is correct way of commenting a single line?\nA. /*printf(\"Hello C..\"); printf(\"How are you.\");\nB. //printf(\"Hello C..\"); printf(\"How are you.\");\nC. /*printf(\"Hello C..\"); printf(\"How are you.\");*/\nD. /printf(\"Hello C..\");/ printf(\"How are you.\");",
+    "Model Answer": "B. //printf(\"Hello C..\"); printf(\"How are you.\");"
+  },
+  {
+    "Question ID": "cprog_054",
+    "Question": "An Identifier may contain.?\nA. Letters a-z, A-Z in Basic character set.\nB. Underscore _ symbol\nC. Numbers 0 to 9\nD. All the above",
+    "Model Answer": "D. All the above"
+  },
+  {
+    "Question ID": "cprog_055",
+    "Question": "The operator % in C Language is called\nA. Percentage Operator\nB. Quotient Operator\nC. Modulus\nD. Division",
+    "Model Answer": "C. Modulus"
+  },
+  {
+    "Question ID": "cprog_056",
+    "Question": "An Ampersand before the name of a variable denotes\nA. Actual Value\nB. Variable Name\nC. Address\nD. Data Type",
+    "Model Answer": "C. Address"
+  },
+  {
+    "Question ID": "cprog_057",
+    "Question": "Which one of the following is a loop construct that will always be executed once?\nA. for\nB. while\nC. switch\nD. do while",
+    "Model Answer": "D. do while"
+  },
+  {
+    "Question ID": "cprog_058",
+    "Question": "Which program outputs \"Hi Jack..\"?\nA. main() { } scanf(\"Hi Jack..\");\nB. main() { } printf(\"Hi Jack..\");\nC. main() { } print(\"Hi Jack..\");\nD. main() { } scan(\"Hi Jack..\");",
+    "Model Answer": "B. main() { } printf(\"Hi Jack..\");"
+  },
+  {
+    "Question ID": "cprog_059",
+    "Question": "What is the output of a\nint a = 10 + 4.867;",
+    "Model Answer": "C. a = 14 (Because 4.867 is truncated when added to int)"
+  },
+  {
+    "Question ID": "cprog_060",
+    "Question": "Which is valid C expression?\nA. int my_num = 5,000,000;\nB. int my_num = 5000000;\nC. int my num = 5000;\nD. int $my_num = 50000;",
+    "Model Answer": "B. int my_num = 5000000;"
+  },
+  {
+    "Question ID": "cprog_061",
+    "Question": "What is the output of the program?\nint main() {\nint a = 25%10;\nprintf(\"%d\", a);\nreturn 0;\n}",
+    "Model Answer": "B. 5"
+  },
+  {
+    "Question ID": "cprog_062",
+    "Question": "Which syntax is allowed in C to increment a value by 1?\nA. a + 1\nB. a++\nC. ++a\nD. All of the above",
+    "Model Answer": "D. All of the above"
+  },
+  {
+    "Question ID": "cprog_063",
+    "Question": "What are the elements present in the array of the following C code?\nint array[5] = {5};",
+    "Model Answer": "B. 5, 0, 0, 0, 0"
+  },
+  {
+    "Question ID": "cprog_064",
+    "Question": "What is the output of the C statement?\nint main() { int a=0; a = 5<2 ? 4 : 3; printf(\"%d\",a); }",
+    "Model Answer": "B. 3"
+  },
+  {
+    "Question ID": "cprog_065",
+    "Question": "The C source file is processed by the ___.\nA. Interpreter\nB. Compiler\nC. Both Interpreter and Compiler\nD. Assembler",
+    "Model Answer": "B. Compiler"
+  },
+  {
+    "Question ID": "cprog_066",
+    "Question": "a) List and explain any three basic data types associated with C.",
+    "Model Answer": "int: stores integers.\nfloat: stores floating point numbers.\nchar: stores single characters."
+  },
+  {
+    "Question ID": "cprog_067",
+    "Question": "b) Explain briefly the following terms:\na. Data type\nb. Syntax\nc. Algorithm\nd. Array",
+    "Model Answer": "a. Data type: Specifies the type of data a variable can hold.\nb. Syntax: The set of rules defining how code must be written.\nc. Algorithm: A step-by-step procedure to solve a problem.\nd. Array: A collection of elements of the same type stored in contiguous memory."
+  },
+  {
+    "Question ID": "cprog_068",
+    "Question": "c) Assume that a,b, and c are int variables, and a = 8, b= 15 and c = 5. Determine whether the following expressions evaluate TRUE or FALSE. Show your process.",
+    "Model Answer": "[User to provide expressions and detailed evaluation]"
+  },
+  {
+    "Question ID": "cprog_069",
+    "Question": "Write a C program to output \"Old enough to vote!\" if myAge is greater than or equal to 18. Otherwise output \"Not old enough to vote.\".",
+    "Model Answer": "#include <stdio.h>\n\nint main() {\n    int myAge;\n    printf(\"Enter age: \");\n    scanf(\"%d\", &myAge);\n    if (myAge >= 18) {\n        printf(\"Old enough to vote!\\n\");\n    } else {\n        printf(\"Not old enough to vote.\\n\");\n    }\n    return 0;\n}"
+  },
+  {
+    "Question ID": "cprog_070",
+    "Question": "Your task is to determine the perimeter of a regular polygon from a particular user. In a regular polygon, all sides are equal and the following equation applies. Perimeter of a Regular Polygon = Number of sides * Length of each side. Imagine that, 5 users input 5 different types of data concerning the number of sides and length of each side of a regular polygon and this is summarized in the table below. Write a C program to display the output User Number in one column and Calculated Perimeter in another column.",
+    "Model Answer": "#include <stdio.h>\n\nint main() {\n    int sides[5] = {5, 6, 7, 8, 9};\n    float length[5] = {2.5, 4.0, 5.5, 6.0, 7.5};\n    printf(\"User Number\\tPerimeter\\n\");\n    for (int i = 0; i < 5; i++) {\n        float perimeter = sides[i] * length[i];\n        printf(\"User%d\\t\t%.2f\\n\", i + 1, perimeter);\n    }\n    return 0;\n}"
+  },
+{
+    "Question ID": "cprog_071",
+    "Question": "Write a program that allows the user to input the radius of a circle, and it calculates and displays the area. The program should only accept non-zero positive values for the radius and display an error message if the user tries to input a zero or negative value.",
+    "Model Answer": "#include <stdio.h>\n#include <math.h>\n\nint main() {\n    float radius, area;\n    printf(\"Enter radius of circle: \");\n    scanf(\"%f\", &radius);\n    if (radius <= 0) {\n        printf(\"Error: Radius must be positive and non-zero.\\n\");\n    } else {\n        area = M_PI * radius * radius;\n        printf(\"Area of circle: %.2f\\n\", area);\n    }\n    return 0;\n}"
+  },
+  {
+    "Question ID": "cprog_072",
+    "Question": "Write a program that asks the user his/her year of birth and calculates his/her age. If he/she is below 18 years old, the program must display “You are a child aged <age>!”. Otherwise, it must display “You are an adult aged <age> years old!”. (Assume that the age is calculated based on the year only)",
+    "Model Answer": "#include <stdio.h>\n\nint main() {\n    int birthYear, age, currentYear = 2014; // Assuming current year is 2014\n    printf(\"Input your year of Birth: \");\n    scanf(\"%d\", &birthYear);\n    age = currentYear - birthYear;\n    if (age < 18) {\n        printf(\"You are a child aged %d!\\n\", age);\n    } else {\n        printf(\"You are an adult aged %d years old!\\n\", age);\n    }\n    return 0;\n}"
+  },
+  {
+    "Question ID": "cprog_073",
+    "Question": "A factory pays its workers at the rate of Rs 100 per hour if the number of hours worked (per week) does not exceed 40. Otherwise, the hourly rate is Rs 150 for any hour worked above 40 in a given week. Write a program that allows the input of number of hours worked in a week and calculates and displays the wages for that week.",
+    "Model Answer": "#include <stdio.h>\n\nint main() {\n    int hours;\n    int wages;\n    printf(\"Input no. of hours worked: \");\n    scanf(\"%d\", &hours);\n    if (hours <= 40) {\n        wages = hours * 100;\n    } else {\n        wages = 40 * 100 + (hours - 40) * 150;\n    }\n    printf(\"Total wages for the week: Rs %d\\n\", wages);\n    return 0;\n}"
+  },
+  {
+    "Question ID": "cprog_074",
+    "Question": "A baby-sitter charges Rs 250 an hour until 21:00 hrs. when the rate drops to Rs 175 an hour (the children are in bed). Write a program that accepts a starting time and ending time in hours and calculates the total baby-sitting bill. You can assume that the baby-sitter leaves at latest by 23:00 hrs. (Note: Consider full hours only).",
+    "Model Answer": "#include <stdio.h>\n\nint main() {\n    int start, end, totalBill = 0;\n    printf(\"Please input the time of entry: \");\n    scanf(\"%d\", &start);\n    printf(\"Please input the time of leaving: \");\n    scanf(\"%d\", &end);\n    if (start < 0 || start > 23 || end < 0 || end > 23 || end < start) {\n        printf(\"Invalid time input.\\n\");\n        return 1;\n    }\n    for (int i = start; i < end; i++) {\n        if (i < 21) {\n            totalBill += 250;\n        } else {\n            totalBill += 175;\n        }\n    }\n    printf(\"Bill: Rs %d\\n\", totalBill);\n    return 0;\n}"
+  },
+  {
+    "Question ID": "cprog_075",
+    "Question": "Write a program that allows the input of two numbers and tells the user which of the two numbers is larger. Note: Assume that the two numbers entered are not equal.",
+    "Model Answer": "#include <stdio.h>\n\nint main() {\n    int num1, num2;\n    printf(\"Enter two different numbers: \");\n    scanf(\"%d %d\", &num1, &num2);\n    if (num1 > num2) {\n        printf(\"%d is larger.\\n\", num1);\n    } else {\n        printf(\"%d is larger.\\n\", num2);\n    }\n    return 0;\n}"
+  },
+  {
+    "Question ID": "cprog_076",
+    "Question": "Write a program that allows the coefficients a,b and c of a quadratic equation of the form ax^2 + bx + c = 0 and it displays the roots of the equation, whether the roots are real or complex.",
+    "Model Answer": "#include <stdio.h>\n#include <math.h>\n\nint main() {\n    float a, b, c, discriminant, root1, root2, realPart, imagPart;\n    printf(\"Enter coefficients a, b and c: \");\n    scanf(\"%f %f %f\", &a, &b, &c);\n    discriminant = b*b - 4*a*c;\n\n    if (discriminant > 0) {\n        root1 = (-b + sqrt(discriminant)) / (2*a);\n        root2 = (-b - sqrt(discriminant)) / (2*a);\n        printf(\"Roots are real and different.\\n\");\n        printf(\"Root1 = %.2f\\nRoot2 = %.2f\\n\", root1, root2);\n    } else if (discriminant == 0) {\n        root1 = root2 = -b / (2*a);\n        printf(\"Roots are real and equal.\\n\");\n        printf(\"Root1 = Root2 = %.2f\\n\", root1);\n    } else {\n        realPart = -b / (2*a);\n        imagPart = sqrt(-discriminant) / (2*a);\n        printf(\"Roots are complex and different.\\n\");\n        printf(\"Root1 = %.2f + %.2fi\\nRoot2 = %.2f - %.2fi\\n\", realPart, imagPart, realPart, imagPart);\n    }\n    return 0;\n}"
+  },
+  {
+    "Question ID": "cprog_077",
+    "Question": "Write a program that reads an integer value, num, and determines if it is a perfect square. If it is a perfect square, then the program displays a message saying that num is a perfect square.",
+    "Model Answer": "#include <stdio.h>\n#include <math.h>\n\nint main() {\n    int num;\n    double sqroot;\n    printf(\"Enter an integer: \");\n    scanf(\"%d\", &num);\n    sqroot = sqrt(num);\n    if (sqroot == (int)sqroot) {\n        printf(\"%d is a perfect square.\\n\", num);\n    } else {\n        printf(\"%d is not a perfect square.\\n\", num);\n    }\n    return 0;\n}"
+  },
+  {
+    "Question ID": "cprog_078",
+    "Question": "A lecturer gives 5-point quizzes that are graded as follows: 5 – A, 4 – B, 3 – C, 2 – D, 1 – E, 0 – F. Write a program that accepts a quiz score as input and uses a decision structure to display the above grades.",
+    "Model Answer": "#include <stdio.h>\n\nint main() {\n    int score;\n    printf(\"Enter quiz score (0-5): \");\n    scanf(\"%d\", &score);\n    switch(score) {\n        case 5: printf(\"Grade: A\\n\"); break;\n        case 4: printf(\"Grade: B\\n\"); break;\n        case 3: printf(\"Grade: C\\n\"); break;\n        case 2: printf(\"Grade: D\\n\"); break;\n        case 1: printf(\"Grade: E\\n\"); break;\n        case 0: printf(\"Grade: F\\n\"); break;\n        default: printf(\"Invalid score.\\n\");\n    }\n    return 0;\n}"
+  },
+  {
+    "Question ID": "cprog_079",
+    "Question": "At a University, 100-point exams are graded as follows:\nMarks  Grade\n70 – 100  A\n60 – 69   B\n50 – 59   C\n40 – 49   D\n< 40      F\nWrite a program that accepts an exam score as input and uses a decision structure to find the corresponding grade. Display suitable messages if the marks do not lie in the range 0 - 100.",
+    "Model Answer": "#include <stdio.h>\n\nint main() {\n    int marks;\n    printf(\"Enter exam score (0-100): \");\n    scanf(\"%d\", &marks);\n    if (marks < 0 || marks > 100) {\n        printf(\"Invalid marks.\\n\");\n    } else if (marks >= 70) {\n        printf(\"Grade: A\\n\");\n    } else if (marks >= 60) {\n        printf(\"Grade: B\\n\");\n    } else if (marks >= 50) {\n        printf(\"Grade: C\\n\");\n    } else if (marks >= 40) {\n        printf(\"Grade: D\\n\");\n    } else {\n        printf(\"Grade: F\\n\");\n    }\n    return 0;\n}"
+  },
+  {
+    "Question ID": "cprog_080",
+    "Question": "A speeding ticket fine policy is Rs 500 plus Rs 10 for each km/hr over the speed limit of 90 km/hr. Write a program that accepts speed in km/hr as input, and displays a message indicating that the speed limit has not been exceeded or prints the amount of the fine that has to be paid. Also, speed should be in the range of 0 – 300 km/hr. All speeds outside this range should be rejected as invalid and a suitable message is to be displayed.",
+    "Model Answer": "#include <stdio.h>\n\nint main() {\n    int speed, fine;\n    printf(\"Enter speed in km/hr: \");\n    scanf(\"%d\", &speed);\n    if (speed < 0 || speed > 300) {\n        printf(\"Invalid speed.\\n\");\n    } else if (speed <= 90) {\n        printf(\"Speed limit not exceeded.\\n\");\n    } else {\n        fine = 500 + (speed - 90) * 10;\n        printf(\"Speed limit exceeded. Fine to be paid: Rs %d\\n\", fine);\n    }\n    return 0;\n}"
+  },
+ {
+    "Question ID": "cprog_081",
+    "Question": "A swimming club charges a fee per swimming session. If, for members, it charges a fee x per session per adult and y per child, for non-members, the charges will be 2x per adult and 1.5 y per child. If the head of a family is a member, the whole family is charged as members. Write a program that performs the calculation for the fee to be charged to a family. The program should allow as inputs the values of x and y, the number of adults and number of children and whether they should be charged as members or non-members.",
+    "Model Answer": "#include <stdio.h>\n\nint main() {\n    float x, y, totalFee;\n    int adults, children;\n    char member;\n    printf(\"Enter fee per adult (x): \");\n    scanf(\"%f\", &x);\n    printf(\"Enter fee per child (y): \");\n    scanf(\"%f\", &y);\n    printf(\"Enter number of adults: \");\n    scanf(\"%d\", &adults);\n    printf(\"Enter number of children: \");\n    scanf(\"%d\", &children);\n    printf(\"Is the family member? (Y/N): \");\n    scanf(\" %c\", &member);\n\n    if (member == 'Y' || member == 'y') {\n        totalFee = adults * x + children * y;\n    } else {\n        totalFee = adults * 2 * x + children * 1.5 * y;\n    }\n\n    printf(\"Total fee to be charged: %.2f\\n\", totalFee);\n    return 0;\n}"
+  },
+  {
+    "Question ID": "cprog_082",
+    "Question": "A company pays its workers on a weekly basis, based on number of years of service and number of hours worked in the week as follows:\n• Workers having a minimum of 15 years of service are paid Rs 200 per hour for the 1st 40 hours and Rs 300 per hour for up to another 20 hours.\n• Other workers are paid at Rs 150 per hour for the first 45 hours and Rs 250 per hour for up to another 15 hours.\nWrite a program that allows as input the number of years of service of a worker and the total number of hours worked in a week and displays the total salary earned by the worker for the week. Workers cannot work in the company for more than 30 years and they cannot work for more than 60 hours in a week. Your program should display appropriate error messages in case of unreasonable data being input.",
+    "Model Answer": "#include <stdio.h>\n\nint main() {\n    int years, hours;\n    int salary = 0;\n\n    printf(\"Enter years of service: \");\n    scanf(\"%d\", &years);\n    printf(\"Enter hours worked in a week: \");\n    scanf(\"%d\", &hours);\n\n    if (years < 0 || years > 30) {\n        printf(\"Invalid years of service.\\n\");\n        return 1;\n    }\n    if (hours < 0 || hours > 60) {\n        printf(\"Invalid number of hours.\\n\");\n        return 1;\n    }\n\n    if (years >= 15) {\n        if (hours <= 40) {\n            salary = hours * 200;\n        } else if (hours <= 60) {\n            salary = 40 * 200 + (hours - 40) * 300;\n        }\n    } else {\n        if (hours <= 45) {\n            salary = hours * 150;\n        } else if (hours <= 60) {\n            salary = 45 * 150 + (hours - 45) * 250;\n        }\n    }\n\n    printf(\"Total salary earned: Rs %d\\n\", salary);\n    return 0;\n}"
+  },
+  {
+    "Question ID": "cprog_083",
+    "Question": "A country calculates annual income-tax payable, by an income earner, as follows:\n• A salary earner is allowed a personal allowance (not taxable) depending on number of dependants, as per the table below. A person is allowed to claim for up to three dependants.\nNumber of Dependants  Personal Allowance (Rs)\n0 255000\n1 325000\n2 395000\n3 455000\n• From his/her annual salary, the personal allowance is deducted.\n• On the remaining amount, the income tax is calculated as follows:\nRemaining Amount  First 50000  Next 70000  Remaining Amount\n% Income Tax       15 %        20 %        25%\nWrite a program that allows as input the annual income of a person and outputs the tax payable by the person.",
+    "Model Answer": "#include <stdio.h>\n\nint main() {\n    int dependants;\n    double income, allowance, taxable, tax = 0;\n\n    printf(\"Enter annual income: \");\n    scanf(\"%lf\", &income);\n    printf(\"Enter number of dependants (0-3): \");\n    scanf(\"%d\", &dependants);\n\n    if (dependants < 0 || dependants > 3) {\n        printf(\"Invalid number of dependants.\\n\");\n        return 1;\n    }\n\n    switch(dependants) {\n        case 0: allowance = 255000; break;\n        case 1: allowance = 325000; break;\n        case 2: allowance = 395000; break;\n        case 3: allowance = 455000; break;\n    }\n\n    taxable = income - allowance;\n    if (taxable <= 0) {\n        tax = 0;\n    } else {\n        if (taxable <= 50000) {\n            tax = taxable * 0.15;\n        } else if (taxable <= 120000) {\n            tax = 50000 * 0.15 + (taxable - 50000) * 0.20;\n        } else {\n            tax = 50000 * 0.15 + 70000 * 0.20 + (taxable - 120000) * 0.25;\n        }\n    }\n\n    printf(\"Tax payable: Rs %.2f\\n\", tax);\n    return 0;\n}"
+  },
+  {
+    "Question ID": "cprog_084",
+    "Question": "A utilities company supplies electricity to consumers based on three possible tariffs as shown in the table below. Consumers are free to choose their tariffs based on number and type of appliances they wish to support. Each tariff also has a monthly minimum charge.\nTariff Number  Minimum Charge (Rs)  Charges Per Unit (Rs)\n             First 25  Next 50  Next 75  Remaining\n110          44.00         2.75    3.25\n120          184.00        3.00    3.50     6.50\n140          360.00        6.00    3.25     3.75    4.50    5.75\nWrite a program that allows the input of the tariff chosen by a consumer and the number of units consumed, in a month, and outputs the total amount the consumer has to pay for that month.",
+    "Model Answer": "#include <stdio.h>\n\nint main() {\n    int tariff;\n    double units, amount = 0;\n    printf(\"Enter tariff number (110, 120, 140): \");\n    scanf(\"%d\", &tariff);\n    printf(\"Enter units consumed: \");\n    scanf(\"%lf\", &units);\n\n    if (units < 0) {\n        printf(\"Invalid units consumed.\\n\");\n        return 1;\n    }\n\n    switch(tariff) {\n        case 110:\n            amount = 44.00;\n            if (units <= 25) {\n                amount += units * 2.75;\n            } else {\n                amount += 25 * 2.75 + (units - 25) * 3.25;\n            }\n            break;\n        case 120:\n            amount = 184.00;\n            if (units <= 25) {\n                amount += units * 3.00;\n            } else if (units <= 75) {\n                amount += 25 * 3.00 + (units - 25) * 3.50;\n            } else {\n                amount += 25 * 3.00 + 50 * 3.50 + (units - 75) * 6.50;\n            }\n            break;\n        case 140:\n            amount = 360.00;\n            if (units <= 25) {\n                amount += units * 6.00;\n            } else if (units <= 100) {\n                amount += 25 * 6.00 + (units - 25) * 3.25;\n            } else if (units <= 175) {\n                amount += 25 * 6.00 + 75 * 3.25 + (units - 100) * 3.75;\n            } else {\n                amount += 25 * 6.00 + 75 * 3.25 + 75 * 3.75 + (units - 175) * 5.75;\n            }\n            break;\n        default:\n            printf(\"Invalid tariff number.\\n\");\n            return 1;\n    }\n\n    printf(\"Total amount to pay: Rs %.2f\\n\", amount);\n    return 0;\n}"
+  },
+  {
+    "Question ID": "cprog_085",
+    "Question": "A company provides free cars to its higher-level employees. The engine capacity of the car depends on the salary and number of years of service. Employees can also opt for a monthly car allowance in lieu of the free car facility. The criteria for eligibility are as per the following table:\n\nSalary (Rs)  Minimum Number of years of Service  Car Engine Capacity (cc)  Optional car allowance\n75000 -       2000\n60000         10000 -     1800\n50000         8000        10       1800\n50000         8000 -      1600      40000\n6000          20          1500      30000\n5000          25          1400      4000\nWrite a program that allows as input the number of years of service of an employee and his salary. The program should display whether the employee is eligible for a free car, the engine capacity of the car and the optional car allowance. Note: No employee of the company earns less than Rs 5000 or more than Rs 100,000. Your programs should check for these and display an error accordingly.",
+    "Model Answer": "#include <stdio.h>\n\nint main() {\n    int years;\n    double salary;\n\n    printf(\"Enter years of service: \");\n    scanf(\"%d\", &years);\n    printf(\"Enter salary: \");\n    scanf(\"%lf\", &salary);\n\n    if (salary < 5000 || salary > 100000) {\n        printf(\"Invalid salary.\\n\");\n        return 1;\n    }\n\n    if (years < 0) {\n        printf(\"Invalid years of service.\\n\");\n        return 1;\n    }\n\n    if (salary >= 75000 && years >= 20) {\n        printf(\"Eligible for free car with 2000 cc engine. Optional allowance Rs 60000.\\n\");\n    } else if (salary >= 60000 && years >= 10) {\n        printf(\"Eligible for free car with 1800 cc engine. Optional allowance Rs 50000.\\n\");\n    } else if (salary >= 50000 && years >= 8) {\n        printf(\"Eligible for free car with 1600 cc engine. Optional allowance Rs 40000.\\n\");\n    } else if (salary >= 40000 && years >= 20) {\n        printf(\"Eligible for free car with 1500 cc engine. Optional allowance Rs 30000.\\n\");\n    } else if (salary >= 30000 && years >= 25) {\n        printf(\"Eligible for free car with 1400 cc engine. Optional allowance Rs 4000.\\n\");\n    } else {\n        printf(\"Not eligible for free car.\\n\");\n    }\n\n    return 0;\n}"
+  },
+  {
+    "Question ID": "cprog_086",
+    "Question": "A company sells 5 different types of cars. Type 1 is a car of 1500 CC, Type 2 is 1500 CC with automatic mirrors, type 3 is 1500 CC with automatic mirrors and front and rear sensors. Type 4 is 1200 CC while type 5 is 1200 CC with automatic gear. Write a program that allows the input of a type of car between 1 and 5 (inclusive) and it displays the details of the car. Use switch statements.",
+    "Model Answer": "#include <stdio.h>\n\nint main() {\n    int carType;\n    printf(\"Enter car type (1-5): \");\n    scanf(\"%d\", &carType);\n\n    switch(carType) {\n        case 1:\n            printf(\"Car Type 1: 1500 CC\\n\");\n            break;\n        case 2:\n            printf(\"Car Type 2: 1500 CC with automatic mirrors\\n\");\n            break;\n        case 3:\n            printf(\"Car Type 3: 1500 CC with automatic mirrors and front & rear sensors\\n\");\n            break;\n        case 4:\n            printf(\"Car Type 4: 1200 CC\\n\");\n            break;\n        case 5:\n            printf(\"Car Type 5: 1200 CC with automatic gear\\n\");\n            break;\n        default:\n            printf(\"Invalid car type.\\n\");\n    }\n\n    return 0;\n}"
+  },
+  {
+    "Question ID": "cprog_091",
+    "Question": "Write a program that displays all multiples of 5 between 0 and 100 inclusive.",
+    "Model Answer": "#include <stdio.h>\nint main() {\n    for (int i = 0; i <= 100; i += 5) {\n        printf(\"%d \", i);\n    }\n    printf(\"\\n\");\n    return 0;\n}"
+  },
+  {
+    "Question ID": "cprog_092",
+    "Question": "Write a program that displays the sum of all multiples of 5 between 0 and 100 inclusive.",
+    "Model Answer": "#include <stdio.h>\nint main() {\n    int sum = 0;\n    for (int i = 0; i <= 100; i += 5) {\n        sum += i;\n    }\n    printf(\"Sum of multiples of 5 between 0 and 100 is %d\\n\", sum);\n    return 0;\n}"
+  },
+  {
+    "Question ID": "cprog_093",
+    "Question": "Write a program that allows the input of an integer value n and displays all multiples of 3 which are less than or equal to n, as well as the sum of the square of these values.",
+    "Model Answer": "#include <stdio.h>\nint main() {\n    int n, sumSquares = 0;\n    printf(\"Enter an integer n: \");\n    scanf(\"%d\", &n);\n    printf(\"Multiples of 3 up to %d: \", n);\n    for (int i = 3; i <= n; i += 3) {\n        printf(\"%d \", i);\n        sumSquares += i * i;\n    }\n    printf(\"\\nSum of squares: %d\\n\", sumSquares);\n    return 0;\n}"
+  },
+  {
+    "Question ID": "cprog_094",
+    "Question": "Write a program that allows you to input an integer value n. If n is greater than 100, it displays the message ‘Wrong Input’, otherwise it displays all factors of n.",
+    "Model Answer": "#include <stdio.h>\nint main() {\n    int n;\n    printf(\"Enter an integer n: \");\n    scanf(\"%d\", &n);\n    if (n > 100) {\n        printf(\"Wrong Input\\n\");\n        return 1;\n    }\n    printf(\"Factors of %d: \", n);\n    for (int i = 1; i <= n; i++) {\n        if (n % i == 0) {\n            printf(\"%d \", i);\n        }\n    }\n    printf(\"\\n\");\n    return 0;\n}"
+  },
+  {
+    "Question ID": "cprog_095",
+    "Question": "Write a program to input a set of numbers and print out their average. The program will start by prompting the user for the number of numbers to be input and will then prompt for the individual numbers.",
+    "Model Answer": "#include <stdio.h>\nint main() {\n    int count;\n    printf(\"Enter how many numbers: \");\n    scanf(\"%d\", &count);\n    double sum = 0, num;\n    for (int i = 1; i <= count; i++) {\n        printf(\"Enter number %d: \", i);\n        scanf(\"%lf\", &num);\n        sum += num;\n    }\n    printf(\"Average = %.2lf\\n\", sum / count);\n    return 0;\n}"
+  },
+  {
+    "Question ID": "cprog_096",
+    "Question": "Modify the previous program to print out the largest and smallest number read in as well as the average. Also change the prompt to show the number of values still to be entered.",
+    "Model Answer": "#include <stdio.h>\n#include <limits.h>\nint main() {\n    int count;\n    printf(\"Enter how many numbers: \");\n    scanf(\"%d\", &count);\n    double sum = 0, num;\n    double largest = -__DBL_MAX__, smallest = __DBL_MAX__;\n\n    for (int i = 1; i <= count; i++) {\n        printf(\"Enter number (%d remaining): \", count - i + 1);\n        scanf(\"%lf\", &num);\n        sum += num;\n        if (num > largest) largest = num;\n        if (num < smallest) smallest = num;\n    }\n    printf(\"Average = %.2lf\\n\", sum / count);\n    printf(\"Largest number = %.2lf\\n\", largest);\n    printf(\"Smallest number = %.2lf\\n\", smallest);\n    return 0;\n}"
+  },
+  {
+    "Question ID": "cprog_097",
+    "Question": "Write a program to prompt the user for an integer and calculate the sum of all the integers up to and including the input value. The program should also display the result.",
+    "Model Answer": "#include <stdio.h>\nint main() {\n    int n, sum = 0;\n    printf(\"Enter an integer: \");\n    scanf(\"%d\", &n);\n    for (int i = 1; i <= n; i++) {\n        sum += i;\n    }\n    printf(\"Sum of integers from 1 to %d is %d\\n\", n, sum);\n    return 0;\n}"
+  },
+  {
+    "Question ID": "cprog_098",
+    "Question": "Modify the previous program to add up the reciprocals of all the integers up to and including the input value.",
+    "Model Answer": "#include <stdio.h>\nint main() {\n    int n;\n    double sum = 0.0;\n    printf(\"Enter an integer: \");\n    scanf(\"%d\", &n);\n    for (int i = 1; i <= n; i++) {\n        sum += 1.0 / i;\n    }\n    printf(\"Sum of reciprocals from 1 to %d is %.4lf\\n\", n, sum);\n    return 0;\n}"
+  },
+  {
+    "Question ID": "cprog_099",
+    "Question": "To calculate x to power n, (where n is a positive integer), we can use a loop that multiplies x by itself n times. Include the code in a program that allows for the input of values for x and n and calculates and displays x^n.",
+    "Model Answer": "#include <stdio.h>\nint main() {\n    double x, p = 1;\n    int n;\n    printf(\"Enter base x: \");\n    scanf(\"%lf\", &x);\n    printf(\"Enter exponent n: \");\n    scanf(\"%d\", &n);\n    for (int i = 1; i <= n; i++) {\n        p *= x;\n    }\n    printf(\"%.2lf^%d = %.2lf\\n\", x, n, p);\n    return 0;\n}"
+  },
+  {
+    "Question ID": "cprog_100",
+    "Question": "The factorial of a positive integer n is defined as 1*2*3……n. Write a program that allows for the input of a value n and calculates and displays the factorial of n.",
+    "Model Answer": "#include <stdio.h>\nint main() {\n    int n;\n    unsigned long long fact = 1;\n    printf(\"Enter a positive integer: \");\n    scanf(\"%d\", &n);\n    if (n < 0) {\n        printf(\"Factorial is not defined for negative numbers.\\n\");\n        return 1;\n    }\n    for (int i = 1; i <= n; i++) {\n        fact *= i;\n    }\n    printf(\"Factorial of %d is %llu\\n\", n, fact);\n    return 0;\n}"
+  },
+  {
+    "Question ID": "cprog_101",
+    "Question": "A person currently has an amount P of money, in a bank, which pays an annual interest rate of r%. Write a program that allows the input of values for P, r as well as n, where n represents the number of years for which the money has remained in the bank. The program must calculate and display the total amount in the person’s account at the end of each year for the n years. Display the results in an appropriate format. Note that this problem involves the calculation of compound interest.",
+    "Model Answer": "#include <stdio.h>\n#include <math.h>\nint main() {\n    double P, r, amount;\n    int n;\n\n    printf(\"Enter principal amount P: \");\n    scanf(\"%lf\", &P);\n    printf(\"Enter annual interest rate (%%): \");\n    scanf(\"%lf\", &r);\n    printf(\"Enter number of years n: \");\n    scanf(\"%d\", &n);\n\n    printf(\"Year\\tAmount\\n\");\n    for (int i = 1; i <= n; i++) {\n        amount = P * pow(1 + r / 100, i);\n        printf(\"%d\\t%.2lf\\n\", i, amount);\n    }\n    return 0;\n}"
+  },
+  {
+    "Question ID": "cprog_102",
+    "Question": "Write a program that uses a while loop to determine how long it takes for an investment to double at a given interest rate. The input will be an annualized interest rate, and the output is the number of years it takes an investment to double. Note: the amount of the initial investment does not matter; you can use MUR 100.",
+    "Model Answer": "#include <stdio.h>\nint main() {\n    double rate, amount = 100;\n    int years = 0;\n    printf(\"Enter annual interest rate (%%): \");\n    scanf(\"%lf\", &rate);\n\n    while (amount < 200) {\n        amount += amount * rate / 100;\n        years++;\n    }\n\n    printf(\"It takes %d years to double the investment.\\n\", years);\n    return 0;\n}"
+  },
+  {
+    "Question ID": "cprog_103",
+    "Question": "Write a program that uses an interactive loop and allows the input of a number of positive values and displays the number of even values input as well as the sum of the even values.",
+    "Model Answer": "#include <stdio.h>\nint main() {\n    int count = 0, sumEven = 0, value;\n    char choice = 'Y';\n\n    while (choice == 'Y' || choice == 'y') {\n        printf(\"Enter a positive integer: \");\n        scanf(\"%d\", &value);\n        if (value > 0) {\n            if (value % 2 == 0) {\n                count++;\n                sumEven += value;\n            }\n        } else {\n            printf(\"Only positive integers allowed.\\n\");\n        }\n        printf(\"Do you want to continue? (Y/N): \");\n        scanf(\" %c\", &choice);\n    }\n\n    printf(\"Number of even values entered: %d\\n\", count);\n    printf(\"Sum of even values: %d\\n\", sumEven);\n    return 0;\n}"
+  },
+{
+    "Question ID": "cprog_104",
+    "Question": "Write a program which continuously asks the user to key in a positive number and displays the square root of the number. The program stops if the user types in a negative number.",
+    "Model Answer": "#include <stdio.h>\n#include <math.h>\nint main() {\n    double num;\n    while (1) {\n        printf(\"Enter a positive number (negative to quit): \");\n        scanf(\"%lf\", &num);\n        if (num < 0) {\n            break;\n        }\n        printf(\"Square root of %.2lf is %.2lf\\n\", num, sqrt(num));\n    }\n    printf(\"Program terminated due to negative input.\\n\");\n    return 0;\n}"
+  },
+  {
+    "Question ID": "cprog_105",
+    "Question": "Write a program that allows the user to continuously input an integer. It calculates the sum of all positive values input so far, counts the number of positive values input, and counts the number of negative values input, except -2. On input of -2, the program displays the current sum and exits. Other negative values are counted but do not participate in the sum.",
+    "Model Answer": "#include <stdio.h>\nint main() {\n    int input, sum = 0, posCount = 0, negCount = 0;\n    while (1) {\n        printf(\"Enter an integer (-2 to stop): \");\n        scanf(\"%d\", &input);\n        if (input == -2) {\n            printf(\"Sum of positive values: %d\\n\", sum);\n            break;\n        }\n        if (input > 0) {\n            sum += input;\n            posCount++;\n        } else if (input < 0) {\n            negCount++;\n        }\n    }\n    printf(\"Positive values entered: %d\\n\", posCount);\n    printf(\"Negative values entered (excluding -2): %d\\n\", negCount);\n    return 0;\n}"
+  },
+  {
+    "Question ID": "cprog_106",
+    "Question": "Write a program that uses nested loops to input the marks of 5 students in 3 subjects and calculate their total marks and average.",
+    "Model Answer": "#include <stdio.h>\nint main() {\n    int students = 5, subjects = 3;\n    int marks, total;\n    double average;\n    for (int i = 1; i <= students; i++) {\n        total = 0;\n        printf(\"Enter marks for student %d:\\n\", i);\n        for (int j = 1; j <= subjects; j++) {\n            printf(\" Subject %d: \", j);\n            scanf(\"%d\", &marks);\n            total += marks;\n        }\n        average = (double)total / subjects;\n        printf(\"Total marks for student %d: %d\\n\", i, total);\n        printf(\"Average marks for student %d: %.2lf\\n\\n\", i, average);\n    }\n    return 0;\n}"
+  },
+  {
+    "Question ID": "cprog_107",
+    "Question": "The population of rabbits on a small island in Poole Harbour is being monitored. There are currently 495 rabbits on the island. It is estimated that the population will grow at 20% a year until the population exceeds 1,000, after which the growth rate will be 10% a year. Write a program to calculate how many years will elapse before the rabbit population exceeds 1,500. Use integral numbers for rabbits.",
+    "Model Answer": "#include <stdio.h>\nint main() {\n    int population = 495, years = 0;\n    while (population <= 1500) {\n        if (population <= 1000) {\n            population += (population * 20) / 100;\n        } else {\n            population += (population * 10) / 100;\n        }\n        years++;\n    }\n    printf(\"Years until population exceeds 1500: %d\\n\", years);\n    return 0;\n}"
+  },
+  {
+    "Question ID": "cprog_108",
+    "Question": "Write a program that prints the following menu indefinitely until a 0 (zero) is entered: \n**********************************\n********Counting in Maths*********\n**********************************\n1.Sum of first n counting numbers\n2.Sum of first nth odd numbers\n3.Number of division by two\n0.Exit\n**********************************\nEnter your choice (0-3): \nFor the other choices, perform the operations after requesting inputs: \nChoice 1: Sum of first n counting numbers: 1 + 2 + ... + n\nChoice 2: Sum of first n odd numbers: 1 + 3 + 5 + ... + n\nChoice 3: Number of times a whole number can be divided by 2 (integer division) before reaching 1.\nValidate inputs as necessary.",
+    "Model Answer": "#include <stdio.h>\nint main() {\n    int choice;\n    while (1) {\n        printf(\"**********************************\\n\");\n        printf(\"********Counting in Maths*********\\n\");\n        printf(\"**********************************\\n\");\n        printf(\"1.Sum of first n counting numbers\\n\");\n        printf(\"2.Sum of first nth odd numbers\\n\");\n        printf(\"3.Number of division by two\\n\");\n        printf(\"0.Exit\\n\");\n        printf(\"**********************************\\n\");\n        printf(\"Enter your choice (0-3): \");\n        scanf(\"%d\", &choice);\n        if (choice == 0) {\n            printf(\"Exiting program.\\n\");\n            break;\n        }\n\n        if (choice == 1) {\n            int n, sum = 0;\n            printf(\"Enter n (positive integer): \");\n            scanf(\"%d\", &n);\n            if (n <= 0) {\n                printf(\"Invalid input. Must be positive.\\n\");\n                continue;\n            }\n            for (int i = 1; i <= n; i++) {\n                sum += i;\n            }\n            printf(\"Sum of first %d counting numbers is %d\\n\", n, sum);\n        } else if (choice == 2) {\n            int n, sum = 0, odd = 1;\n            printf(\"Enter n (positive integer): \");\n            scanf(\"%d\", &n);\n            if (n <= 0) {\n                printf(\"Invalid input. Must be positive.\\n\");\n                continue;\n            }\n            for (int i = 0; i < n; i++) {\n                sum += odd;\n                odd += 2;\n            }\n            printf(\"Sum of first %d odd numbers is %d\\n\", n, sum);\n        } else if (choice == 3) {\n            int num, count = 0;\n            printf(\"Enter a whole number greater than 0: \");\n            scanf(\"%d\", &num);\n            if (num <= 0) {\n                printf(\"Invalid input. Must be greater than 0.\\n\");\n                continue;\n            }\n            while (num > 1) {\n                num /= 2;\n                count++;\n            }\n            printf(\"Number of times the number can be divided by 2 before reaching 1 is %d\\n\", count);\n        } else {\n            printf(\"Invalid choice. Please enter 0 to 3.\\n\");\n        }\n    }\n    return 0;\n}"
+  },
+  {
+    "Question ID": "cprog_109",
+    "Question": "Write a program which displays the following given the input below: \nWhen x=1 Output: * \\n* \\n** \nWhen x=2 Output: * \\n* \\n** \\n* \\n** \\n*** \nWhen x=3 Output: * \\n* \\n** \\n* \\n** \\n*** \\n* \\n** \\n*** \\n**** \n(Hint: determine the pattern before writing the code.)",
+    "Model Answer": "#include <stdio.h>\nint main() {\n    int x;\n    printf(\"Enter the value of x: \");\n    scanf(\"%d\", &x);\n    for (int block = 1; block <= x; block++) {\n        for (int line = 1; line <= block + 1; line++) {\n            for (int star = 1; star <= line; star++) {\n                printf(\"*\");\n            }\n            printf(\"\\n\");\n        }\n    }\n    return 0;\n}"
+  },
+  {
+    "Question ID": "cprog_110",
+    "Question": "Modify the previous program to add up the reciprocals of all the integers up to and including the input value.",
+    "Model Answer": "#include <stdio.h>\n\nint main() {\n    int n;\n    double sum_reciprocal = 0.0;\n\n    printf(\"Enter a positive integer n: \");\n    scanf(\"%d\", &n);\n\n    if (n <= 0) {\n        printf(\"Please enter a positive integer.\\n\");\n        return 1;\n    }\n\n    for (int i = 1; i <= n; i++) {\n        sum_reciprocal += 1.0 / i;\n    }\n\n    printf(\"Sum of reciprocals from 1 to %d = %.6lf\\n\", n, sum_reciprocal);\n\n    return 0;\n}"
+  },
+  {
+    "Question ID": "cprog_111",
+    "Question": "To calculate x to power n, (where n is a positive integer), we can use a loop that multiplies x by itself n times. Include the code in a program that allows for the input of values for x and n and calculates and displays x^n.",
+    "Model Answer": "#include <stdio.h>\n\nint main() {\n    double x, p = 1.0;\n    int n, i = 1;\n\n    printf(\"Enter the base (x): \");\n    scanf(\"%lf\", &x);\n\n    printf(\"Enter the exponent (n, positive integer): \");\n    scanf(\"%d\", &n);\n\n    if (n < 0) {\n        printf(\"Please enter a non-negative integer for exponent.\\n\");\n        return 1;\n    }\n\n    while (i <= n) {\n        p = p * x;\n        i++;\n    }\n\n    printf(\"%.2lf raised to the power %d is %.2lf\\n\", x, n, p);\n\n    return 0;\n}"
+  },
+  {
+    "Question ID": "cprog_112",
+    "Question": "Write a program that declares an array of type int, with 5 elements. Without initializing the array, include a for loop that displays the contents of the array. What do you get as answer?",
+    "Model Answer": "#include <stdio.h>\n\nint main() {\n    int arr[5];\n    printf(\"Contents of the uninitialized array:\\n\");\n    for (int i = 0; i < 5; i++) {\n        printf(\"arr[%d] = %d\\n\", i, arr[i]);\n    }\n    return 0;\n}\n\n/* Note: The output will be garbage/uninitialized values as the array is not initialized. */"
+  },
+  {
+    "Question ID": "cprog_113",
+    "Question": "Modify the program you wrote for Question 1 so that the array is initialized with the first five odd numbers at declaration.",
+    "Model Answer": "#include <stdio.h>\n\nint main() {\n    int arr[5] = {1, 3, 5, 7, 9};\n    printf(\"Contents of the initialized array:\\n\");\n    for (int i = 0; i < 5; i++) {\n        printf(\"arr[%d] = %d\\n\", i, arr[i]);\n    }\n    return 0;\n}"
+  },
+  {
+    "Question ID": "cprog_114",
+    "Question": "Write a program that declares an array of type float, with 12 elements, to hold monthly sales income in thousands of rupees. The program should allow a user to input values for the array, compute average sales for the year, and then display the average sales.",
+    "Model Answer": "#include <stdio.h>\n\nint main() {\n    float sales[12];\n    float sum = 0.0, average;\n\n    printf(\"Enter sales income (in thousands) for 12 months:\\n\");\n    for (int i = 0; i < 12; i++) {\n        printf(\"Month %d: \", i+1);\n        scanf(\"%f\", &sales[i]);\n        sum += sales[i];\n    }\n\n    average = sum / 12;\n    printf(\"Average monthly sales income = %.2f thousands\\n\", average);\n\n    return 0;\n}"
+  },
+  {
+    "Question ID": "cprog_115",
+    "Question": "Write a program that allows a user to input a number of integers in an array and then displays the smallest as well as the largest in the list.",
+    "Model Answer": "#include <stdio.h>\n\nint main() {\n    int n;\n    printf(\"Enter number of integers: \");\n    scanf(\"%d\", &n);\n\n    if (n <= 0) {\n        printf(\"Invalid number of elements.\\n\");\n        return 1;\n    }\n\n    int arr[n];\n    printf(\"Enter %d integers:\\n\", n);\n    for (int i = 0; i < n; i++) {\n        scanf(\"%d\", &arr[i]);\n    }\n\n    int max = arr[0], min = arr[0];\n    for (int i = 1; i < n; i++) {\n        if (arr[i] > max) max = arr[i];\n        if (arr[i] < min) min = arr[i];\n    }\n\n    printf(\"Smallest number = %d\\n\", min);\n    printf(\"Largest number = %d\\n\", max);\n\n    return 0;\n}"
+  },
+  {
+    "Question ID": "cprog_116",
+    "Question": "Write a program that initializes an array with the number of days for each month of the year.",
+    "Model Answer": "#include <stdio.h>\n\nint main() {\n    int days_in_month[12] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};\n    printf(\"Number of days in each month:\\n\");\n    for (int i = 0; i < 12; i++) {\n        printf(\"Month %d: %d days\\n\", i + 1, days_in_month[i]);\n    }\n    return 0;\n}"
+  },
+  {
+    "Question ID": "cprog_117",
+    "Question": "A person obtains a fixed monthly salary. However, since all months do not contain the same number of days, the average daily income varies with the month. Write a program that initializes an array with the number of days of the different months of the year, allows the input of the salary of the person and displays the average daily income for each month of the year.",
+    "Model Answer": "#include <stdio.h>\n\nint main() {\n    int days_in_month[12] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};\n    double salary, daily_income;\n\n    printf(\"Enter the fixed monthly salary: \");\n    scanf(\"%lf\", &salary);\n\n    printf(\"Average daily income for each month:\\n\");\n    for (int i = 0; i < 12; i++) {\n        daily_income = salary / days_in_month[i];\n        printf(\"Month %d: %.2lf\\n\", i + 1, daily_income);\n    }\n\n    return 0;\n}"
+  },
+  {
+    "Question ID": "cprog_118",
+    "Question": "A baby-sitter is paid on a daily basis. Write a program that initializes an array with the number of days in different months of the year (as in question 6). It then allows the input of the daily income of the baby-sitter and displays the total income obtained for each month of the year.",
+    "Model Answer": "#include <stdio.h>\n\nint main() {\n    int days_in_month[12] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};\n    double daily_income;\n\n    printf(\"Enter daily income of baby-sitter: \");\n    scanf(\"%lf\", &daily_income);\n\n    printf(\"Total income for each month:\\n\");\n    for (int i = 0; i < 12; i++) {\n        double total = daily_income * days_in_month[i];\n        printf(\"Month %d: %.2lf\\n\", i + 1, total);\n    }\n\n    return 0;\n}"
+  },
+  {
+    "Question ID": "cprog_119",
+    "Question": "Modify question 7 so that after displaying the incomes for one baby-sitter, the program asks the user whether he or she wants to continue and proceed accordingly, i.e if the user wishes to continue, the program allows the input of daily income for another baby-sitter and performs the display.",
+    "Model Answer": "#include <stdio.h>\n\nint main() {\n    int days_in_month[12] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};\n    double daily_income;\n    char choice;\n\n    do {\n        printf(\"Enter daily income of baby-sitter: \");\n        scanf(\"%lf\", &daily_income);\n\n        printf(\"Total income for each month:\\n\");\n        for (int i = 0; i < 12; i++) {\n            double total = daily_income * days_in_month[i];\n            printf(\"Month %d: %.2lf\\n\", i + 1, total);\n        }\n\n        printf(\"Do you want to continue? (Y/N): \");\n        scanf(\" %c\", &choice);  // space before %c to consume newline\n    } while (choice == 'Y' || choice == 'y');\n\n    return 0;\n}"
+  },
+  {
+    "Question ID": "cprog_120",
+    "Question": "A survey has been conducted among people of different age groups. Write a program that declares an array of size 15 to categorize people into 15 age groups, namely: 0-5 years, 6-10, 11-15, ..., 66-70, above 70. Each element of the array will store the number of persons in that age group that participated in the survey. The program should continuously allow the input of the age of a person and increment the element of the array pertaining to the age group. The input should be terminated by input of an age of -1. The program should then display the number of people in each age group.",
+    "Model Answer": "#include <stdio.h>\n\nint main() {\n    int age_groups[15] = {0};\n    int age;\n\n    printf(\"Enter ages of people (enter -1 to stop):\\n\");\n    while (1) {\n        scanf(\"%d\", &age);\n        if (age == -1) break;\n        if (age < 0) {\n            printf(\"Invalid age. Try again.\\n\");\n            continue;\n        }\n\n        if (age > 70) {\n            age_groups[14]++;\n        } else {\n            int index = age / 5;\n            if (index > 13) index = 13;  // Cap index to 13 for age 66-70\n            age_groups[index]++;\n        }\n    }\n\n    printf(\"Age group distribution:\\n\");\n    for (int i = 0; i < 14; i++) {\n        printf(\"%d-%d years: %d\\n\", i*5, i*5 + 5, age_groups[i]);\n    }\n    printf(\"Above 70 years: %d\\n\", age_groups[14]);\n\n    return 0;\n}"
+  }
+]
+

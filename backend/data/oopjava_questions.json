@@ -1,0 +1,1004 @@
+[
+    {
+        "Question ID": "java_001",
+        "Question": "Can a class extend more than one class in Java?",
+        "Model Answer": "No, Java does not support multiple inheritance with classes to avoid ambiguity."
+    },
+    {
+        "Question ID": "java_002",
+        "Question": "What is the role of a constructor in a class?",
+        "Model Answer": "A constructor initializes new objects and has the same name as the class."
+    },
+    {
+        "Question ID": "java_003",
+        "Question": "How is an interface implemented in Java?",
+        "Model Answer": "An interface is implemented using the 'implements' keyword. Example: class MyClass implements MyInterface."
+    },
+    {
+        "Question ID": "java_004",
+        "Question": "What is a static method?",
+        "Model Answer": "A static method belongs to the class rather than instances and can be called without creating an object."
+    },
+    {
+        "Question ID": "java_005",
+        "Question": "What is constructor overloading in Java?",
+        "Model Answer": "Constructor overloading is when a class has multiple constructors with different parameter lists."
+    },
+    {
+        "Question ID": "java_006",
+        "Question": "Explain method overriding in Java.",
+        "Model Answer": "Method overriding occurs when a subclass provides a specific implementation for a method already defined in its superclass."
+    },
+    {
+        "Question ID": "java_007",
+        "Question": "What is the use of 'this' keyword?",
+        "Model Answer": "'this' refers to the current object and is used to differentiate instance variables from parameters or invoke current class methods."
+    },
+    {
+        "Question ID": "java_008",
+        "Question": "Explain abstraction in Java.",
+        "Model Answer": "Abstraction hides internal implementation and shows only essential features. Achieved using abstract classes and interfaces."
+    },
+    {
+        "Question ID": "java_009",
+        "Question": "What is an abstract method?",
+        "Model Answer": "An abstract method is declared without an implementation. Subclasses must override it."
+    },
+    {
+        "Question ID": "java_010",
+        "Question": "What is the difference between '==' and '.equals()'?",
+        "Model Answer": "'==' compares references; '.equals()' compares values in objects like strings."
+    },
+    {
+        "Question ID": "java_011",
+        "Question": "What is an abstract class?",
+        "Model Answer": "An abstract class cannot be instantiated and may contain abstract and non-abstract methods."
+    },
+    {
+        "Question ID": "java_012",
+        "Question": "How do you create an object in Java?",
+        "Model Answer": "By using the 'new' keyword. Example: MyClass obj = new MyClass();"
+    },
+    {
+        "Question ID": "java_013",
+        "Question": "What is encapsulation?",
+        "Model Answer": "Encapsulation is hiding data using private variables and providing access via public getter/setter methods."
+    },
+    {
+        "Question ID": "java_014",
+        "Question": "What is polymorphism?",
+        "Model Answer": "Polymorphism means the ability to take many forms; achieved through method overloading and overriding."
+    },
+    {
+        "Question ID": "java_015",
+        "Question": "What does 'final' mean in Java?",
+        "Model Answer": "'final' makes a variable constant, a method non-overridable, or a class non-inheritable."
+    },
+    {
+        "Question ID": "java_016",
+        "Question": "What is the default constructor?",
+        "Model Answer": "A constructor with no parameters provided by Java if no other constructor is defined."
+    },
+    {
+        "Question ID": "java_017",
+        "Question": "What is the use of 'super' keyword?",
+        "Model Answer": "'super' refers to the parent class and can be used to access parent class methods or constructors."
+    },
+    {
+        "Question ID": "java_018",
+        "Question": "What is the difference between interface and abstract class?",
+        "Model Answer": "Interfaces can't have implemented methods (before Java 8); abstract classes can have both abstract and concrete methods."
+    },
+    {
+        "Question ID": "java_019",
+        "Question": "What are access modifiers?",
+        "Model Answer": "They define the scope of variables/methods: public, private, protected, and default (package-private)."
+    },
+    {
+        "Question ID": "java_020",
+        "Question": "What is a no-arg constructor?",
+        "Model Answer": "A constructor that takes no parameters. Used to create an object with default values."
+    },
+    {
+        "Question ID": "java_021",
+        "Question": "Can interfaces have constructors?",
+        "Model Answer": "No, interfaces cannot have constructors because they can't be instantiated."
+    },
+    {
+        "Question ID": "java_022",
+        "Question": "Can we override a private method?",
+        "Model Answer": "No, private methods are not visible in subclasses and cannot be overridden."
+    },
+    {
+        "Question ID": "java_023",
+        "Question": "What is method overloading?",
+        "Model Answer": "Multiple methods with the same name but different parameter types or counts."
+    },
+    {
+        "Question ID": "java_024",
+        "Question": "What is 'instanceof' used for?",
+        "Model Answer": "To test whether an object is an instance of a specific class or subclass."
+    },
+    {
+        "Question ID": "java_025",
+        "Question": "Can abstract classes have constructors?",
+        "Model Answer": "Yes, abstract classes can have constructors to initialize fields."
+    },
+    {
+        "Question ID": "java_026",
+        "Question": "What are wrapper classes?",
+        "Model Answer": "They convert primitive types into objects. Example: int → Integer."
+    },
+    {
+        "Question ID": "java_027",
+        "Question": "What is object slicing?",
+        "Model Answer": "Object slicing occurs when a subclass object is assigned to a superclass reference, losing subclass-specific fields."
+    },
+    {
+        "Question ID": "java_028",
+        "Question": "What is the difference between static and non-static methods?",
+        "Model Answer": "Static methods belong to the class and don't access instance variables; non-static methods belong to instances."
+    },
+    {
+        "Question ID": "java_029",
+        "Question": "What is the purpose of a getter method?",
+        "Model Answer": "To retrieve the value of a private variable from outside the class."
+    },
+    {
+        "Question ID": "java_030",
+        "Question": "Can you instantiate an abstract class?",
+        "Model Answer": "No, you cannot create an object of an abstract class directly."
+    },
+    {
+        "Question ID": "java_031",
+        "Question": "Can you declare a class as both final and abstract?",
+        "Model Answer": "No, it's contradictory because 'final' prevents inheritance and 'abstract' requires subclassing."
+    },
+    {
+        "Question ID": "java_032",
+        "Question": "What is the purpose of a setter method?",
+        "Model Answer": "To assign values to private variables from outside the class."
+    },
+    {
+        "Question ID": "java_033",
+        "Question": "Can a constructor be private?",
+        "Model Answer": "Yes, it restricts instantiation. Often used in singleton pattern."
+    },
+    {
+        "Question ID": "java_034",
+        "Question": "What is a singleton class?",
+        "Model Answer": "A class that allows only one object to be created. Ensured using a private constructor and static instance."
+    },
+    {
+        "Question ID": "java_035",
+        "Question": "What is a nested class?",
+        "Model Answer": "A class declared within another class. It helps logically group classes."
+    },
+    {
+        "Question ID": "java_036",
+        "Question": "What is composition in OOP?",
+        "Model Answer": "A design principle where one class contains a reference to another. It models 'has-a' relationships."
+    },
+    {
+        "Question ID": "java_037",
+        "Question": "What is the difference between composition and inheritance?",
+        "Model Answer": "Composition is a 'has-a' relationship; inheritance is an 'is-a' relationship."
+    },
+    {
+        "Question ID": "java_038",
+        "Question": "Can an interface extend another interface?",
+        "Model Answer": "Yes, interfaces can extend other interfaces using the 'extends' keyword."
+    },
+    {
+        "Question ID": "java_039",
+        "Question": "What is a class variable?",
+        "Model Answer": "A static variable shared among all instances of a class."
+    },
+    {
+        "Question ID": "java_040",
+        "Question": "What are instance variables?",
+        "Model Answer": "Variables declared in a class but outside methods. Each object has its own copy."
+    },
+    {
+        "Question ID": "java_041",
+        "Question": "What is the JVM?",
+        "Model Answer": "Java Virtual Machine runs Java bytecode and provides platform independence."
+    },
+    {
+        "Question ID": "java_042",
+        "Question": "What is type casting in Java?",
+        "Model Answer": "Converting a variable from one type to another. Example: double d = (double) 10;"
+    },
+    {
+        "Question ID": "java_043",
+        "Question": "What is upcasting?",
+        "Model Answer": "Assigning a subclass object to a superclass reference. It's implicit and safe."
+    },
+    {
+        "Question ID": "java_044",
+        "Question": "What is downcasting?",
+        "Model Answer": "Casting a superclass reference to a subclass type. Requires explicit casting and may throw exceptions."
+    },
+    {
+        "Question ID": "java_045",
+        "Question": "What is dynamic method dispatch?",
+        "Model Answer": "Process where a call to an overridden method is resolved at runtime."
+    },
+    {
+        "Question ID": "java_046",
+        "Question": "Can an interface have static methods?",
+        "Model Answer": "Yes, from Java 8 onward, interfaces can have static methods with implementations."
+    },
+    {
+        "Question ID": "java_047",
+        "Question": "Can an abstract class implement an interface?",
+        "Model Answer": "Yes, and the implementing class must provide method definitions unless it is also abstract."
+    },
+    {
+        "Question ID": "java_048",
+        "Question": "What is the 'default' method in interfaces?",
+        "Model Answer": "From Java 8, interfaces can include default methods with a body using the 'default' keyword."
+    },
+    {
+        "Question ID": "java_049",
+        "Question": "What is a functional interface?",
+        "Model Answer": "An interface with only one abstract method. Used for lambda expressions."
+    },
+    {
+        "Question ID": "java_050",
+        "Question": "What is multiple inheritance?",
+        "Model Answer": "It means inheriting from more than one class. Java does not support it with classes but supports it with interfaces."
+    },
+    {
+        "Question ID": "java_051",
+        "Question": "What is the difference between method overloading and method overriding?",
+        "Model Answer": "Overloading occurs within the same class with different parameters. Overriding happens in subclasses with the same method signature."
+    },
+    {
+        "Question ID": "java_052",
+        "Question": "What is early binding in Java?",
+        "Model Answer": "Early binding refers to compile-time method binding, used for static, final, and private methods."
+    },
+    {
+        "Question ID": "java_053",
+        "Question": "What is late binding in Java?",
+        "Model Answer": "Late binding refers to runtime method binding, commonly used in method overriding."
+    },
+    {
+        "Question ID": "java_054",
+        "Question": "What is a class loader?",
+        "Model Answer": "A class loader loads Java classes into the JVM during runtime."
+    },
+    {
+        "Question ID": "java_055",
+        "Question": "What is garbage collection in Java?",
+        "Model Answer": "Garbage collection is the process of automatically reclaiming memory by removing unused objects."
+    },
+    {
+        "Question ID": "java_056",
+        "Question": "How do you make a class immutable in Java?",
+        "Model Answer": "Make the class final, all fields private and final, and avoid setters."
+    },
+    {
+        "Question ID": "java_057",
+        "Question": "What is the advantage of encapsulation?",
+        "Model Answer": "Encapsulation increases security, maintainability, and reusability of code."
+    },
+    {
+        "Question ID": "java_058",
+        "Question": "What is a marker interface?",
+        "Model Answer": "An interface with no methods or fields, used to mark a class for special treatment by the JVM or libraries. Example: Serializable."
+    },
+    {
+        "Question ID": "java_059",
+        "Question": "What is the difference between compile-time and runtime polymorphism?",
+        "Model Answer": "Compile-time polymorphism is method overloading; runtime polymorphism is method overriding."
+    },
+    {
+        "Question ID": "java_060",
+        "Question": "Can we declare an interface method as static?",
+        "Model Answer": "Yes, from Java 8 onward."
+    },
+    {
+        "Question ID": "java_061",
+        "Question": "What is an inner class in Java?",
+        "Model Answer": "A class defined within another class. Can access the members of the outer class."
+    },
+    {
+        "Question ID": "java_062",
+        "Question": "Can a class implement multiple interfaces?",
+        "Model Answer": "Yes, a class can implement multiple interfaces, allowing multiple inheritance of type."
+    },
+    {
+        "Question ID": "java_063",
+        "Question": "What is the use of static block in Java?",
+        "Model Answer": "A static block is used to initialize static variables when the class is loaded."
+    },
+    {
+        "Question ID": "java_064",
+        "Question": "What is method hiding?",
+        "Model Answer": "When a static method in a subclass has the same signature as a static method in the superclass."
+    },
+    {
+        "Question ID": "java_065",
+        "Question": "Can we instantiate an interface?",
+        "Model Answer": "No, interfaces cannot be instantiated directly."
+    },
+    {
+        "Question ID": "java_066",
+        "Question": "Can abstract classes have static methods?",
+        "Model Answer": "Yes, static methods can be defined in abstract classes."
+    },
+    {
+        "Question ID": "java_067",
+        "Question": "What is the difference between an abstract method and a regular method?",
+        "Model Answer": "Abstract methods have no body and must be implemented; regular methods have an implementation."
+    },
+    {
+        "Question ID": "java_068",
+        "Question": "What is the main difference between class and object?",
+        "Model Answer": "A class is a blueprint; an object is an instance of a class."
+    },
+    {
+        "Question ID": "java_069",
+        "Question": "What are the different types of inheritance in Java?",
+        "Model Answer": "Single, multilevel, and hierarchical. Java does not support multiple inheritance with classes."
+    },
+    {
+        "Question ID": "java_070",
+        "Question": "What is the use of interfaces in Java?",
+        "Model Answer": "Interfaces define a contract that implementing classes must follow, enabling abstraction and multiple inheritance."
+    },
+    {
+        "Question ID": "java_071",
+        "Question": "What is runtime polymorphism?",
+        "Model Answer": "Runtime polymorphism is achieved through method overriding, where the method call is resolved at runtime."
+    },
+    {
+        "Question ID": "java_072",
+        "Question": "Can we declare abstract methods in a normal class?",
+        "Model Answer": "No, only abstract classes can have abstract methods."
+    },
+    {
+        "Question ID": "java_073",
+        "Question": "What is the output of calling toString() on an object?",
+        "Model Answer": "By default, it returns the class name followed by the object's hash code."
+    },
+    {
+        "Question ID": "java_074",
+        "Question": "How can we prevent inheritance in Java?",
+        "Model Answer": "By declaring the class as final."
+    },
+    {
+        "Question ID": "java_075",
+        "Question": "What is the diamond problem?",
+        "Model Answer": "It refers to ambiguity in multiple inheritance. Java avoids it by not allowing multiple class inheritance."
+    },
+    {
+        "Question ID": "java_076",
+        "Question": "What is object cloning?",
+        "Model Answer": "Creating an exact copy of an object using the clone() method."
+    },
+    {
+        "Question ID": "java_077",
+        "Question": "What is shallow copy vs deep copy?",
+        "Model Answer": "Shallow copy copies references; deep copy copies the objects they refer to as well."
+    },
+    {
+        "Question ID": "java_078",
+        "Question": "Can you override a static method?",
+        "Model Answer": "No, static methods are hidden, not overridden."
+    },
+    {
+        "Question ID": "java_079",
+        "Question": "Can abstract classes have main method?",
+        "Model Answer": "Yes, the main method can be defined in abstract classes."
+    },
+    {
+        "Question ID": "java_080",
+        "Question": "Can final methods be overridden?",
+        "Model Answer": "No, final methods cannot be overridden."
+    },
+    {
+        "Question ID": "java_081",
+        "Question": "Can constructor be abstract?",
+        "Model Answer": "No, constructors cannot be abstract."
+    },
+    {
+        "Question ID": "java_082",
+        "Question": "Can we declare a constructor as static?",
+        "Model Answer": "No, constructors cannot be static."
+    },
+    {
+        "Question ID": "java_083",
+        "Question": "What happens if a class doesn’t have a constructor?",
+        "Model Answer": "Java provides a default no-arg constructor."
+    },
+    {
+        "Question ID": "java_084",
+        "Question": "What is a transient variable?",
+        "Model Answer": "A variable that is not serialized during object serialization."
+    },
+    {
+        "Question ID": "java_085",
+        "Question": "What is volatile keyword in Java?",
+        "Model Answer": "It indicates that a variable's value will be modified by different threads."
+    },
+    {
+        "Question ID": "java_086",
+        "Question": "What is the use of finalize() method?",
+        "Model Answer": "It's called by the garbage collector before reclaiming object memory."
+    },
+    {
+        "Question ID": "java_087",
+        "Question": "Can we call a constructor from another constructor?",
+        "Model Answer": "Yes, using 'this()' to call another constructor in the same class."
+    },
+    {
+        "Question ID": "java_088",
+        "Question": "Can we call superclass constructor explicitly?",
+        "Model Answer": "Yes, using 'super()' from the subclass constructor."
+    },
+    {
+        "Question ID": "java_089",
+        "Question": "What is the difference between super() and this()?",
+        "Model Answer": "'super()' calls parent class constructor; 'this()' calls another constructor in the same class."
+    },
+    {
+        "Question ID": "java_090",
+        "Question": "What is method signature?",
+        "Model Answer": "The method name and parameter list. Used to distinguish overloaded methods."
+    },
+    {
+        "Question ID": "java_091",
+        "Question": "Can final class have subclasses?",
+        "Model Answer": "No, final classes cannot be extended."
+    },
+    {
+        "Question ID": "java_092",
+        "Question": "What is an anonymous class?",
+        "Model Answer": "A class defined and instantiated in a single expression."
+    },
+    {
+        "Question ID": "java_093",
+        "Question": "What is the use of 'instanceof' operator?",
+        "Model Answer": "To test if an object is an instance of a specific class or subclass."
+    },
+    {
+        "Question ID": "java_094",
+        "Question": "What is the purpose of toString() method?",
+        "Model Answer": "To provide a string representation of an object, usually overridden for readability."
+    },
+    {
+        "Question ID": "java_095",
+        "Question": "Can we inherit constructors?",
+        "Model Answer": "No, constructors are not inherited but can be invoked using 'super()'."
+    },
+    {
+        "Question ID": "java_096",
+        "Question": "What is tight coupling in Java?",
+        "Model Answer": "When a class is heavily dependent on the implementation details of another class."
+    },
+    {
+        "Question ID": "java_097",
+        "Question": "What is loose coupling?",
+        "Model Answer": "When classes are independent and communicate through interfaces or abstractions."
+    },
+    {
+        "Question ID": "java_098",
+        "Question": "What are the four pillars of OOP?",
+        "Model Answer": "Encapsulation, Inheritance, Abstraction, and Polymorphism."
+    },
+    {
+        "Question ID": "java_099",
+        "Question": "What is a POJO in Java?",
+        "Model Answer": "Plain Old Java Object – a simple Java object with no special restrictions."
+    },
+    {
+        "Question ID": "java_100",
+        "Question": "What is cohesion in OOP?",
+        "Model Answer": "Cohesion refers to how closely related the responsibilities of a single class are."
+    },
+    {
+        "Question ID": "java_101",
+        "Question": "What is coupling in Java?",
+        "Model Answer": "Coupling is the degree of dependency between classes. Low coupling is preferred for better modularity."
+    },
+    {
+        "Question ID": "java_102",
+        "Question": "Can we override a final method?",
+        "Model Answer": "No, final methods cannot be overridden in subclasses."
+    },
+    {
+        "Question ID": "java_103",
+        "Question": "What is object-oriented programming?",
+        "Model Answer": "OOP is a programming paradigm based on objects, classes, inheritance, encapsulation, polymorphism, and abstraction."
+    },
+    {
+        "Question ID": "java_104",
+        "Question": "What is the difference between class and structure?",
+        "Model Answer": "Java doesn't have 'struct'. In other languages, classes support methods and encapsulation; structs are simpler."
+    },
+    {
+        "Question ID": "java_105",
+        "Question": "What is a class path?",
+        "Model Answer": "Class path is the path where Java looks for .class files to load classes during runtime."
+    },
+    {
+        "Question ID": "java_106",
+        "Question": "What is the difference between public and default access modifier?",
+        "Model Answer": "'public' allows access everywhere; 'default' allows access within the same package only."
+    },
+    {
+        "Question ID": "java_107",
+        "Question": "What is the difference between aggregation and composition?",
+        "Model Answer": "Composition implies ownership; aggregation implies a weaker relationship. In composition, child cannot exist without parent."
+    },
+    {
+        "Question ID": "java_108",
+        "Question": "Can a class be both abstract and final?",
+        "Model Answer": "No, abstract requires subclassing; final prevents it."
+    },
+    {
+        "Question ID": "java_109",
+        "Question": "What is dynamic binding?",
+        "Model Answer": "Dynamic binding is when method calls are resolved at runtime rather than compile-time."
+    },
+    {
+        "Question ID": "java_110",
+        "Question": "What is the base class for all Java classes?",
+        "Model Answer": "java.lang.Object is the superclass of all Java classes."
+    },
+    {
+        "Question ID": "java_111",
+        "Question": "What is the difference between interface and class?",
+        "Model Answer": "A class can have implemented methods and state; interfaces define method signatures only (until Java 8)."
+    },
+    {
+        "Question ID": "java_112",
+        "Question": "Can we extend an interface?",
+        "Model Answer": "Yes, an interface can extend one or more other interfaces."
+    },
+    {
+        "Question ID": "java_113",
+        "Question": "What are static variables?",
+        "Model Answer": "Static variables belong to the class and are shared among all instances."
+    },
+    {
+        "Question ID": "java_114",
+        "Question": "What are static blocks used for?",
+        "Model Answer": "They initialize static variables and are executed once when the class is loaded."
+    },
+    {
+        "Question ID": "java_115",
+        "Question": "What are instance blocks?",
+        "Model Answer": "Code blocks that run every time an object is created, used to initialize instance variables."
+    },
+    {
+        "Question ID": "java_116",
+        "Question": "Can we overload static methods?",
+        "Model Answer": "Yes, static methods can be overloaded like instance methods."
+    },
+    {
+        "Question ID": "java_117",
+        "Question": "Can we override private methods?",
+        "Model Answer": "No, private methods are not visible in subclasses."
+    },
+    {
+        "Question ID": "java_118",
+        "Question": "What is the purpose of inheritance?",
+        "Model Answer": "To enable code reuse and polymorphism by allowing one class to use methods and fields of another."
+    },
+    {
+        "Question ID": "java_119",
+        "Question": "What does 'extends' mean in Java?",
+        "Model Answer": "It indicates inheritance between a subclass and a superclass."
+    },
+    {
+        "Question ID": "java_120",
+        "Question": "What does 'implements' mean in Java?",
+        "Model Answer": "It indicates that a class is fulfilling a contract defined by an interface."
+    },
+    {
+        "Question ID": "java_121",
+        "Question": "Can a class be abstract without abstract methods?",
+        "Model Answer": "Yes, it can be declared abstract to prevent instantiation."
+    },
+    {
+        "Question ID": "java_122",
+        "Question": "What is a concrete class?",
+        "Model Answer": "A class with full implementation that can be instantiated."
+    },
+    {
+        "Question ID": "java_123",
+        "Question": "What is an interface in Java?",
+        "Model Answer": "An interface is a reference type that contains method signatures and constants."
+    },
+    {
+        "Question ID": "java_124",
+        "Question": "What is the difference between abstract class and concrete class?",
+        "Model Answer": "Abstract classes cannot be instantiated and may have abstract methods. Concrete classes are fully implemented."
+    },
+    {
+        "Question ID": "java_125",
+        "Question": "Can abstract class have a main method?",
+        "Model Answer": "Yes, like any other class, abstract classes can have a main method."
+    },
+    {
+        "Question ID": "java_126",
+        "Question": "Can interface contain constructor?",
+        "Model Answer": "No, interfaces cannot have constructors."
+    },
+    {
+        "Question ID": "java_127",
+        "Question": "What is the benefit of interfaces?",
+        "Model Answer": "They allow multiple inheritance of type and define a clear contract for implementing classes."
+    },
+    {
+        "Question ID": "java_128",
+        "Question": "Can a class implement multiple interfaces with same method?",
+        "Model Answer": "Yes, the class must provide a single implementation of the shared method."
+    },
+    {
+        "Question ID": "java_129",
+        "Question": "What happens if you do not override all interface methods?",
+        "Model Answer": "The class must be declared abstract if it doesn't implement all interface methods."
+    },
+    {
+        "Question ID": "java_130",
+        "Question": "Can a class have both abstract and non-abstract methods?",
+        "Model Answer": "Yes, but only if the class itself is declared abstract."
+    },
+    {
+        "Question ID": "java_131",
+        "Question": "What is a default constructor?",
+        "Model Answer": "A constructor with no parameters provided automatically by the compiler if none is defined."
+    },
+    {
+        "Question ID": "java_132",
+        "Question": "Can we make a class static?",
+        "Model Answer": "Only nested classes can be static, not top-level classes."
+    },
+    {
+        "Question ID": "java_133",
+        "Question": "What is a factory method?",
+        "Model Answer": "A method that returns an instance of a class, often used to control object creation."
+    },
+    {
+        "Question ID": "java_134",
+        "Question": "What is the difference between deep and shallow copy?",
+        "Model Answer": "Shallow copy copies references; deep copy duplicates referenced objects too."
+    },
+    {
+        "Question ID": "java_135",
+        "Question": "What is the role of the Object class?",
+        "Model Answer": "It provides basic methods like equals(), hashCode(), and toString() for all Java objects."
+    },
+    {
+        "Question ID": "java_136",
+        "Question": "What is the contract of equals() and hashCode()?",
+        "Model Answer": "If two objects are equal, they must have the same hash code."
+    },
+    {
+        "Question ID": "java_137",
+        "Question": "Can we override hashCode() method?",
+        "Model Answer": "Yes, to maintain consistency with equals() and allow correct behavior in hash-based collections."
+    },
+    {
+        "Question ID": "java_138",
+        "Question": "What is a static nested class?",
+        "Model Answer": "A nested class that does not require an instance of the enclosing class."
+    },
+    {
+        "Question ID": "java_139",
+        "Question": "What is an enum in Java?",
+        "Model Answer": "An enum is a special class representing a group of constants (unchangeable variables)."
+    },
+    {
+        "Question ID": "java_140",
+        "Question": "What is the purpose of serialVersionUID?",
+        "Model Answer": "To ensure compatibility during object serialization and deserialization."
+    },
+    {
+        "Question ID": "java_141",
+        "Question": "Can interface extend multiple interfaces?",
+        "Model Answer": "Yes, interfaces can extend multiple interfaces."
+    },
+    {
+        "Question ID": "java_142",
+        "Question": "Can a class implement multiple interfaces?",
+        "Model Answer": "Yes, and it's the recommended way to achieve multiple inheritance in Java."
+    },
+    {
+        "Question ID": "java_143",
+        "Question": "What is method chaining?",
+        "Model Answer": "A technique where methods return the current object to allow calling multiple methods in a single line."
+    },
+    {
+        "Question ID": "java_144",
+        "Question": "What is dependency injection?",
+        "Model Answer": "A design pattern where dependencies are provided from the outside rather than creating them internally."
+    },
+    {
+        "Question ID": "java_145",
+        "Question": "What is an interface default method?",
+        "Model Answer": "A method in an interface with a body, introduced in Java 8 using the 'default' keyword."
+    },
+    {
+        "Question ID": "java_146",
+        "Question": "Can we define a private method in an interface?",
+        "Model Answer": "Yes, from Java 9 onwards, interfaces can have private methods."
+    },
+    {
+        "Question ID": "java_147",
+        "Question": "What is reflection in Java?",
+        "Model Answer": "Reflection allows inspection and modification of classes, fields, methods at runtime."
+    },
+    {
+        "Question ID": "java_148",
+        "Question": "What is method signature?",
+        "Model Answer": "The method name along with its parameter types and order."
+    },
+    {
+        "Question ID": "java_149",
+        "Question": "What is object identity?",
+        "Model Answer": "It refers to the uniqueness of an object reference in memory, compared using '=='."
+    },
+    {
+        "Question ID": "java_150",
+        "Question": "What is object equality?",
+        "Model Answer": "It refers to comparing object content using the equals() method."
+    },
+    {
+        "Question ID": "java_151",
+        "Question": "What is constructor chaining?",
+        "Model Answer": "Calling one constructor from another within the same class using 'this()' or from a superclass using 'super()'."
+    },
+    {
+        "Question ID": "java_152",
+        "Question": "What is an abstract data type (ADT)?",
+        "Model Answer": "A model for data structures with defined behavior but hidden implementation, like List or Map."
+    },
+    {
+        "Question ID": "java_153",
+        "Question": "What is method reference in Java?",
+        "Model Answer": "A shorthand notation for calling a method via a lambda expression. Example: ClassName::methodName."
+    },
+    {
+        "Question ID": "java_154",
+        "Question": "What is lambda expression?",
+        "Model Answer": "A concise way to represent anonymous functions in Java, introduced in Java 8."
+    },
+    {
+        "Question ID": "java_155",
+        "Question": "What is the use of instanceof operator?",
+        "Model Answer": "To check whether an object is an instance of a specific class or subclass."
+    },
+    {
+        "Question ID": "java_156",
+        "Question": "What is a blueprint in Java?",
+        "Model Answer": "A class is considered a blueprint from which objects are created."
+    },
+    {
+        "Question ID": "java_157",
+        "Question": "What is the SOLID principle?",
+        "Model Answer": "A set of five OOP principles: Single responsibility, Open/closed, Liskov substitution, Interface segregation, Dependency inversion."
+    },
+    {
+        "Question ID": "java_158",
+        "Question": "What is a design pattern?",
+        "Model Answer": "A reusable solution to common problems in software design, like Singleton or Factory."
+    },
+    {
+        "Question ID": "java_159",
+        "Question": "What is the difference between class and object?",
+        "Model Answer": "A class is a blueprint; an object is an instance of that class."
+    },
+    {
+        "Question ID": "java_160",
+        "Question": "Can you access non-static data in a static context?",
+        "Model Answer": "No, static context cannot access instance data directly."
+    },
+    {
+        "Question ID": "java_161",
+        "Question": "What is the purpose of accessors and mutators?",
+        "Model Answer": "Accessors (getters) retrieve field values; mutators (setters) update them."
+    },
+    {
+        "Question ID": "java_162",
+        "Question": "What is a bean in Java?",
+        "Model Answer": "A Java class that follows conventions: has private fields, public getters/setters, and a no-arg constructor."
+    },
+    {
+        "Question ID": "java_163",
+        "Question": "What is cohesion in OOP?",
+        "Model Answer": "Cohesion refers to how closely related a class's methods and fields are to a single purpose."
+    },
+    {
+        "Question ID": "java_164",
+        "Question": "What is a sealed class (Java 17)?",
+        "Model Answer": "A class that restricts which classes can extend it, declared using 'permits'."
+    },
+    {
+        "Question ID": "java_165",
+        "Question": "What is the purpose of interface segregation principle?",
+        "Model Answer": "It encourages small, role-specific interfaces to avoid forcing classes to implement unused methods."
+    },
+    {
+        "Question ID": "java_166",
+        "Question": "What is Liskov substitution principle?",
+        "Model Answer": "Subtypes must be substitutable for their base types without affecting program correctness."
+    },
+    {
+        "Question ID": "java_167",
+        "Question": "What is object composition?",
+        "Model Answer": "Building complex types by combining objects of other types rather than inheriting from them."
+    },
+    {
+        "Question ID": "java_168",
+        "Question": "Can enums implement interfaces?",
+        "Model Answer": "Yes, enums can implement one or more interfaces."
+    },
+    {
+        "Question ID": "java_169",
+        "Question": "What is the difference between throw and throws?",
+        "Model Answer": "'throw' is used to explicitly throw an exception; 'throws' is used in method signature to declare exceptions."
+    },
+    {
+        "Question ID": "java_170",
+        "Question": "What is the difference between try-catch and throws?",
+        "Model Answer": "try-catch handles the exception; throws declares it for the caller to handle."
+    },
+    {
+        "Question ID": "java_171",
+        "Question": "What is the use of final variable?",
+        "Model Answer": "Its value cannot be changed once assigned."
+    },
+    {
+        "Question ID": "java_172",
+        "Question": "Can an interface be final?",
+        "Model Answer": "No, interfaces are meant to be implemented and cannot be final."
+    },
+    {
+        "Question ID": "java_173",
+        "Question": "Can static methods be abstract?",
+        "Model Answer": "No, static methods must have a body and can't be abstract."
+    },
+    {
+        "Question ID": "java_174",
+        "Question": "What is a record (Java 14+)?",
+        "Model Answer": "A special class for immutable data, automatically generates constructor, accessors, equals, hashCode, toString."
+    },
+    {
+        "Question ID": "java_175",
+        "Question": "What is the difference between == and equals() for strings?",
+        "Model Answer": "'==' compares references; equals() compares actual string content."
+    },
+    {
+        "Question ID": "java_176",
+        "Question": "What is the difference between heap and stack memory?",
+        "Model Answer": "Heap stores objects; stack stores method calls and local variables."
+    },
+    {
+        "Question ID": "java_177",
+        "Question": "What is boxing and unboxing?",
+        "Model Answer": "Boxing converts primitives to objects; unboxing converts objects back to primitives."
+    },
+    {
+        "Question ID": "java_178",
+        "Question": "What is autoboxing in Java?",
+        "Model Answer": "Automatic conversion of primitive types to their corresponding wrapper classes."
+    },
+    {
+        "Question ID": "java_179",
+        "Question": "What is serialization in Java?",
+        "Model Answer": "The process of converting an object into a byte stream to save or transfer it."
+    },
+    {
+        "Question ID": "java_180",
+        "Question": "What is deserialization?",
+        "Model Answer": "Converting a byte stream back into an object."
+    },
+    {
+        "Question ID": "java_181",
+        "Question": "What is the Serializable interface?",
+        "Model Answer": "A marker interface that enables object serialization."
+    },
+    {
+        "Question ID": "java_182",
+        "Question": "What is transient keyword?",
+        "Model Answer": "Used to exclude a variable from serialization."
+    },
+    {
+        "Question ID": "java_183",
+        "Question": "What is clone() method used for?",
+        "Model Answer": "To create and return a copy of the object."
+    },
+    {
+        "Question ID": "java_184",
+        "Question": "What is copy constructor in Java?",
+        "Model Answer": "Java doesn't have built-in copy constructors, but you can define one to copy object state."
+    },
+    {
+        "Question ID": "java_185",
+        "Question": "What are the common object methods in Java?",
+        "Model Answer": "toString(), equals(), hashCode(), getClass(), clone(), finalize()."
+    },
+    {
+        "Question ID": "java_186",
+        "Question": "What is method hiding in Java?",
+        "Model Answer": "When a subclass defines a static method with the same signature as in superclass."
+    },
+    {
+        "Question ID": "java_187",
+        "Question": "What is final class in Java?",
+        "Model Answer": "A class that cannot be subclassed."
+    },
+    {
+        "Question ID": "java_188",
+        "Question": "Can we use this() and super() together?",
+        "Model Answer": "No, both must be the first statement in a constructor, so they can't be used together."
+    },
+    {
+        "Question ID": "java_189",
+        "Question": "What is the difference between protected and package-private?",
+        "Model Answer": "Protected allows access in the same package and subclasses; package-private allows access only in the same package."
+    },
+    {
+        "Question ID": "java_190",
+        "Question": "Can constructor be synchronized?",
+        "Model Answer": "No, constructors can't be synchronized directly, but object creation can be synchronized externally."
+    },
+    {
+        "Question ID": "java_191",
+        "Question": "What is method abstraction?",
+        "Model Answer": "Hiding the implementation of a method and exposing only its signature."
+    },
+    {
+        "Question ID": "java_192",
+        "Question": "What is inheritance hierarchy?",
+        "Model Answer": "A structure where classes inherit from other classes forming a parent-child relationship chain."
+    },
+    {
+        "Question ID": "java_193",
+        "Question": "What is the purpose of abstract class if it has no abstract methods?",
+        "Model Answer": "To prevent instantiation and allow shared code in subclasses."
+    },
+    {
+        "Question ID": "java_194",
+        "Question": "What are the advantages of OOP?",
+        "Model Answer": "Reusability, modularity, scalability, maintainability, and abstraction."
+    },
+    {
+        "Question ID": "java_195",
+        "Question": "What is encapsulation and how is it implemented?",
+        "Model Answer": "By using private fields and providing public getters/setters."
+    },
+    {
+        "Question ID": "java_196",
+        "Question": "What is overriding vs hiding?",
+        "Model Answer": "Overriding is for instance methods; hiding is for static methods."
+    },
+    {
+        "Question ID": "java_197",
+        "Question": "Why is OOP preferred in large applications?",
+        "Model Answer": "Because it allows better structure, modularity, and code reuse."
+    },
+    {
+        "Question ID": "java_198",
+        "Question": "Can we override a default method from an interface?",
+        "Model Answer": "Yes, implementing classes can override default methods."
+    },
+    {
+        "Question ID": "java_199",
+        "Question": "Can an interface extend a class?",
+        "Model Answer": "No, an interface can only extend another interface."
+    },
+    {
+        "Question ID": "java_200",
+        "Question": "Can a class implement two interfaces with conflicting default methods?",
+        "Model Answer": "Yes, but the class must override the conflicting method to resolve ambiguity."
+    }
+]
+
+

@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:8000/student';
+const API_URL = `${process.env.REACT_APP_API_URL}/student`;
 
 // Fetch all exams for the student (active, upcoming, draft) with progress info
 export async function fetchStudentExams(userId: number) {
@@ -34,7 +34,7 @@ export async function submitAnswer(data: {
 
 export async function fetchModuleNameByExamId(examId: number) {
   const res = await fetch(
-    `http://localhost:8000/student/exam/${examId}/module`
+    `${process.env.REACT_APP_API_URL}/student/exam/${examId}/module`
   );
   if (!res.ok) throw new Error('Failed to fetch module name');
   return res.json(); // { module_name: "Python programming" }

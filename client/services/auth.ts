@@ -1,3 +1,5 @@
+const url = process.env.REACT_APP_API_URL as string;
+
 // services/auth.ts
 export type LoginPayload = {
   username: string
@@ -16,7 +18,7 @@ function setUserSession(data: LoginResponse) {
 }
 
 export async function login(payload: LoginPayload): Promise<LoginResponse> {
-  const response = await fetch("http://localhost:8000/login", {
+  const response = await fetch(`${url}/login`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",

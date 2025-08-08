@@ -1,3 +1,5 @@
+const url = process.env.REACT_APP_API_URL as string;
+
 // ======================= Interfaces =======================
 
 export interface ExamPayload {
@@ -18,7 +20,7 @@ export interface QuestionPayload {
 // ======================= Dashboard =======================
 
 export async function fetchLecturerDashboard() {
-  const res = await fetch("http://localhost:8000/lecturer/exams")
+  const res = await fetch(`${url}/lecturer/exams`)
   if (!res.ok) throw new Error("Failed to fetch dashboard data")
   return res.json()
 }
@@ -26,7 +28,7 @@ export async function fetchLecturerDashboard() {
 // ======================= Exam CRUD =======================
 
 export async function createExam(payload: ExamPayload): Promise<{ examId: number }> {
-  const res = await fetch("http://localhost:8000/lecturer/exams", {
+  const res = await fetch(`${url}/lecturer/exams`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(payload),
@@ -41,7 +43,7 @@ export async function createExam(payload: ExamPayload): Promise<{ examId: number
 }
 
 export async function fetchExamById(examId: number) {
-  const res = await fetch(`http://localhost:8000/lecturer/exams/${examId}`)
+  const res = await fetch(`${url}/lecturer/exams/${examId}`)
   if (!res.ok) throw new Error("Failed to fetch exam")
   return res.json()
 }
@@ -52,7 +54,7 @@ export async function updateExam(examId: number, data: {
   duration: number
   status: string
 }) {
-  const res = await fetch(`http://localhost:8000/lecturer/exams/${examId}`, {
+  const res = await fetch(`${url}/lecturer/exams/${examId}`, {
     method: "PUT",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(data),
@@ -62,7 +64,7 @@ export async function updateExam(examId: number, data: {
 }
 
 export async function deleteExamWithAuth(examId: number, username: string, password: string) {
-  const res = await fetch(`http://localhost:8000/lecturer/exams/${examId}/delete`, {
+  const res = await fetch(`${url}/lecturer/exams/${examId}/delete`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ username, password }),
@@ -80,7 +82,7 @@ export async function deleteExamWithAuth(examId: number, username: string, passw
 // ======================= Question CRUD =======================
 
 export async function addQuestionsToExam(examId: number, questions: QuestionPayload[]) {
-  const res = await fetch(`http://localhost:8000/lecturer/exams/${examId}/questions`, {
+  const res = await fetch(`${url}/lecturer/exams/${examId}/questions`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(questions),
@@ -95,7 +97,7 @@ export async function addQuestionsToExam(examId: number, questions: QuestionPayl
 }
 
 export async function updateExamQuestions(examId: number, questions: QuestionPayload[]) {
-  const res = await fetch(`http://localhost:8000/lecturer/exams/${examId}/questions`, {
+  const res = await fetch(`${url}/lecturer/exams/${examId}/questions`, {
     method: "PUT",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(questions),
@@ -106,7 +108,7 @@ export async function updateExamQuestions(examId: number, questions: QuestionPay
 }
 
 export async function deleteQuestionFromExam(questionId: number) {
-  const res = await fetch(`http://localhost:8000/lecturer/questions/${questionId}`, {
+  const res = await fetch(`${url}/lecturer/questions/${questionId}`, {
     method: "DELETE",
   })
 
@@ -115,7 +117,7 @@ export async function deleteQuestionFromExam(questionId: number) {
 }
 
 export async function fetchExamQuestions(examId: number) {
-  const res = await fetch(`http://localhost:8000/lecturer/exams/${examId}/questions`)
+  const res = await fetch(`${url}/lecturer/exams/${examId}/questions`)
   if (!res.ok) throw new Error("Failed to fetch questions")
   return res.json()
 }
@@ -123,7 +125,7 @@ export async function fetchExamQuestions(examId: number) {
 // ======================= Modules =======================
 
 export async function fetchModules(): Promise<{ ModuleId: number; ModuleName: string }[]> {
-  const res = await fetch("http://localhost:8000/modules")
+  const res = await fetch(`${url}/modules`)
   if (!res.ok) throw new Error("Failed to fetch modules")
 
   const data = await res.json()
@@ -134,7 +136,7 @@ export async function fetchModules(): Promise<{ ModuleId: number; ModuleName: st
 
 export async function fetchExamResults(examId: number) {
   const res = await fetch(
-    `http://localhost:8000/lecturer/exams/${examId}/results`
+    `${url}/lecturer/exams/${examId}/results`
   );
   if (!res.ok) throw new Error('Failed to fetch exam results');
   return res.json();

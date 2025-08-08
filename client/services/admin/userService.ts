@@ -1,3 +1,5 @@
+const url = process.env.REACT_APP_API_URL as string;
+
 export type User = {
   UserId: number;
   Username: string;
@@ -11,13 +13,13 @@ export type Role = {
 };
 
 export async function fetchUsers(): Promise<User[]> {
-  const res = await fetch("http://localhost:8000/admin/users");
+  const res = await fetch(`${url}/admin/users`);
   if (!res.ok) throw new Error("Failed to fetch users");
   return res.json();
 }
 
 export async function fetchRoles(): Promise<Role[]> {
-  const res = await fetch("http://localhost:8000/admin/roles");
+  const res = await fetch(`${url}/admin/roles`);
   if (!res.ok) throw new Error("Failed to fetch roles");
   return res.json();
 }
@@ -28,7 +30,7 @@ export async function updateUser(user: {
   Password?: string;
   UserRoleId: number;
 }) {
-  const res = await fetch(`http://localhost:8000/admin/users/${user.UserId}`, {
+  const res = await fetch(`${url}/admin/users/${user.UserId}`, {
     method: "PUT",
     headers: {
       "Content-Type": "application/json",
@@ -43,7 +45,7 @@ export async function updateUser(user: {
 }
 
 export async function createUser(user: { Username: string; Password: string; UserRoleId: number }) {
-  const res = await fetch("http://localhost:8000/admin/users", {
+  const res = await fetch(`${url}/admin/users`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(user),
@@ -53,7 +55,7 @@ export async function createUser(user: { Username: string; Password: string; Use
 }
 
 export async function deleteUser(userId: number, credentials: { username: string; password: string }) {
-  const response = await fetch(`http://localhost:8000/admin/users/${userId}/delete`, {
+  const response = await fetch(`${url}/admin/users/${userId}/delete`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",

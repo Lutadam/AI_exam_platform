@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect, useState } from "react"
+import { useEffect, useState, Suspense } from "react"
 import { useSearchParams } from "next/navigation"
 import { fetchExamQuestions } from "@/services/lecturer/lecturerService"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
@@ -15,7 +15,7 @@ interface Question {
   ModuleName: string
 }
 
-export default function ViewQuestionsPage() {
+function ViewQuestionsPage() {
   const searchParams = useSearchParams()
   const examIdParam = searchParams.get("examId")
 
@@ -69,4 +69,8 @@ export default function ViewQuestionsPage() {
       )}
     </div>
   )
+}
+
+export default function ViewQuestionsPageSuspense() {
+  return <Suspense fallback={<div>Loading...</div>}><ViewQuestionsPage /></Suspense>
 }

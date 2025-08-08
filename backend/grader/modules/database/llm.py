@@ -1,4 +1,5 @@
 #llm.py
+import os
 from langchain_ollama import OllamaLLM
 from grader.modules.database.refandfaiss import load_reference_chunks, build_or_load_faiss_index
 from typing import List
@@ -37,8 +38,8 @@ Respond in this exact format:
 Score: <number>
 Feedback: <your comment>
 """
-
-llm = OllamaLLM(model="mistral:7b", temperature=0.8)
+llm_base_url = os.getenv("LLM_BASE_URL", "http://localhost:11434")
+llm = OllamaLLM(base_url=llm_base_url, model="mistral:7b", temperature=0.8)
 def call_mistral_llm(prompt: str) -> str:
     
     return llm.invoke(prompt)

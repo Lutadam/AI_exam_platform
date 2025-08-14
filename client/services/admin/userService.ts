@@ -1,4 +1,4 @@
-const url = process.env.REACT_APP_API_URL as string;
+const url = process.env.NEXT_PUBLIC_API_URL as string;
 
 export type User = {
   UserId: number;
@@ -14,13 +14,13 @@ export type Role = {
 
 export async function fetchUsers(): Promise<User[]> {
   const res = await fetch(`${url}/admin/users`);
-  if (!res.ok) throw new Error("Failed to fetch users");
+  if (!res.ok) throw new Error('Failed to fetch users');
   return res.json();
 }
 
 export async function fetchRoles(): Promise<Role[]> {
   const res = await fetch(`${url}/admin/roles`);
-  if (!res.ok) throw new Error("Failed to fetch roles");
+  if (!res.ok) throw new Error('Failed to fetch roles');
   return res.json();
 }
 
@@ -31,40 +31,47 @@ export async function updateUser(user: {
   UserRoleId: number;
 }) {
   const res = await fetch(`${url}/admin/users/${user.UserId}`, {
-    method: "PUT",
+    method: 'PUT',
     headers: {
-      "Content-Type": "application/json",
+      'Content-Type': 'application/json',
     },
     body: JSON.stringify(user),
   });
   if (!res.ok) {
     const error = await res.json();
-    throw new Error(error.detail || "Failed to update user");
+    throw new Error(error.detail || 'Failed to update user');
   }
   return res.json();
 }
 
-export async function createUser(user: { Username: string; Password: string; UserRoleId: number }) {
+export async function createUser(user: {
+  Username: string;
+  Password: string;
+  UserRoleId: number;
+}) {
   const res = await fetch(`${url}/admin/users`, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(user),
   });
-  if (!res.ok) throw new Error("Failed to create user");
+  if (!res.ok) throw new Error('Failed to create user');
   return res.json();
 }
 
-export async function deleteUser(userId: number, credentials: { username: string; password: string }) {
+export async function deleteUser(
+  userId: number,
+  credentials: { username: string; password: string }
+) {
   const response = await fetch(`${url}/admin/users/${userId}/delete`, {
-    method: "POST",
+    method: 'POST',
     headers: {
-      "Content-Type": "application/json",
+      'Content-Type': 'application/json',
     },
     body: JSON.stringify(credentials),
   });
 
   if (!response.ok) {
     const error = await response.json().catch(() => ({}));
-    throw new Error(error.detail || "Failed to delete user");
+    throw new Error(error.detail || 'Failed to delete user');
   }
 }

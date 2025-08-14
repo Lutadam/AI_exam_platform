@@ -28,7 +28,7 @@ services:
     ports:
       - '${HOST_MACHINE_CLIENT_PORT}:3000'
     environment:
-      REACT_APP_API_URL: '${API_URL}'
+      NEXT_PUBLIC_API_URL: '${API_URL}'
   mysql:
     image: '${DB_SERVER}'
     container_name: 'exam-platform-db'
